@@ -1,0 +1,643 @@
+{
+  "appDescription": {
+    "message": "विषय, इतिहास, आ बहुभाषी समर्थन वाला एगो पॉलिश वैज्ञानिक कैलकुलेटर.",
+    "description": "Extension description"
+  },
+  "appName": {
+    "message": "Calculator",
+    "description": "Extension name"
+  },
+  "btnAcos": {
+    "message": "cos−1 के बा",
+    "description": "Arc cosine button label"
+  },
+  "btnAllClear": {
+    "message": "एसी के बा",
+    "description": "All clear button label"
+  },
+  "btnAsin": {
+    "message": "पाप−1 के बा",
+    "description": "Arc sine button label"
+  },
+  "btnAtan": {
+    "message": "तन−1 के बा",
+    "description": "Arc tangent button label"
+  },
+  "btnBackspace": {
+    "message": "⌫ के बा",
+    "description": "Backspace button label"
+  },
+  "btnCbrt": {
+    "message": "3√x के बा",
+    "description": "Cube root button label"
+  },
+  "btnClear": {
+    "message": "ग. के बा",
+    "description": "Clear button label"
+  },
+  "btnCloseParen": {
+    "message": ") के बा .",
+    "description": "Close parenthesis button label"
+  },
+  "btnCopy": {
+    "message": "कॉपी कइल जा सकेला",
+    "description": "Copy to clipboard button label"
+  },
+  "btnCos": {
+    "message": "cos के बा",
+    "description": "Cosine button label"
+  },
+  "btnCube": {
+    "message": "x3 के बा",
+    "description": "Cube button label"
+  },
+  "btnDecimal": {
+    "message": ".",
+    "description": "Decimal point button label"
+  },
+  "btnE": {
+    "message": "ई. के बा",
+    "description": "Euler's number button label"
+  },
+  "btnEXP": {
+    "message": "एक्सपी के बा",
+    "description": "Scientific notation EXP button label"
+  },
+  "btnEquals": {
+    "message": "= के बा",
+    "description": "Equals button label"
+  },
+  "btnExp": {
+    "message": "ईˣ के बा",
+    "description": "e to the x button label"
+  },
+  "btnFactorial": {
+    "message": "एन!",
+    "description": "Factorial button label"
+  },
+  "btnLn": {
+    "message": "ln के बा",
+    "description": "Natural log button label"
+  },
+  "btnLog": {
+    "message": "लट्ठा",
+    "description": "Log base 10 button label"
+  },
+  "btnLogN": {
+    "message": "लॉग2 के बा",
+    "description": "Log base n button label"
+  },
+  "btnMod": {
+    "message": "मॉड के बा",
+    "description": "Modulo button label"
+  },
+  "btnOpenParen": {
+    "message": "(",
+    "description": "Open parenthesis button label"
+  },
+  "btnPercent": {
+    "message": "% 100 बा।",
+    "description": "Percent button label"
+  },
+  "btnPi": {
+    "message": "पृष्ठ 11 पर बा",
+    "description": "Pi constant button label"
+  },
+  "btnPow": {
+    "message": "xʸ के बा",
+    "description": "x to the y button label"
+  },
+  "btnPow10": {
+    "message": "10ˣ के बा",
+    "description": "10 to the x button label"
+  },
+  "btnReciprocal": {
+    "message": "1/x के बा",
+    "description": "Reciprocal button label"
+  },
+  "btnSin": {
+    "message": "पाप के बा",
+    "description": "Sine button label"
+  },
+  "btnSqrt": {
+    "message": "√x के बा",
+    "description": "Square root button label"
+  },
+  "btnSquare": {
+    "message": "x2 के बा",
+    "description": "Square button label"
+  },
+  "btnTan": {
+    "message": "तन के बा",
+    "description": "Tangent button label"
+  },
+  "btnToggleSign": {
+    "message": "+/− के बा",
+    "description": "Toggle sign button label"
+  },
+  "errorDivZero": {
+    "message": "शून्य से बाँटल ना जा सके",
+    "description": "Division by zero error"
+  },
+  "errorDomain": {
+    "message": "डोमेन में त्रुटि हो गइल बा",
+    "description": "Math domain error (e.g. sqrt of negative)"
+  },
+  "errorInvalid": {
+    "message": "अमान्य अभिव्यक्ति के बा",
+    "description": "Invalid expression error"
+  },
+  "errorOverflow": {
+    "message": "ओवरफ्लो हो जाला",
+    "description": "Number overflow error"
+  },
+  "historyClear": {
+    "message": "इतिहास के साफ कर दिहल जाव",
+    "description": "Button to clear all history"
+  },
+  "historyEmpty": {
+    "message": "अभी तक कवनो गणना नईखे भईल।",
+    "description": "Shown when history is empty"
+  },
+  "historyTitle": {
+    "message": "इतिहास",
+    "description": "History panel title"
+  },
+  "langAfrikaans": {
+    "message": "अफ्रीकी भाषा के बा"
+  },
+  "langAlbanian": {
+    "message": "अल्बेनियाई भाषा के बा"
+  },
+  "langAlgerianArabic": {
+    "message": "अल्जीरिया के अरबी के बा"
+  },
+  "langAmharic": {
+    "message": "अमहारिक भाषा के बा"
+  },
+  "langArabic": {
+    "message": "अरबी (एमएसए) के बा।"
+  },
+  "langArmenian": {
+    "message": "आर्मेनियाई भाषा के बा"
+  },
+  "langAzerbaijani": {
+    "message": "अजरबैजानी के बा"
+  },
+  "langBalochi": {
+    "message": "बलूची के बा"
+  },
+  "langBasque": {
+    "message": "बास्क के बा"
+  },
+  "langBelarusian": {
+    "message": "बेलारूसी के बा"
+  },
+  "langBengali": {
+    "message": "बंगाली के बा"
+  },
+  "langBhojpuri": {
+    "message": "भोजपुरी"
+  },
+  "langBosnian": {
+    "message": "बोस्नियाई के बा"
+  },
+  "langBreton": {
+    "message": "ब्रेटन के नाम से जानल जाला"
+  },
+  "langBurmese": {
+    "message": "बर्मी के बा"
+  },
+  "langCatalan": {
+    "message": "कातालान भाषा के बा"
+  },
+  "langCebuano": {
+    "message": "सेबुआनो के नाम से जानल जाला"
+  },
+  "langChichewa": {
+    "message": "चीनी लोग के बा"
+  },
+  "langChittagonian": {
+    "message": "चिट्टागोनिया के बा"
+  },
+  "langCorsican": {
+    "message": "कोर्सिकन के बा"
+  },
+  "langCzech": {
+    "message": "चेक के बा"
+  },
+  "langDanish": {
+    "message": "डेनिश के बा"
+  },
+  "langDutch": {
+    "message": "डच के नाम से जानल जाला"
+  },
+  "langEgyptianArabic": {
+    "message": "मिस्र के अरबी के बा"
+  },
+  "langEnglish": {
+    "message": "अंगरेजी"
+  },
+  "langFaroese": {
+    "message": "फरोई के बा"
+  },
+  "langFinnish": {
+    "message": "फिनिश भाषा के बा"
+  },
+  "langFrench": {
+    "message": "फ्रेंच भाषा के बा"
+  },
+  "langGalician": {
+    "message": "गैलिशियन् के बा"
+  },
+  "langGeorgian": {
+    "message": "जॉर्जियाई के बा"
+  },
+  "langGerman": {
+    "message": "जर्मन भाषा के बा"
+  },
+  "langGreek": {
+    "message": "ग्रीक भाषा के बा"
+  },
+  "langGujarati": {
+    "message": "गुजराती के बा"
+  },
+  "langHaitianCreole": {
+    "message": "हैतीयन क्रियोल के बा"
+  },
+  "langHausa": {
+    "message": "हौसा के बा"
+  },
+  "langHebrew": {
+    "message": "हिब्रू के बा"
+  },
+  "langHindi": {
+    "message": "हिन्दी के बा"
+  },
+  "langHungarian": {
+    "message": "हंगरी के बा"
+  },
+  "langIcelandic": {
+    "message": "आइसलैंडिक के बा"
+  },
+  "langIgbo": {
+    "message": "इग्बो के नाम से जानल जाला"
+  },
+  "langIlocano": {
+    "message": "इलोकानो"
+  },
+  "langIndonesian": {
+    "message": "इंडोनेशिया के बा"
+  },
+  "langItalian": {
+    "message": "इटैलियन के बा"
+  },
+  "langJapanese": {
+    "message": "जापानी के बा"
+  },
+  "langJavanese": {
+    "message": "जावानी के बा"
+  },
+  "langKannada": {
+    "message": "कन्नड़ के बा"
+  },
+  "langKazakh": {
+    "message": "कजाख के ह"
+  },
+  "langKhmer": {
+    "message": "खमेर के बा"
+  },
+  "langKinyarwanda": {
+    "message": "किन्यारवांडा के बा"
+  },
+  "langKorean": {
+    "message": "कोरियाई के बा"
+  },
+  "langKurdish": {
+    "message": "कुर्द (कुर्मनजी) के बा।"
+  },
+  "langLatvian": {
+    "message": "लातविया के ह"
+  },
+  "langLithuanian": {
+    "message": "लिथुआनिया के बा"
+  },
+  "langLuxembourgish": {
+    "message": "लक्समबर्ग के ह"
+  },
+  "langMacedonian": {
+    "message": "मैसिडोनियाई के बा"
+  },
+  "langMaithili": {
+    "message": "मैथिली"
+  },
+  "langMalagasy": {
+    "message": "मालागासी के भाषा ह"
+  },
+  "langMaltese": {
+    "message": "माल्टीज के बा"
+  },
+  "langMandarin": {
+    "message": "मंदारिन चीनी के नाम से जानल जाला"
+  },
+  "langMarathi": {
+    "message": "मराठी के बा"
+  },
+  "langMongolian": {
+    "message": "मंगोलियन के बा"
+  },
+  "langMoroccanArabic": {
+    "message": "मोरक्को के अरबी के बा"
+  },
+  "langNepali": {
+    "message": "नेपाली के बा"
+  },
+  "langNigerianFulani": {
+    "message": "नाइजीरिया के फुलानी के नाम से जानल जाला"
+  },
+  "langNorwegian": {
+    "message": "नार्वे के बा"
+  },
+  "langOdia": {
+    "message": "ओडिया (उड़िया) के बा।"
+  },
+  "langPashto": {
+    "message": "पश्तो के नाम से जानल जाला"
+  },
+  "langPortuguese": {
+    "message": "पुर्तगाली के बा"
+  },
+  "langPunjabi": {
+    "message": "पश्चिमी पंजाबी के बा"
+  },
+  "langQuechua": {
+    "message": "केचुवा"
+  },
+  "langRomanian": {
+    "message": "रोमानियाई भाषा के बा"
+  },
+  "langRussian": {
+    "message": "रूसी भाषा के बा"
+  },
+  "langSaraiki": {
+    "message": "सरायकी के ह"
+  },
+  "langSerboCroatian": {
+    "message": "सर्बो-क्रोएशियाई के बा"
+  },
+  "langShona": {
+    "message": "शोना के बा"
+  },
+  "langSindhi": {
+    "message": "सिंधी के ह"
+  },
+  "langSinhala": {
+    "message": "सिंहली के बा"
+  },
+  "langSlovak": {
+    "message": "स्लोवाकिया के ह"
+  },
+  "langSlovenian": {
+    "message": "स्लोवेनिया के बा"
+  },
+  "langSomali": {
+    "message": "सोमाली के बा"
+  },
+  "langSpanish": {
+    "message": "स्पेनिश"
+  },
+  "langSudaneseArabic": {
+    "message": "सूडानी अरबी के बा"
+  },
+  "langSwahili": {
+    "message": "स्वाहिली के बा"
+  },
+  "langSwedish": {
+    "message": "स्वीडिश के बा"
+  },
+  "langTagalog": {
+    "message": "तागालोग के बा"
+  },
+  "langTamil": {
+    "message": "तमिल के ह"
+  },
+  "langTatar": {
+    "message": "तातार के बा"
+  },
+  "langTelugu": {
+    "message": "तेलुगु के बा"
+  },
+  "langThai": {
+    "message": "थाई भाषा के बा"
+  },
+  "langTigrinya": {
+    "message": "तिग्रिन्या"
+  },
+  "langTswana": {
+    "message": "त्स्वाना के ह"
+  },
+  "langTurkish": {
+    "message": "तुर्की के बा"
+  },
+  "langUkrainian": {
+    "message": "यूक्रेनी के बा"
+  },
+  "langUrdu": {
+    "message": "उर्दू के बा"
+  },
+  "langUyghur": {
+    "message": "उयघुर के बा"
+  },
+  "langUzbek": {
+    "message": "उजबेक के ह"
+  },
+  "langVietnamese": {
+    "message": "वियतनामी के बा"
+  },
+  "langWelsh": {
+    "message": "वेल्स के बा"
+  },
+  "langWuChinese": {
+    "message": "वू चीनी के बा"
+  },
+  "langXhosa": {
+    "message": "ज़ोसा के नाम से जानल जाला"
+  },
+  "langYoruba": {
+    "message": "योरूबा के बा"
+  },
+  "langYueChinese": {
+    "message": "यू चीनी के बा"
+  },
+  "langZulu": {
+    "message": "ज़ुलु के नाम से जानल जाला"
+  },
+  "modeBasic": {
+    "message": "बुनियादी",
+    "description": "Basic calculator mode label"
+  },
+  "modeScientific": {
+    "message": "वैज्ञानिक के बा",
+    "description": "Scientific calculator mode label"
+  },
+  "numeralBalinese": {
+    "message": "बाली (᭐–᭙) के बा।",
+    "description": "Balinese numeral system name"
+  },
+  "numeralBengali": {
+    "message": "बंगाली (अभी– सुविधा) के बा।",
+    "description": "Bengali numeral system name"
+  },
+  "numeralCJK": {
+    "message": "सीजेके (〇123456789) के बा।",
+    "description": "CJK numeral system name"
+  },
+  "numeralCham": {
+    "message": "चम (꩐–꩙) के बा।",
+    "description": "Cham numeral system name"
+  },
+  "numeralDevanagari": {
+    "message": "देवनागरी (0–9) के बा।",
+    "description": "Devanagari numeral system name"
+  },
+  "numeralEasternArabic": {
+    "message": "पूर्वी अरबी (0–٩) के बा।",
+    "description": "Eastern Arabic numeral system name"
+  },
+  "numeralGujarati": {
+    "message": "गुजराती (૦–૯) के बा।",
+    "description": "Gujarati numeral system name"
+  },
+  "numeralGurmukhi": {
+    "message": "गुरमुखी / पंजाबी (0–9) के बा।",
+    "description": "Gurmukhi numeral system name"
+  },
+  "numeralJavanese": {
+    "message": "जावानी (꧐–꧙) के बा।",
+    "description": "Javanese numeral system name"
+  },
+  "numeralKannada": {
+    "message": "कन्नड़ (೦–೯) के बा।",
+    "description": "Kannada numeral system name"
+  },
+  "numeralKhmer": {
+    "message": "खमेर (09) के बा।",
+    "description": "Khmer numeral system name"
+  },
+  "numeralLao": {
+    "message": "लाओ (0-9) के बा।",
+    "description": "Lao numeral system name"
+  },
+  "numeralLepcha": {
+    "message": "लेपचा (᱀–᱉) के बा।",
+    "description": "Lepcha numeral system name"
+  },
+  "numeralLimbu": {
+    "message": "लिम्बू (᥆–᥏) के बा।",
+    "description": "Limbu numeral system name"
+  },
+  "numeralMalayalam": {
+    "message": "मलयालम (൦–൯) के बा।",
+    "description": "Malayalam numeral system name"
+  },
+  "numeralMeetei": {
+    "message": "मीतेई मयेक (꩐–꩙) के नाम से जानल जाला।",
+    "description": "Meetei Mayek numeral system name"
+  },
+  "numeralMongolian": {
+    "message": "मंगोलियाई (᠐–᠙) के बा।",
+    "description": "Mongolian numeral system name"
+  },
+  "numeralMyanmar": {
+    "message": "म्यांमार / बर्मी (0–9) के बा।",
+    "description": "Myanmar numeral system name"
+  },
+  "numeralOdia": {
+    "message": "ओडिया (୦–୯) के नाम से जानल जाला।",
+    "description": "Odia numeral system name"
+  },
+  "numeralPersian": {
+    "message": "फारसी/फारसी (۰–۹) के बा।",
+    "description": "Persian numeral system name"
+  },
+  "numeralRoman": {
+    "message": "रोमन अंक (I, V, X...) के बा।",
+    "description": "Roman numeral system name"
+  },
+  "numeralSinhala": {
+    "message": "सिंहली (෦–෯) के बा।",
+    "description": "Sinhala numeral system name"
+  },
+  "numeralSundanese": {
+    "message": "सुंडानी (᮰–᮹) के बा।",
+    "description": "Sundanese numeral system name"
+  },
+  "numeralTamil": {
+    "message": "तमिल (௦–௯) के नाम से जानल जाला।",
+    "description": "Tamil numeral system name"
+  },
+  "numeralTelugu": {
+    "message": "तेलुगु (౦–౯) के बा।",
+    "description": "Telugu numeral system name"
+  },
+  "numeralThai": {
+    "message": "थाई (๐–๙) के बा।",
+    "description": "Thai numeral system name"
+  },
+  "numeralTibetan": {
+    "message": "तिब्बती (༠–༩) के बा।",
+    "description": "Tibetan numeral system name"
+  },
+  "numeralWestern": {
+    "message": "पश्चिमी अरबी (0–9) के बा।",
+    "description": "Western Arabic numeral system name"
+  },
+  "romanDecimalNote": {
+    "message": "दशमलव के रोमन अंक में ना देखावल जा सकेला",
+    "description": "Note shown when Roman numeral system is active and result is decimal"
+  },
+  "settingsLanguage": {
+    "message": "भाखा",
+    "description": "Language setting label"
+  },
+  "settingsNumerals": {
+    "message": "संख्यात्मक प्रणाली के बारे में बतावल गइल बा",
+    "description": "Numeral system setting label"
+  },
+  "settingsTheme": {
+    "message": "विषय",
+    "description": "Theme setting label"
+  },
+  "settingsTitle": {
+    "message": "सेटिंग्स के बारे में बतावल गइल बा",
+    "description": "Settings panel title"
+  },
+  "themeContrast": {
+    "message": "फरक देखावल",
+    "description": "High contrast theme name"
+  },
+  "themeDark": {
+    "message": "अन्हरिया",
+    "description": "Dark theme name"
+  },
+  "themeLight": {
+    "message": "उजियार",
+    "description": "Light theme name"
+  },
+  "tooltipCopy": {
+    "message": "रिजल्ट के क्लिपबोर्ड पर कॉपी करीं",
+    "description": "Tooltip for copy button"
+  },
+  "tooltipHistory": {
+    "message": "गणना के इतिहास के बारे में बतावल गइल बा",
+    "description": "Tooltip for history button"
+  },
+  "tooltipMode": {
+    "message": "कैलकुलेटर मोड में बदलाव करीं",
+    "description": "Tooltip for mode toggle button"
+  },
+  "tooltipSettings": {
+    "message": "सेटिंग्स के बारे में बतावल गइल बा",
+    "description": "Tooltip for settings button"
+  }
+}

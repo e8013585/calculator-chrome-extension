@@ -1,0 +1,643 @@
+{
+  "appDescription": {
+    "message": "థీమ్‌లు, చరిత్ర మరియు బహుళ భాషా మద్దతుతో మెరుగుపరిచిన శాస్త్రీయ కాలిక్యులేటర్.",
+    "description": "Extension description"
+  },
+  "appName": {
+    "message": "Calculator",
+    "description": "Extension name"
+  },
+  "btnAcos": {
+    "message": "cos⁻¹",
+    "description": "Arc cosine button label"
+  },
+  "btnAllClear": {
+    "message": "AC",
+    "description": "All clear button label"
+  },
+  "btnAsin": {
+    "message": "పాపం⁻¹",
+    "description": "Arc sine button label"
+  },
+  "btnAtan": {
+    "message": "టాన్⁻¹",
+    "description": "Arc tangent button label"
+  },
+  "btnBackspace": {
+    "message": "⌫",
+    "description": "Backspace button label"
+  },
+  "btnCbrt": {
+    "message": "³√x",
+    "description": "Cube root button label"
+  },
+  "btnClear": {
+    "message": "సి",
+    "description": "Clear button label"
+  },
+  "btnCloseParen": {
+    "message": ")",
+    "description": "Close parenthesis button label"
+  },
+  "btnCopy": {
+    "message": "కాపీ చేయండి",
+    "description": "Copy to clipboard button label"
+  },
+  "btnCos": {
+    "message": "కాస్",
+    "description": "Cosine button label"
+  },
+  "btnCube": {
+    "message": "x³",
+    "description": "Cube button label"
+  },
+  "btnDecimal": {
+    "message": ".",
+    "description": "Decimal point button label"
+  },
+  "btnE": {
+    "message": "ఇ",
+    "description": "Euler's number button label"
+  },
+  "btnEXP": {
+    "message": "ఎక్స్‌పి",
+    "description": "Scientific notation EXP button label"
+  },
+  "btnEquals": {
+    "message": "=",
+    "description": "Equals button label"
+  },
+  "btnExp": {
+    "message": "ఇˣ",
+    "description": "e to the x button label"
+  },
+  "btnFactorial": {
+    "message": "n!",
+    "description": "Factorial button label"
+  },
+  "btnLn": {
+    "message": "ln",
+    "description": "Natural log button label"
+  },
+  "btnLog": {
+    "message": "లాగ్",
+    "description": "Log base 10 button label"
+  },
+  "btnLogN": {
+    "message": "లాగ్ₙ",
+    "description": "Log base n button label"
+  },
+  "btnMod": {
+    "message": "mod",
+    "description": "Modulo button label"
+  },
+  "btnOpenParen": {
+    "message": "(",
+    "description": "Open parenthesis button label"
+  },
+  "btnPercent": {
+    "message": "%",
+    "description": "Percent button label"
+  },
+  "btnPi": {
+    "message": "p",
+    "description": "Pi constant button label"
+  },
+  "btnPow": {
+    "message": "xʸ",
+    "description": "x to the y button label"
+  },
+  "btnPow10": {
+    "message": "10ˣ",
+    "description": "10 to the x button label"
+  },
+  "btnReciprocal": {
+    "message": "1/x",
+    "description": "Reciprocal button label"
+  },
+  "btnSin": {
+    "message": "పాపం",
+    "description": "Sine button label"
+  },
+  "btnSqrt": {
+    "message": "√x",
+    "description": "Square root button label"
+  },
+  "btnSquare": {
+    "message": "x²",
+    "description": "Square button label"
+  },
+  "btnTan": {
+    "message": "తాన్",
+    "description": "Tangent button label"
+  },
+  "btnToggleSign": {
+    "message": "+/-",
+    "description": "Toggle sign button label"
+  },
+  "errorDivZero": {
+    "message": "సున్నాతో భాగించలేరు",
+    "description": "Division by zero error"
+  },
+  "errorDomain": {
+    "message": "డొమైన్ లోపం",
+    "description": "Math domain error (e.g. sqrt of negative)"
+  },
+  "errorInvalid": {
+    "message": "చెల్లని వ్యక్తీకరణ",
+    "description": "Invalid expression error"
+  },
+  "errorOverflow": {
+    "message": "పొంగిపొర్లుతోంది",
+    "description": "Number overflow error"
+  },
+  "historyClear": {
+    "message": "చరిత్రను క్లియర్ చేయండి",
+    "description": "Button to clear all history"
+  },
+  "historyEmpty": {
+    "message": "ఇంకా లెక్కలు లేవు.",
+    "description": "Shown when history is empty"
+  },
+  "historyTitle": {
+    "message": "చరిత్ర",
+    "description": "History panel title"
+  },
+  "langAfrikaans": {
+    "message": "ఆఫ్రికాన్స్"
+  },
+  "langAlbanian": {
+    "message": "అల్బేనియన్"
+  },
+  "langAlgerianArabic": {
+    "message": "అల్జీరియన్ అరబిక్"
+  },
+  "langAmharic": {
+    "message": "అమ్హారిక్"
+  },
+  "langArabic": {
+    "message": "అరబిక్ (MSA)"
+  },
+  "langArmenian": {
+    "message": "అర్మేనియన్"
+  },
+  "langAzerbaijani": {
+    "message": "అజర్బైజాన్"
+  },
+  "langBalochi": {
+    "message": "బలూచి"
+  },
+  "langBasque": {
+    "message": "బాస్క్"
+  },
+  "langBelarusian": {
+    "message": "బెలారసియన్"
+  },
+  "langBengali": {
+    "message": "బెంగాలీ"
+  },
+  "langBhojpuri": {
+    "message": "భోజ్‌పురి"
+  },
+  "langBosnian": {
+    "message": "బోస్నియన్"
+  },
+  "langBreton": {
+    "message": "బ్రెటన్"
+  },
+  "langBurmese": {
+    "message": "బర్మీస్"
+  },
+  "langCatalan": {
+    "message": "కాటలాన్"
+  },
+  "langCebuano": {
+    "message": "సెబువానో"
+  },
+  "langChichewa": {
+    "message": "చైనీస్"
+  },
+  "langChittagonian": {
+    "message": "చిట్టగోనియన్"
+  },
+  "langCorsican": {
+    "message": "కోర్సికన్"
+  },
+  "langCzech": {
+    "message": "చెక్"
+  },
+  "langDanish": {
+    "message": "డానిష్"
+  },
+  "langDutch": {
+    "message": "డచ్"
+  },
+  "langEgyptianArabic": {
+    "message": "ఈజిప్షియన్ అరబిక్"
+  },
+  "langEnglish": {
+    "message": "ఇంగ్లీష్"
+  },
+  "langFaroese": {
+    "message": "ఫారోస్"
+  },
+  "langFinnish": {
+    "message": "ఫిన్నిష్"
+  },
+  "langFrench": {
+    "message": "ఫ్రెంచ్"
+  },
+  "langGalician": {
+    "message": "గలీషియన్"
+  },
+  "langGeorgian": {
+    "message": "జార్జియన్"
+  },
+  "langGerman": {
+    "message": "జర్మన్"
+  },
+  "langGreek": {
+    "message": "గ్రీకు"
+  },
+  "langGujarati": {
+    "message": "గుజరాతీ"
+  },
+  "langHaitianCreole": {
+    "message": "హైతియన్ క్రియోల్"
+  },
+  "langHausa": {
+    "message": "హౌసా"
+  },
+  "langHebrew": {
+    "message": "హిబ్రూ"
+  },
+  "langHindi": {
+    "message": "హిందీ"
+  },
+  "langHungarian": {
+    "message": "హంగేరియన్"
+  },
+  "langIcelandic": {
+    "message": "ఐస్లాండిక్"
+  },
+  "langIgbo": {
+    "message": "ఇగ్బో"
+  },
+  "langIlocano": {
+    "message": "ఇలోకానో"
+  },
+  "langIndonesian": {
+    "message": "ఇండోనేషియన్"
+  },
+  "langItalian": {
+    "message": "ఇటాలియన్"
+  },
+  "langJapanese": {
+    "message": "జపనీస్"
+  },
+  "langJavanese": {
+    "message": "జావానీస్"
+  },
+  "langKannada": {
+    "message": "కన్నడ"
+  },
+  "langKazakh": {
+    "message": "కజఖ్"
+  },
+  "langKhmer": {
+    "message": "ఖైమర్"
+  },
+  "langKinyarwanda": {
+    "message": "కిన్యర్వాండా"
+  },
+  "langKorean": {
+    "message": "కొరియన్"
+  },
+  "langKurdish": {
+    "message": "కుర్దిష్ (కుర్మాంజి)"
+  },
+  "langLatvian": {
+    "message": "లాట్వియన్"
+  },
+  "langLithuanian": {
+    "message": "లిథువేనియన్"
+  },
+  "langLuxembourgish": {
+    "message": "లక్సెంబర్గిష్"
+  },
+  "langMacedonian": {
+    "message": "మాసిడోనియన్"
+  },
+  "langMaithili": {
+    "message": "మైథిలి"
+  },
+  "langMalagasy": {
+    "message": "మలగసీ"
+  },
+  "langMaltese": {
+    "message": "మాల్టీస్"
+  },
+  "langMandarin": {
+    "message": "మాండరిన్ చైనీస్"
+  },
+  "langMarathi": {
+    "message": "మరాఠీ"
+  },
+  "langMongolian": {
+    "message": "మంగోలియన్"
+  },
+  "langMoroccanArabic": {
+    "message": "మొరాకో అరబిక్"
+  },
+  "langNepali": {
+    "message": "నేపాలీ"
+  },
+  "langNigerianFulani": {
+    "message": "నైజీరియన్ ఫులాని"
+  },
+  "langNorwegian": {
+    "message": "నార్వేజియన్"
+  },
+  "langOdia": {
+    "message": "ఒడియా (ఒరియా)"
+  },
+  "langPashto": {
+    "message": "పాష్టో"
+  },
+  "langPortuguese": {
+    "message": "పోర్చుగీస్"
+  },
+  "langPunjabi": {
+    "message": "పశ్చిమ పంజాబీ"
+  },
+  "langQuechua": {
+    "message": "క్వెచువా"
+  },
+  "langRomanian": {
+    "message": "రొమేనియన్"
+  },
+  "langRussian": {
+    "message": "రష్యన్"
+  },
+  "langSaraiki": {
+    "message": "సరైకి"
+  },
+  "langSerboCroatian": {
+    "message": "సెర్బో-క్రొయేషియన్"
+  },
+  "langShona": {
+    "message": "షోనా"
+  },
+  "langSindhi": {
+    "message": "సింధీ"
+  },
+  "langSinhala": {
+    "message": "సింహళం"
+  },
+  "langSlovak": {
+    "message": "స్లోవాక్"
+  },
+  "langSlovenian": {
+    "message": "స్లోవేనియన్"
+  },
+  "langSomali": {
+    "message": "సోమాలి"
+  },
+  "langSpanish": {
+    "message": "స్పానిష్"
+  },
+  "langSudaneseArabic": {
+    "message": "సుడానీస్ అరబిక్"
+  },
+  "langSwahili": {
+    "message": "స్వాహిలి"
+  },
+  "langSwedish": {
+    "message": "స్వీడిష్"
+  },
+  "langTagalog": {
+    "message": "తగలోగ్"
+  },
+  "langTamil": {
+    "message": "తమిళం"
+  },
+  "langTatar": {
+    "message": "టాటర్"
+  },
+  "langTelugu": {
+    "message": "తెలుగు"
+  },
+  "langThai": {
+    "message": "థాయ్"
+  },
+  "langTigrinya": {
+    "message": "తిగ్రిన్యా"
+  },
+  "langTswana": {
+    "message": "స్వనా"
+  },
+  "langTurkish": {
+    "message": "టర్కిష్"
+  },
+  "langUkrainian": {
+    "message": "ఉక్రేనియన్"
+  },
+  "langUrdu": {
+    "message": "ఉర్దూ"
+  },
+  "langUyghur": {
+    "message": "ఉయ్ఘర్"
+  },
+  "langUzbek": {
+    "message": "ఉజ్బెక్"
+  },
+  "langVietnamese": {
+    "message": "వియత్నామీస్"
+  },
+  "langWelsh": {
+    "message": "వెల్ష్"
+  },
+  "langWuChinese": {
+    "message": "వు చైనీస్"
+  },
+  "langXhosa": {
+    "message": "షోసా"
+  },
+  "langYoruba": {
+    "message": "యోరుబా"
+  },
+  "langYueChinese": {
+    "message": "యు చైనీస్"
+  },
+  "langZulu": {
+    "message": "జులు"
+  },
+  "modeBasic": {
+    "message": "ప్రాథమిక",
+    "description": "Basic calculator mode label"
+  },
+  "modeScientific": {
+    "message": "శాస్త్రీయమైనది",
+    "description": "Scientific calculator mode label"
+  },
+  "numeralBalinese": {
+    "message": "బాలినీస్ (᭐–᭙)",
+    "description": "Balinese numeral system name"
+  },
+  "numeralBengali": {
+    "message": "బెంగాలీ (০–৯)",
+    "description": "Bengali numeral system name"
+  },
+  "numeralCJK": {
+    "message": "CJK (〇123456789)",
+    "description": "CJK numeral system name"
+  },
+  "numeralCham": {
+    "message": "చామ్ (꩐–꩙)",
+    "description": "Cham numeral system name"
+  },
+  "numeralDevanagari": {
+    "message": "దేవనాగరి (०–९)",
+    "description": "Devanagari numeral system name"
+  },
+  "numeralEasternArabic": {
+    "message": "తూర్పు అరబిక్ (٠–٩)",
+    "description": "Eastern Arabic numeral system name"
+  },
+  "numeralGujarati": {
+    "message": "గుజరాతీ (૦–૯)",
+    "description": "Gujarati numeral system name"
+  },
+  "numeralGurmukhi": {
+    "message": "గురుముఖి / పంజాబీ (0–9)",
+    "description": "Gurmukhi numeral system name"
+  },
+  "numeralJavanese": {
+    "message": "జావానీస్ (꧐–꧙)",
+    "description": "Javanese numeral system name"
+  },
+  "numeralKannada": {
+    "message": "కన్నడ (0–9)",
+    "description": "Kannada numeral system name"
+  },
+  "numeralKhmer": {
+    "message": "ఖైమర్ (09)",
+    "description": "Khmer numeral system name"
+  },
+  "numeralLao": {
+    "message": "లావో (0–9)",
+    "description": "Lao numeral system name"
+  },
+  "numeralLepcha": {
+    "message": "లెప్చా (᱀–᱉)",
+    "description": "Lepcha numeral system name"
+  },
+  "numeralLimbu": {
+    "message": "లింబు (᥆–᥏)",
+    "description": "Limbu numeral system name"
+  },
+  "numeralMalayalam": {
+    "message": "మలయాళం (–൯)",
+    "description": "Malayalam numeral system name"
+  },
+  "numeralMeetei": {
+    "message": "మీటే మాయెక్ (꩐–꩙)",
+    "description": "Meetei Mayek numeral system name"
+  },
+  "numeralMongolian": {
+    "message": "మంగోలియన్ (᠐–᠙)",
+    "description": "Mongolian numeral system name"
+  },
+  "numeralMyanmar": {
+    "message": "మయన్మార్ / బర్మీస్ (0–9)",
+    "description": "Myanmar numeral system name"
+  },
+  "numeralOdia": {
+    "message": "ఒడియా (୦–୯)",
+    "description": "Odia numeral system name"
+  },
+  "numeralPersian": {
+    "message": "పర్షియన్/ఫార్సీ (۰–۹)",
+    "description": "Persian numeral system name"
+  },
+  "numeralRoman": {
+    "message": "రోమన్ సంఖ్యలు (I, V, X...)",
+    "description": "Roman numeral system name"
+  },
+  "numeralSinhala": {
+    "message": "సింహళం (෦–෯)",
+    "description": "Sinhala numeral system name"
+  },
+  "numeralSundanese": {
+    "message": "సుండానీస్ (᮰–᮹)",
+    "description": "Sundanese numeral system name"
+  },
+  "numeralTamil": {
+    "message": "తమిళం (௦–௯)",
+    "description": "Tamil numeral system name"
+  },
+  "numeralTelugu": {
+    "message": "తెలుగు (0–౯)",
+    "description": "Telugu numeral system name"
+  },
+  "numeralThai": {
+    "message": "థాయ్ (๐–๙)",
+    "description": "Thai numeral system name"
+  },
+  "numeralTibetan": {
+    "message": "టిబెటన్ (༠–༩)",
+    "description": "Tibetan numeral system name"
+  },
+  "numeralWestern": {
+    "message": "పాశ్చాత్య అరబిక్ (0–9)",
+    "description": "Western Arabic numeral system name"
+  },
+  "romanDecimalNote": {
+    "message": "దశాంశాలు రోమన్ సంఖ్యలలో చూపబడవు",
+    "description": "Note shown when Roman numeral system is active and result is decimal"
+  },
+  "settingsLanguage": {
+    "message": "భాష",
+    "description": "Language setting label"
+  },
+  "settingsNumerals": {
+    "message": "సంఖ్యా వ్యవస్థ",
+    "description": "Numeral system setting label"
+  },
+  "settingsTheme": {
+    "message": "థీమ్",
+    "description": "Theme setting label"
+  },
+  "settingsTitle": {
+    "message": "సెట్టింగ్‌లు",
+    "description": "Settings panel title"
+  },
+  "themeContrast": {
+    "message": "కాంట్రాస్ట్",
+    "description": "High contrast theme name"
+  },
+  "themeDark": {
+    "message": "చీకటి",
+    "description": "Dark theme name"
+  },
+  "themeLight": {
+    "message": "కాంతి",
+    "description": "Light theme name"
+  },
+  "tooltipCopy": {
+    "message": "ఫలితాన్ని క్లిప్‌బోర్డ్‌కు కాపీ చేయండి",
+    "description": "Tooltip for copy button"
+  },
+  "tooltipHistory": {
+    "message": "గణన చరిత్ర",
+    "description": "Tooltip for history button"
+  },
+  "tooltipMode": {
+    "message": "కాలిక్యులేటర్ మోడ్‌ని మార్చండి",
+    "description": "Tooltip for mode toggle button"
+  },
+  "tooltipSettings": {
+    "message": "సెట్టింగ్‌లు",
+    "description": "Tooltip for settings button"
+  }
+}

@@ -1,0 +1,643 @@
+{
+  "appDescription": {
+    "message": "Ein ausgefeilter wissenschaftlicher Taschenrechner mit Themen, Geschichte und mehrsprachiger Unterstützung.",
+    "description": "Extension description"
+  },
+  "appName": {
+    "message": "Calculator",
+    "description": "Extension name"
+  },
+  "btnAcos": {
+    "message": "cos⁻¹",
+    "description": "Arc cosine button label"
+  },
+  "btnAllClear": {
+    "message": "Wechselstrom",
+    "description": "All clear button label"
+  },
+  "btnAsin": {
+    "message": "Sünde⁻¹",
+    "description": "Arc sine button label"
+  },
+  "btnAtan": {
+    "message": "braun⁻¹",
+    "description": "Arc tangent button label"
+  },
+  "btnBackspace": {
+    "message": "⌫",
+    "description": "Backspace button label"
+  },
+  "btnCbrt": {
+    "message": "³√x",
+    "description": "Cube root button label"
+  },
+  "btnClear": {
+    "message": "C",
+    "description": "Clear button label"
+  },
+  "btnCloseParen": {
+    "message": ")",
+    "description": "Close parenthesis button label"
+  },
+  "btnCopy": {
+    "message": "Kopie",
+    "description": "Copy to clipboard button label"
+  },
+  "btnCos": {
+    "message": "cos",
+    "description": "Cosine button label"
+  },
+  "btnCube": {
+    "message": "x³",
+    "description": "Cube button label"
+  },
+  "btnDecimal": {
+    "message": ".",
+    "description": "Decimal point button label"
+  },
+  "btnE": {
+    "message": "e",
+    "description": "Euler's number button label"
+  },
+  "btnEXP": {
+    "message": "EXP",
+    "description": "Scientific notation EXP button label"
+  },
+  "btnEquals": {
+    "message": "=",
+    "description": "Equals button label"
+  },
+  "btnExp": {
+    "message": "eˣ",
+    "description": "e to the x button label"
+  },
+  "btnFactorial": {
+    "message": "N!",
+    "description": "Factorial button label"
+  },
+  "btnLn": {
+    "message": "ln",
+    "description": "Natural log button label"
+  },
+  "btnLog": {
+    "message": "Protokoll",
+    "description": "Log base 10 button label"
+  },
+  "btnLogN": {
+    "message": "logₙ",
+    "description": "Log base n button label"
+  },
+  "btnMod": {
+    "message": "Mod",
+    "description": "Modulo button label"
+  },
+  "btnOpenParen": {
+    "message": "(",
+    "description": "Open parenthesis button label"
+  },
+  "btnPercent": {
+    "message": "%",
+    "description": "Percent button label"
+  },
+  "btnPi": {
+    "message": "P",
+    "description": "Pi constant button label"
+  },
+  "btnPow": {
+    "message": "X",
+    "description": "x to the y button label"
+  },
+  "btnPow10": {
+    "message": "10ˣ",
+    "description": "10 to the x button label"
+  },
+  "btnReciprocal": {
+    "message": "1/x",
+    "description": "Reciprocal button label"
+  },
+  "btnSin": {
+    "message": "Sünde",
+    "description": "Sine button label"
+  },
+  "btnSqrt": {
+    "message": "√x",
+    "description": "Square root button label"
+  },
+  "btnSquare": {
+    "message": "x²",
+    "description": "Square button label"
+  },
+  "btnTan": {
+    "message": "bräunen",
+    "description": "Tangent button label"
+  },
+  "btnToggleSign": {
+    "message": "+/−",
+    "description": "Toggle sign button label"
+  },
+  "errorDivZero": {
+    "message": "Eine Division durch Null ist nicht möglich",
+    "description": "Division by zero error"
+  },
+  "errorDomain": {
+    "message": "Domänenfehler",
+    "description": "Math domain error (e.g. sqrt of negative)"
+  },
+  "errorInvalid": {
+    "message": "Ungültiger Ausdruck",
+    "description": "Invalid expression error"
+  },
+  "errorOverflow": {
+    "message": "Überlauf",
+    "description": "Number overflow error"
+  },
+  "historyClear": {
+    "message": "Verlauf löschen",
+    "description": "Button to clear all history"
+  },
+  "historyEmpty": {
+    "message": "Noch keine Berechnungen.",
+    "description": "Shown when history is empty"
+  },
+  "historyTitle": {
+    "message": "Geschichte",
+    "description": "History panel title"
+  },
+  "langAfrikaans": {
+    "message": "Afrikaans"
+  },
+  "langAlbanian": {
+    "message": "albanisch"
+  },
+  "langAlgerianArabic": {
+    "message": "Algerisches Arabisch"
+  },
+  "langAmharic": {
+    "message": "Amharisch"
+  },
+  "langArabic": {
+    "message": "Arabisch (MSA)"
+  },
+  "langArmenian": {
+    "message": "Armenisch"
+  },
+  "langAzerbaijani": {
+    "message": "Aserbaidschanisch"
+  },
+  "langBalochi": {
+    "message": "Belutschi"
+  },
+  "langBasque": {
+    "message": "baskisch"
+  },
+  "langBelarusian": {
+    "message": "Weißrussisch"
+  },
+  "langBengali": {
+    "message": "Bengali"
+  },
+  "langBhojpuri": {
+    "message": "Bhojpuri"
+  },
+  "langBosnian": {
+    "message": "bosnisch"
+  },
+  "langBreton": {
+    "message": "Bretonisch"
+  },
+  "langBurmese": {
+    "message": "birmanisch"
+  },
+  "langCatalan": {
+    "message": "katalanisch"
+  },
+  "langCebuano": {
+    "message": "Cebuano"
+  },
+  "langChichewa": {
+    "message": "chinesisch"
+  },
+  "langChittagonian": {
+    "message": "Chittagonier"
+  },
+  "langCorsican": {
+    "message": "Korsisch"
+  },
+  "langCzech": {
+    "message": "tschechisch"
+  },
+  "langDanish": {
+    "message": "dänisch"
+  },
+  "langDutch": {
+    "message": "Niederländisch"
+  },
+  "langEgyptianArabic": {
+    "message": "Ägyptisches Arabisch"
+  },
+  "langEnglish": {
+    "message": "Englisch"
+  },
+  "langFaroese": {
+    "message": "Färöisch"
+  },
+  "langFinnish": {
+    "message": "finnisch"
+  },
+  "langFrench": {
+    "message": "Französisch"
+  },
+  "langGalician": {
+    "message": "galizisch"
+  },
+  "langGeorgian": {
+    "message": "georgisch"
+  },
+  "langGerman": {
+    "message": "Deutsch"
+  },
+  "langGreek": {
+    "message": "griechisch"
+  },
+  "langGujarati": {
+    "message": "Gujarati"
+  },
+  "langHaitianCreole": {
+    "message": "Haitianisches Kreol"
+  },
+  "langHausa": {
+    "message": "Hausa"
+  },
+  "langHebrew": {
+    "message": "hebräisch"
+  },
+  "langHindi": {
+    "message": "Hindi"
+  },
+  "langHungarian": {
+    "message": "ungarisch"
+  },
+  "langIcelandic": {
+    "message": "isländisch"
+  },
+  "langIgbo": {
+    "message": "Igbo"
+  },
+  "langIlocano": {
+    "message": "Ilocano"
+  },
+  "langIndonesian": {
+    "message": "Indonesisch"
+  },
+  "langItalian": {
+    "message": "Italienisch"
+  },
+  "langJapanese": {
+    "message": "japanisch"
+  },
+  "langJavanese": {
+    "message": "Javanisch"
+  },
+  "langKannada": {
+    "message": "Kannada"
+  },
+  "langKazakh": {
+    "message": "Kasachisch"
+  },
+  "langKhmer": {
+    "message": "Khmer"
+  },
+  "langKinyarwanda": {
+    "message": "Kinyarwanda"
+  },
+  "langKorean": {
+    "message": "Koreanisch"
+  },
+  "langKurdish": {
+    "message": "Kurdisch (Kurmanji)"
+  },
+  "langLatvian": {
+    "message": "lettisch"
+  },
+  "langLithuanian": {
+    "message": "litauisch"
+  },
+  "langLuxembourgish": {
+    "message": "Luxemburgisch"
+  },
+  "langMacedonian": {
+    "message": "mazedonisch"
+  },
+  "langMaithili": {
+    "message": "Maithili"
+  },
+  "langMalagasy": {
+    "message": "Madagassisch"
+  },
+  "langMaltese": {
+    "message": "maltesisch"
+  },
+  "langMandarin": {
+    "message": "Mandarin-Chinesisch"
+  },
+  "langMarathi": {
+    "message": "Marathi"
+  },
+  "langMongolian": {
+    "message": "mongolisch"
+  },
+  "langMoroccanArabic": {
+    "message": "Marokkanisches Arabisch"
+  },
+  "langNepali": {
+    "message": "Nepali"
+  },
+  "langNigerianFulani": {
+    "message": "Nigerianische Fulani"
+  },
+  "langNorwegian": {
+    "message": "norwegisch"
+  },
+  "langOdia": {
+    "message": "Odia (Oriya)"
+  },
+  "langPashto": {
+    "message": "Paschtu"
+  },
+  "langPortuguese": {
+    "message": "Portugiesisch"
+  },
+  "langPunjabi": {
+    "message": "Westliches Punjabi"
+  },
+  "langQuechua": {
+    "message": "Quechua"
+  },
+  "langRomanian": {
+    "message": "rumänisch"
+  },
+  "langRussian": {
+    "message": "Russisch"
+  },
+  "langSaraiki": {
+    "message": "Saraiki"
+  },
+  "langSerboCroatian": {
+    "message": "Serbokroatisch"
+  },
+  "langShona": {
+    "message": "Shona"
+  },
+  "langSindhi": {
+    "message": "Sindhi"
+  },
+  "langSinhala": {
+    "message": "Singhalesisch"
+  },
+  "langSlovak": {
+    "message": "slowakisch"
+  },
+  "langSlovenian": {
+    "message": "Slowenisch"
+  },
+  "langSomali": {
+    "message": "somali"
+  },
+  "langSpanish": {
+    "message": "Spanisch"
+  },
+  "langSudaneseArabic": {
+    "message": "Sudanesisches Arabisch"
+  },
+  "langSwahili": {
+    "message": "Suaheli"
+  },
+  "langSwedish": {
+    "message": "Schwedisch"
+  },
+  "langTagalog": {
+    "message": "Tagalog"
+  },
+  "langTamil": {
+    "message": "Tamilisch"
+  },
+  "langTatar": {
+    "message": "Tatarisch"
+  },
+  "langTelugu": {
+    "message": "Telugu"
+  },
+  "langThai": {
+    "message": "Thailändisch"
+  },
+  "langTigrinya": {
+    "message": "Tigrinya"
+  },
+  "langTswana": {
+    "message": "Tswana"
+  },
+  "langTurkish": {
+    "message": "Türkisch"
+  },
+  "langUkrainian": {
+    "message": "ukrainisch"
+  },
+  "langUrdu": {
+    "message": "Urdu"
+  },
+  "langUyghur": {
+    "message": "Uigur"
+  },
+  "langUzbek": {
+    "message": "Usbekisch"
+  },
+  "langVietnamese": {
+    "message": "Vietnamesisch"
+  },
+  "langWelsh": {
+    "message": "Walisisch"
+  },
+  "langWuChinese": {
+    "message": "Wu-Chinesen"
+  },
+  "langXhosa": {
+    "message": "Xhosa"
+  },
+  "langYoruba": {
+    "message": "Yoruba"
+  },
+  "langYueChinese": {
+    "message": "Yue-Chinesisch"
+  },
+  "langZulu": {
+    "message": "Zulu"
+  },
+  "modeBasic": {
+    "message": "Basic",
+    "description": "Basic calculator mode label"
+  },
+  "modeScientific": {
+    "message": "Wissenschaftlich",
+    "description": "Scientific calculator mode label"
+  },
+  "numeralBalinese": {
+    "message": "Balinesisch (᭐–᭙)",
+    "description": "Balinese numeral system name"
+  },
+  "numeralBengali": {
+    "message": "Bengali (০–৯)",
+    "description": "Bengali numeral system name"
+  },
+  "numeralCJK": {
+    "message": "CJK (〇123456789)",
+    "description": "CJK numeral system name"
+  },
+  "numeralCham": {
+    "message": "Cham (꩐–꩙)",
+    "description": "Cham numeral system name"
+  },
+  "numeralDevanagari": {
+    "message": "Devanagari (०–९)",
+    "description": "Devanagari numeral system name"
+  },
+  "numeralEasternArabic": {
+    "message": "Ostarabisch (٠–٩)",
+    "description": "Eastern Arabic numeral system name"
+  },
+  "numeralGujarati": {
+    "message": "Gujarati (૦–૯)",
+    "description": "Gujarati numeral system name"
+  },
+  "numeralGurmukhi": {
+    "message": "Gurmukhi / Punjabi (0–9)",
+    "description": "Gurmukhi numeral system name"
+  },
+  "numeralJavanese": {
+    "message": "Javanisch (꧐–꧙)",
+    "description": "Javanese numeral system name"
+  },
+  "numeralKannada": {
+    "message": "Kannada (೦–೯)",
+    "description": "Kannada numeral system name"
+  },
+  "numeralKhmer": {
+    "message": "Khmer (09)",
+    "description": "Khmer numeral system name"
+  },
+  "numeralLao": {
+    "message": "Laotisch (0–9)",
+    "description": "Lao numeral system name"
+  },
+  "numeralLepcha": {
+    "message": "Lepcha (᱀–᱉)",
+    "description": "Lepcha numeral system name"
+  },
+  "numeralLimbu": {
+    "message": "Limbu (᥆–᥏)",
+    "description": "Limbu numeral system name"
+  },
+  "numeralMalayalam": {
+    "message": "Malayalam (൦–൯)",
+    "description": "Malayalam numeral system name"
+  },
+  "numeralMeetei": {
+    "message": "Meetei Mayek (꩐–꩙)",
+    "description": "Meetei Mayek numeral system name"
+  },
+  "numeralMongolian": {
+    "message": "Mongolisch (᠐–᠙)",
+    "description": "Mongolian numeral system name"
+  },
+  "numeralMyanmar": {
+    "message": "Myanmar / Burmesisch (0–9)",
+    "description": "Myanmar numeral system name"
+  },
+  "numeralOdia": {
+    "message": "Odia (୦–୯)",
+    "description": "Odia numeral system name"
+  },
+  "numeralPersian": {
+    "message": "Persisch/Farsi (۰–۹)",
+    "description": "Persian numeral system name"
+  },
+  "numeralRoman": {
+    "message": "Römische Ziffern (I, V, X…)",
+    "description": "Roman numeral system name"
+  },
+  "numeralSinhala": {
+    "message": "Singhalesisch (෦–෯)",
+    "description": "Sinhala numeral system name"
+  },
+  "numeralSundanese": {
+    "message": "Sundanesisch (᮰–᮹)",
+    "description": "Sundanese numeral system name"
+  },
+  "numeralTamil": {
+    "message": "Tamil (௦–௯)",
+    "description": "Tamil numeral system name"
+  },
+  "numeralTelugu": {
+    "message": "Telugu (౦–౯)",
+    "description": "Telugu numeral system name"
+  },
+  "numeralThai": {
+    "message": "Thailändisch (๐–๙)",
+    "description": "Thai numeral system name"
+  },
+  "numeralTibetan": {
+    "message": "Tibetisch (༠–༩)",
+    "description": "Tibetan numeral system name"
+  },
+  "numeralWestern": {
+    "message": "Westarabisch (0–9)",
+    "description": "Western Arabic numeral system name"
+  },
+  "romanDecimalNote": {
+    "message": "Dezimalzahlen können nicht in römischen Ziffern dargestellt werden",
+    "description": "Note shown when Roman numeral system is active and result is decimal"
+  },
+  "settingsLanguage": {
+    "message": "Sprache",
+    "description": "Language setting label"
+  },
+  "settingsNumerals": {
+    "message": "Zahlensystem",
+    "description": "Numeral system setting label"
+  },
+  "settingsTheme": {
+    "message": "Thema",
+    "description": "Theme setting label"
+  },
+  "settingsTitle": {
+    "message": "Einstellungen",
+    "description": "Settings panel title"
+  },
+  "themeContrast": {
+    "message": "Kontrast",
+    "description": "High contrast theme name"
+  },
+  "themeDark": {
+    "message": "Dunkel",
+    "description": "Dark theme name"
+  },
+  "themeLight": {
+    "message": "Licht",
+    "description": "Light theme name"
+  },
+  "tooltipCopy": {
+    "message": "Ergebnis in die Zwischenablage kopieren",
+    "description": "Tooltip for copy button"
+  },
+  "tooltipHistory": {
+    "message": "Berechnungsverlauf",
+    "description": "Tooltip for history button"
+  },
+  "tooltipMode": {
+    "message": "Rechnermodus umschalten",
+    "description": "Tooltip for mode toggle button"
+  },
+  "tooltipSettings": {
+    "message": "Einstellungen",
+    "description": "Tooltip for settings button"
+  }
+}

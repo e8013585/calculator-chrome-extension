@@ -1,0 +1,643 @@
+{
+  "appDescription": {
+    "message": "Csiszolt tudományos számológép témákkal, történelemmel és többnyelvű támogatással.",
+    "description": "Extension description"
+  },
+  "appName": {
+    "message": "Calculator",
+    "description": "Extension name"
+  },
+  "btnAcos": {
+    "message": "cos⁻¹",
+    "description": "Arc cosine button label"
+  },
+  "btnAllClear": {
+    "message": "AC",
+    "description": "All clear button label"
+  },
+  "btnAsin": {
+    "message": "bűn⁻¹",
+    "description": "Arc sine button label"
+  },
+  "btnAtan": {
+    "message": "tan⁻¹",
+    "description": "Arc tangent button label"
+  },
+  "btnBackspace": {
+    "message": "⌫",
+    "description": "Backspace button label"
+  },
+  "btnCbrt": {
+    "message": "³√x",
+    "description": "Cube root button label"
+  },
+  "btnClear": {
+    "message": "C",
+    "description": "Clear button label"
+  },
+  "btnCloseParen": {
+    "message": ")",
+    "description": "Close parenthesis button label"
+  },
+  "btnCopy": {
+    "message": "Másolat",
+    "description": "Copy to clipboard button label"
+  },
+  "btnCos": {
+    "message": "kötözősaláta",
+    "description": "Cosine button label"
+  },
+  "btnCube": {
+    "message": "x³",
+    "description": "Cube button label"
+  },
+  "btnDecimal": {
+    "message": ".",
+    "description": "Decimal point button label"
+  },
+  "btnE": {
+    "message": "e",
+    "description": "Euler's number button label"
+  },
+  "btnEXP": {
+    "message": "EXP",
+    "description": "Scientific notation EXP button label"
+  },
+  "btnEquals": {
+    "message": "=",
+    "description": "Equals button label"
+  },
+  "btnExp": {
+    "message": "eˣ",
+    "description": "e to the x button label"
+  },
+  "btnFactorial": {
+    "message": "n!",
+    "description": "Factorial button label"
+  },
+  "btnLn": {
+    "message": "ln",
+    "description": "Natural log button label"
+  },
+  "btnLog": {
+    "message": "log",
+    "description": "Log base 10 button label"
+  },
+  "btnLogN": {
+    "message": "logₙ",
+    "description": "Log base n button label"
+  },
+  "btnMod": {
+    "message": "mod",
+    "description": "Modulo button label"
+  },
+  "btnOpenParen": {
+    "message": "(",
+    "description": "Open parenthesis button label"
+  },
+  "btnPercent": {
+    "message": "%",
+    "description": "Percent button label"
+  },
+  "btnPi": {
+    "message": "p",
+    "description": "Pi constant button label"
+  },
+  "btnPow": {
+    "message": "xʸ",
+    "description": "x to the y button label"
+  },
+  "btnPow10": {
+    "message": "10ˣ",
+    "description": "10 to the x button label"
+  },
+  "btnReciprocal": {
+    "message": "1/x",
+    "description": "Reciprocal button label"
+  },
+  "btnSin": {
+    "message": "bűn",
+    "description": "Sine button label"
+  },
+  "btnSqrt": {
+    "message": "√x",
+    "description": "Square root button label"
+  },
+  "btnSquare": {
+    "message": "x²",
+    "description": "Square button label"
+  },
+  "btnTan": {
+    "message": "cserszínű",
+    "description": "Tangent button label"
+  },
+  "btnToggleSign": {
+    "message": "+/−",
+    "description": "Toggle sign button label"
+  },
+  "errorDivZero": {
+    "message": "Nem lehet nullával osztani",
+    "description": "Division by zero error"
+  },
+  "errorDomain": {
+    "message": "Domain hiba",
+    "description": "Math domain error (e.g. sqrt of negative)"
+  },
+  "errorInvalid": {
+    "message": "Érvénytelen kifejezés",
+    "description": "Invalid expression error"
+  },
+  "errorOverflow": {
+    "message": "Túlcsordulás",
+    "description": "Number overflow error"
+  },
+  "historyClear": {
+    "message": "Törölje az előzményeket",
+    "description": "Button to clear all history"
+  },
+  "historyEmpty": {
+    "message": "Még nincsenek számítások.",
+    "description": "Shown when history is empty"
+  },
+  "historyTitle": {
+    "message": "Történelem",
+    "description": "History panel title"
+  },
+  "langAfrikaans": {
+    "message": "afrikaans"
+  },
+  "langAlbanian": {
+    "message": "albán"
+  },
+  "langAlgerianArabic": {
+    "message": "algériai arab"
+  },
+  "langAmharic": {
+    "message": "amhara"
+  },
+  "langArabic": {
+    "message": "arab (MSA)"
+  },
+  "langArmenian": {
+    "message": "örmény"
+  },
+  "langAzerbaijani": {
+    "message": "azerbajdzsáni"
+  },
+  "langBalochi": {
+    "message": "Balochi"
+  },
+  "langBasque": {
+    "message": "baszk"
+  },
+  "langBelarusian": {
+    "message": "fehérorosz"
+  },
+  "langBengali": {
+    "message": "bengáli"
+  },
+  "langBhojpuri": {
+    "message": "Bhojpuri"
+  },
+  "langBosnian": {
+    "message": "bosnyák"
+  },
+  "langBreton": {
+    "message": "breton"
+  },
+  "langBurmese": {
+    "message": "burmai"
+  },
+  "langCatalan": {
+    "message": "katalán"
+  },
+  "langCebuano": {
+    "message": "Cebuano"
+  },
+  "langChichewa": {
+    "message": "kínai"
+  },
+  "langChittagonian": {
+    "message": "chittagóniai"
+  },
+  "langCorsican": {
+    "message": "korzikai"
+  },
+  "langCzech": {
+    "message": "cseh"
+  },
+  "langDanish": {
+    "message": "dán"
+  },
+  "langDutch": {
+    "message": "holland"
+  },
+  "langEgyptianArabic": {
+    "message": "egyiptomi arab"
+  },
+  "langEnglish": {
+    "message": "angol"
+  },
+  "langFaroese": {
+    "message": "feröeri"
+  },
+  "langFinnish": {
+    "message": "finn"
+  },
+  "langFrench": {
+    "message": "francia"
+  },
+  "langGalician": {
+    "message": "galíciai"
+  },
+  "langGeorgian": {
+    "message": "grúz"
+  },
+  "langGerman": {
+    "message": "német"
+  },
+  "langGreek": {
+    "message": "görög"
+  },
+  "langGujarati": {
+    "message": "gudzsaráti"
+  },
+  "langHaitianCreole": {
+    "message": "Haiti kreol"
+  },
+  "langHausa": {
+    "message": "Hausa"
+  },
+  "langHebrew": {
+    "message": "héber"
+  },
+  "langHindi": {
+    "message": "hindi"
+  },
+  "langHungarian": {
+    "message": "magyar"
+  },
+  "langIcelandic": {
+    "message": "izlandi"
+  },
+  "langIgbo": {
+    "message": "Igbo"
+  },
+  "langIlocano": {
+    "message": "Ilocano"
+  },
+  "langIndonesian": {
+    "message": "indonéz"
+  },
+  "langItalian": {
+    "message": "olasz"
+  },
+  "langJapanese": {
+    "message": "japán"
+  },
+  "langJavanese": {
+    "message": "jávai"
+  },
+  "langKannada": {
+    "message": "kannada"
+  },
+  "langKazakh": {
+    "message": "kazah"
+  },
+  "langKhmer": {
+    "message": "khmer"
+  },
+  "langKinyarwanda": {
+    "message": "Kinyarwanda"
+  },
+  "langKorean": {
+    "message": "koreai"
+  },
+  "langKurdish": {
+    "message": "kurd (kurmandzsi)"
+  },
+  "langLatvian": {
+    "message": "lett"
+  },
+  "langLithuanian": {
+    "message": "litván"
+  },
+  "langLuxembourgish": {
+    "message": "luxemburgi"
+  },
+  "langMacedonian": {
+    "message": "macedón"
+  },
+  "langMaithili": {
+    "message": "Maithili"
+  },
+  "langMalagasy": {
+    "message": "madagaszkári"
+  },
+  "langMaltese": {
+    "message": "máltai"
+  },
+  "langMandarin": {
+    "message": "Mandarin kínai"
+  },
+  "langMarathi": {
+    "message": "marathi"
+  },
+  "langMongolian": {
+    "message": "mongol"
+  },
+  "langMoroccanArabic": {
+    "message": "marokkói arab"
+  },
+  "langNepali": {
+    "message": "nepáli"
+  },
+  "langNigerianFulani": {
+    "message": "nigériai fulani"
+  },
+  "langNorwegian": {
+    "message": "norvég"
+  },
+  "langOdia": {
+    "message": "Odia (Oriya)"
+  },
+  "langPashto": {
+    "message": "pastu"
+  },
+  "langPortuguese": {
+    "message": "portugál"
+  },
+  "langPunjabi": {
+    "message": "nyugati pandzsábi"
+  },
+  "langQuechua": {
+    "message": "kecsua"
+  },
+  "langRomanian": {
+    "message": "román"
+  },
+  "langRussian": {
+    "message": "orosz"
+  },
+  "langSaraiki": {
+    "message": "Saraiki"
+  },
+  "langSerboCroatian": {
+    "message": "szerb-horvát"
+  },
+  "langShona": {
+    "message": "Shona"
+  },
+  "langSindhi": {
+    "message": "szindhi"
+  },
+  "langSinhala": {
+    "message": "szingaléz"
+  },
+  "langSlovak": {
+    "message": "szlovák"
+  },
+  "langSlovenian": {
+    "message": "szlovén"
+  },
+  "langSomali": {
+    "message": "szomáliai"
+  },
+  "langSpanish": {
+    "message": "spanyol"
+  },
+  "langSudaneseArabic": {
+    "message": "szudáni arab"
+  },
+  "langSwahili": {
+    "message": "szuahéli"
+  },
+  "langSwedish": {
+    "message": "svéd"
+  },
+  "langTagalog": {
+    "message": "tagalog"
+  },
+  "langTamil": {
+    "message": "tamil"
+  },
+  "langTatar": {
+    "message": "tatár"
+  },
+  "langTelugu": {
+    "message": "telugu"
+  },
+  "langThai": {
+    "message": "thai"
+  },
+  "langTigrinya": {
+    "message": "Tigrinya"
+  },
+  "langTswana": {
+    "message": "Tswana"
+  },
+  "langTurkish": {
+    "message": "török"
+  },
+  "langUkrainian": {
+    "message": "ukrán"
+  },
+  "langUrdu": {
+    "message": "urdu"
+  },
+  "langUyghur": {
+    "message": "ujgur"
+  },
+  "langUzbek": {
+    "message": "üzbég"
+  },
+  "langVietnamese": {
+    "message": "vietnami"
+  },
+  "langWelsh": {
+    "message": "walesi"
+  },
+  "langWuChinese": {
+    "message": "Wu kínai"
+  },
+  "langXhosa": {
+    "message": "Xhosa"
+  },
+  "langYoruba": {
+    "message": "joruba"
+  },
+  "langYueChinese": {
+    "message": "Yue kínai"
+  },
+  "langZulu": {
+    "message": "zulu"
+  },
+  "modeBasic": {
+    "message": "Alapvető",
+    "description": "Basic calculator mode label"
+  },
+  "modeScientific": {
+    "message": "Tudományos",
+    "description": "Scientific calculator mode label"
+  },
+  "numeralBalinese": {
+    "message": "balinéz (᭐–᭙)",
+    "description": "Balinese numeral system name"
+  },
+  "numeralBengali": {
+    "message": "bengáli (০–৯)",
+    "description": "Bengali numeral system name"
+  },
+  "numeralCJK": {
+    "message": "CJK (〇123456789)",
+    "description": "CJK numeral system name"
+  },
+  "numeralCham": {
+    "message": "cham (꩐–꩙)",
+    "description": "Cham numeral system name"
+  },
+  "numeralDevanagari": {
+    "message": "dévanagari (०–९)",
+    "description": "Devanagari numeral system name"
+  },
+  "numeralEasternArabic": {
+    "message": "keleti arab (٠–٩)",
+    "description": "Eastern Arabic numeral system name"
+  },
+  "numeralGujarati": {
+    "message": "gudzsaráti (૦–૯)",
+    "description": "Gujarati numeral system name"
+  },
+  "numeralGurmukhi": {
+    "message": "Gurmukhi/pandzsábi (0–9)",
+    "description": "Gurmukhi numeral system name"
+  },
+  "numeralJavanese": {
+    "message": "jávai (꧐–꧙)",
+    "description": "Javanese numeral system name"
+  },
+  "numeralKannada": {
+    "message": "kannada (೦–೯)",
+    "description": "Kannada numeral system name"
+  },
+  "numeralKhmer": {
+    "message": "khmer (09)",
+    "description": "Khmer numeral system name"
+  },
+  "numeralLao": {
+    "message": "laoszi (0–9)",
+    "description": "Lao numeral system name"
+  },
+  "numeralLepcha": {
+    "message": "lepcha (᱀–᱉)",
+    "description": "Lepcha numeral system name"
+  },
+  "numeralLimbu": {
+    "message": "Limbu (᥆–᥏)",
+    "description": "Limbu numeral system name"
+  },
+  "numeralMalayalam": {
+    "message": "Malayalam (൦–൯)",
+    "description": "Malayalam numeral system name"
+  },
+  "numeralMeetei": {
+    "message": "Meetei Mayek (꩐–꩙)",
+    "description": "Meetei Mayek numeral system name"
+  },
+  "numeralMongolian": {
+    "message": "mongol (᠐–᠙)",
+    "description": "Mongolian numeral system name"
+  },
+  "numeralMyanmar": {
+    "message": "Mianmar / burmai (0–9)",
+    "description": "Myanmar numeral system name"
+  },
+  "numeralOdia": {
+    "message": "Odia (୦–୯)",
+    "description": "Odia numeral system name"
+  },
+  "numeralPersian": {
+    "message": "perzsa/fárszi (0–5)",
+    "description": "Persian numeral system name"
+  },
+  "numeralRoman": {
+    "message": "Római számok (I, V, X…)",
+    "description": "Roman numeral system name"
+  },
+  "numeralSinhala": {
+    "message": "szingaléz (෦–෯)",
+    "description": "Sinhala numeral system name"
+  },
+  "numeralSundanese": {
+    "message": "szundanai (᮰–᮹)",
+    "description": "Sundanese numeral system name"
+  },
+  "numeralTamil": {
+    "message": "tamil (௦–௯)",
+    "description": "Tamil numeral system name"
+  },
+  "numeralTelugu": {
+    "message": "telugu (౦–౯)",
+    "description": "Telugu numeral system name"
+  },
+  "numeralThai": {
+    "message": "thai (๐–๙)",
+    "description": "Thai numeral system name"
+  },
+  "numeralTibetan": {
+    "message": "tibeti (༠–༩)",
+    "description": "Tibetan numeral system name"
+  },
+  "numeralWestern": {
+    "message": "nyugati arab (0–9)",
+    "description": "Western Arabic numeral system name"
+  },
+  "romanDecimalNote": {
+    "message": "A tizedesjegyek nem jeleníthetők meg római számokkal",
+    "description": "Note shown when Roman numeral system is active and result is decimal"
+  },
+  "settingsLanguage": {
+    "message": "Nyelv",
+    "description": "Language setting label"
+  },
+  "settingsNumerals": {
+    "message": "Számrendszer",
+    "description": "Numeral system setting label"
+  },
+  "settingsTheme": {
+    "message": "Téma",
+    "description": "Theme setting label"
+  },
+  "settingsTitle": {
+    "message": "Beállítások elemre",
+    "description": "Settings panel title"
+  },
+  "themeContrast": {
+    "message": "Kontraszt",
+    "description": "High contrast theme name"
+  },
+  "themeDark": {
+    "message": "Sötét",
+    "description": "Dark theme name"
+  },
+  "themeLight": {
+    "message": "Fény",
+    "description": "Light theme name"
+  },
+  "tooltipCopy": {
+    "message": "Eredmény másolása a vágólapra",
+    "description": "Tooltip for copy button"
+  },
+  "tooltipHistory": {
+    "message": "Számítási előzmények",
+    "description": "Tooltip for history button"
+  },
+  "tooltipMode": {
+    "message": "Számológép mód váltása",
+    "description": "Tooltip for mode toggle button"
+  },
+  "tooltipSettings": {
+    "message": "Beállítások elemre",
+    "description": "Tooltip for settings button"
+  }
+}

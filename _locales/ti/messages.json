@@ -1,0 +1,643 @@
+{
+  "appDescription": {
+    "message": "ቴማታትን ታሪኽን ብዙሕ ቋንቋታት ዝሓዘ ደገፍን ዘለዎ ንጹህ ሳይንሳዊ ካልኩሌተር።",
+    "description": "Extension description"
+  },
+  "appName": {
+    "message": "Calculator",
+    "description": "Extension name"
+  },
+  "btnAcos": {
+    "message": "cos−1",
+    "description": "Arc cosine button label"
+  },
+  "btnAllClear": {
+    "message": "ኤሲ",
+    "description": "All clear button label"
+  },
+  "btnAsin": {
+    "message": "ሓጢኣት−1",
+    "description": "Arc sine button label"
+  },
+  "btnAtan": {
+    "message": "tan−1",
+    "description": "Arc tangent button label"
+  },
+  "btnBackspace": {
+    "message": "⌫",
+    "description": "Backspace button label"
+  },
+  "btnCbrt": {
+    "message": "3√x ዝብል እዩ።",
+    "description": "Cube root button label"
+  },
+  "btnClear": {
+    "message": "ሐ",
+    "description": "Clear button label"
+  },
+  "btnCloseParen": {
+    "message": ") .",
+    "description": "Close parenthesis button label"
+  },
+  "btnCopy": {
+    "message": "ቅዳሕ",
+    "description": "Copy to clipboard button label"
+  },
+  "btnCos": {
+    "message": "cos",
+    "description": "Cosine button label"
+  },
+  "btnCube": {
+    "message": "x3",
+    "description": "Cube button label"
+  },
+  "btnDecimal": {
+    "message": ".",
+    "description": "Decimal point button label"
+  },
+  "btnE": {
+    "message": "ሠ",
+    "description": "Euler's number button label"
+  },
+  "btnEXP": {
+    "message": "EXP",
+    "description": "Scientific notation EXP button label"
+  },
+  "btnEquals": {
+    "message": "=",
+    "description": "Equals button label"
+  },
+  "btnExp": {
+    "message": "eˣ",
+    "description": "e to the x button label"
+  },
+  "btnFactorial": {
+    "message": "ን!",
+    "description": "Factorial button label"
+  },
+  "btnLn": {
+    "message": "ln",
+    "description": "Natural log button label"
+  },
+  "btnLog": {
+    "message": "መዝገብ",
+    "description": "Log base 10 button label"
+  },
+  "btnLogN": {
+    "message": "log2",
+    "description": "Log base n button label"
+  },
+  "btnMod": {
+    "message": "mod",
+    "description": "Modulo button label"
+  },
+  "btnOpenParen": {
+    "message": "(",
+    "description": "Open parenthesis button label"
+  },
+  "btnPercent": {
+    "message": "%",
+    "description": "Percent button label"
+  },
+  "btnPi": {
+    "message": "ገጽ 10",
+    "description": "Pi constant button label"
+  },
+  "btnPow": {
+    "message": "xʸ",
+    "description": "x to the y button label"
+  },
+  "btnPow10": {
+    "message": "10ˣ ዝብል እዩ።",
+    "description": "10 to the x button label"
+  },
+  "btnReciprocal": {
+    "message": "1/x",
+    "description": "Reciprocal button label"
+  },
+  "btnSin": {
+    "message": "ሓጢኣት",
+    "description": "Sine button label"
+  },
+  "btnSqrt": {
+    "message": "√x",
+    "description": "Square root button label"
+  },
+  "btnSquare": {
+    "message": "x2",
+    "description": "Square button label"
+  },
+  "btnTan": {
+    "message": "tan",
+    "description": "Tangent button label"
+  },
+  "btnToggleSign": {
+    "message": "+/−",
+    "description": "Toggle sign button label"
+  },
+  "errorDivZero": {
+    "message": "ብዜሮ ክምቀል ኣይክእልን እዩ።",
+    "description": "Division by zero error"
+  },
+  "errorDomain": {
+    "message": "ናይ ዓውዲ ጌጋ",
+    "description": "Math domain error (e.g. sqrt of negative)"
+  },
+  "errorInvalid": {
+    "message": "ዘይሕጋዊ መግለጺ",
+    "description": "Invalid expression error"
+  },
+  "errorOverflow": {
+    "message": "ምልሕላሕ",
+    "description": "Number overflow error"
+  },
+  "historyClear": {
+    "message": "ንጹር ታሪኽ",
+    "description": "Button to clear all history"
+  },
+  "historyEmpty": {
+    "message": "ገና ስሌት የለን።",
+    "description": "Shown when history is empty"
+  },
+  "historyTitle": {
+    "message": "ታሪኽ",
+    "description": "History panel title"
+  },
+  "langAfrikaans": {
+    "message": "ኣፍሪቃውያን ቋንቋታት"
+  },
+  "langAlbanian": {
+    "message": "ኣልባንያዊ"
+  },
+  "langAlgerianArabic": {
+    "message": "ኣልጀርያዊ ዓረብኛ"
+  },
+  "langAmharic": {
+    "message": "ኣምሓርኛ"
+  },
+  "langArabic": {
+    "message": "ዓረብኛ (MSA)"
+  },
+  "langArmenian": {
+    "message": "ኣርመንያዊ"
+  },
+  "langAzerbaijani": {
+    "message": "ኣዘርባጃናዊ"
+  },
+  "langBalochi": {
+    "message": "ባሎቺ"
+  },
+  "langBasque": {
+    "message": "ባስክ"
+  },
+  "langBelarusian": {
+    "message": "ቤላሩሳዊ"
+  },
+  "langBengali": {
+    "message": "ቤንጋሊ"
+  },
+  "langBhojpuri": {
+    "message": "ብሆጅፑሪ"
+  },
+  "langBosnian": {
+    "message": "ቦዝንያዊ"
+  },
+  "langBreton": {
+    "message": "ብሬቶን ዝበሃሉ ምዃኖም ይፍለጥ"
+  },
+  "langBurmese": {
+    "message": "በርማውያን"
+  },
+  "langCatalan": {
+    "message": "ካታሎንያዊ"
+  },
+  "langCebuano": {
+    "message": "ሴቡኣኖ"
+  },
+  "langChichewa": {
+    "message": "ቻይናዊ"
+  },
+  "langChittagonian": {
+    "message": "ቺታጎንያዊ"
+  },
+  "langCorsican": {
+    "message": "ኮርሲካዊ"
+  },
+  "langCzech": {
+    "message": "ቸክ"
+  },
+  "langDanish": {
+    "message": "ደንማርካዊ"
+  },
+  "langDutch": {
+    "message": "ሆላንዳዊ"
+  },
+  "langEgyptianArabic": {
+    "message": "ግብጻዊ ዓረብኛ"
+  },
+  "langEnglish": {
+    "message": "ኢንግሊሽ"
+  },
+  "langFaroese": {
+    "message": "ፋሮ"
+  },
+  "langFinnish": {
+    "message": "ፊንላንድኛ"
+  },
+  "langFrench": {
+    "message": "ፈረንሳዊ"
+  },
+  "langGalician": {
+    "message": "ጋሊሽያዊ"
+  },
+  "langGeorgian": {
+    "message": "ጆርጅያዊ"
+  },
+  "langGerman": {
+    "message": "ጀርመንኛ"
+  },
+  "langGreek": {
+    "message": "ግሪኽኛ"
+  },
+  "langGujarati": {
+    "message": "ጉጃራቲ"
+  },
+  "langHaitianCreole": {
+    "message": "ናይ ሃይቲ ክሪዮል"
+  },
+  "langHausa": {
+    "message": "ሃውሳ"
+  },
+  "langHebrew": {
+    "message": "እብራይስጢ"
+  },
+  "langHindi": {
+    "message": "ህንዲ"
+  },
+  "langHungarian": {
+    "message": "ሃንጋሪኛ"
+  },
+  "langIcelandic": {
+    "message": "ኣይስላንድኛ"
+  },
+  "langIgbo": {
+    "message": "ኢግቦ"
+  },
+  "langIlocano": {
+    "message": "ኢሎካኖ"
+  },
+  "langIndonesian": {
+    "message": "ኢንዶነዥያዊ"
+  },
+  "langItalian": {
+    "message": "ጣልያናዊ"
+  },
+  "langJapanese": {
+    "message": "ጃፓናዊ"
+  },
+  "langJavanese": {
+    "message": "ጃቫናዊ"
+  },
+  "langKannada": {
+    "message": "ካናዳ"
+  },
+  "langKazakh": {
+    "message": "ካዛክ"
+  },
+  "langKhmer": {
+    "message": "ክመር"
+  },
+  "langKinyarwanda": {
+    "message": "ኪንያርዋንዳ"
+  },
+  "langKorean": {
+    "message": "ኮርያዊ"
+  },
+  "langKurdish": {
+    "message": "ኩርማን (ኩርማንጂ)"
+  },
+  "langLatvian": {
+    "message": "ላቲቭያዊ"
+  },
+  "langLithuanian": {
+    "message": "ሊትዋንያዊ"
+  },
+  "langLuxembourgish": {
+    "message": "ሉክሰምበርግ"
+  },
+  "langMacedonian": {
+    "message": "መቄዶንያዊ"
+  },
+  "langMaithili": {
+    "message": "ማይቲቲ"
+  },
+  "langMalagasy": {
+    "message": "ማላጋሲ"
+  },
+  "langMaltese": {
+    "message": "ማልታኛ"
+  },
+  "langMandarin": {
+    "message": "ማንደሪን ቻይናዊ"
+  },
+  "langMarathi": {
+    "message": "ማራቲ"
+  },
+  "langMongolian": {
+    "message": "ሞንጎላዊ"
+  },
+  "langMoroccanArabic": {
+    "message": "ሞሮካዊ ዓረብኛ"
+  },
+  "langNepali": {
+    "message": "ኔፓላዊ"
+  },
+  "langNigerianFulani": {
+    "message": "ናይጀርያዊ ፉላኒ።"
+  },
+  "langNorwegian": {
+    "message": "ኖርወጃዊ"
+  },
+  "langOdia": {
+    "message": "ኦድያ (ኦርያ)"
+  },
+  "langPashto": {
+    "message": "ፓሽቶ"
+  },
+  "langPortuguese": {
+    "message": "ፖርቱጋልኛ"
+  },
+  "langPunjabi": {
+    "message": "ምዕራባዊ ፑንጃቢ"
+  },
+  "langQuechua": {
+    "message": "ቄቹዋ"
+  },
+  "langRomanian": {
+    "message": "ሮማናዊ"
+  },
+  "langRussian": {
+    "message": "ሩስያዊ"
+  },
+  "langSaraiki": {
+    "message": "ሳራይኪ"
+  },
+  "langSerboCroatian": {
+    "message": "ሰርቦ-ክሮኤሽያዊ"
+  },
+  "langShona": {
+    "message": "ሾና"
+  },
+  "langSindhi": {
+    "message": "ሲንዲ"
+  },
+  "langSinhala": {
+    "message": "ሲንሃላ"
+  },
+  "langSlovak": {
+    "message": "ስሎቫክያ"
+  },
+  "langSlovenian": {
+    "message": "ስሎቨንያዊ"
+  },
+  "langSomali": {
+    "message": "ሶማላዊ"
+  },
+  "langSpanish": {
+    "message": "ስጳኛ"
+  },
+  "langSudaneseArabic": {
+    "message": "ሱዳናዊ ዓረብኛ"
+  },
+  "langSwahili": {
+    "message": "ስዋሂሊኛ"
+  },
+  "langSwedish": {
+    "message": "ሽወደናዊ"
+  },
+  "langTagalog": {
+    "message": "ታጋሎግ"
+  },
+  "langTamil": {
+    "message": "ታሚል"
+  },
+  "langTatar": {
+    "message": "ታታር"
+  },
+  "langTelugu": {
+    "message": "ተለጉ"
+  },
+  "langThai": {
+    "message": "ታይላንድኛ"
+  },
+  "langTigrinya": {
+    "message": "ትግሪኛ"
+  },
+  "langTswana": {
+    "message": "ትስዋና"
+  },
+  "langTurkish": {
+    "message": "ቱርካዊ"
+  },
+  "langUkrainian": {
+    "message": "ዩክሬናዊ"
+  },
+  "langUrdu": {
+    "message": "ኡርዱ"
+  },
+  "langUyghur": {
+    "message": "ኡይጉር"
+  },
+  "langUzbek": {
+    "message": "ኡዝቤክ"
+  },
+  "langVietnamese": {
+    "message": "ቬትናማዊ"
+  },
+  "langWelsh": {
+    "message": "ዌልሳዊ"
+  },
+  "langWuChinese": {
+    "message": "ዉ ቻይናዊ"
+  },
+  "langXhosa": {
+    "message": "ዞሳ"
+  },
+  "langYoruba": {
+    "message": "ዮሩባ"
+  },
+  "langYueChinese": {
+    "message": "ዩኤ ቻይናዊ"
+  },
+  "langZulu": {
+    "message": "ዙሉ ዝብል ቃል ንረክብ"
+  },
+  "modeBasic": {
+    "message": "መሰረታዊ",
+    "description": "Basic calculator mode label"
+  },
+  "modeScientific": {
+    "message": "ሳይንሳዊ",
+    "description": "Scientific calculator mode label"
+  },
+  "numeralBalinese": {
+    "message": "ባሊናዊ (᭐–᭙)",
+    "description": "Balinese numeral system name"
+  },
+  "numeralBengali": {
+    "message": "ቤንጋሊ (መምህር– ኣገልግሎት)",
+    "description": "Bengali numeral system name"
+  },
+  "numeralCJK": {
+    "message": "ሲ.ጀይ.ኬ (〇123456789)",
+    "description": "CJK numeral system name"
+  },
+  "numeralCham": {
+    "message": "ቻም (꩐–꩙)",
+    "description": "Cham numeral system name"
+  },
+  "numeralDevanagari": {
+    "message": "ደቫናጋሪ (0–9)",
+    "description": "Devanagari numeral system name"
+  },
+  "numeralEasternArabic": {
+    "message": "ምብራቓዊ ዓረብኛ (0–٩)",
+    "description": "Eastern Arabic numeral system name"
+  },
+  "numeralGujarati": {
+    "message": "ጉጃራቲ (૦–૯)",
+    "description": "Gujarati numeral system name"
+  },
+  "numeralGurmukhi": {
+    "message": "ጉርሙኪ / ፑንጃቢ (0–9)",
+    "description": "Gurmukhi numeral system name"
+  },
+  "numeralJavanese": {
+    "message": "ጃቫናዊ (꧐–꧙)",
+    "description": "Javanese numeral system name"
+  },
+  "numeralKannada": {
+    "message": "ካናዳ (೦–೯)",
+    "description": "Kannada numeral system name"
+  },
+  "numeralKhmer": {
+    "message": "ክመር (09)",
+    "description": "Khmer numeral system name"
+  },
+  "numeralLao": {
+    "message": "ላኦ (0–9)",
+    "description": "Lao numeral system name"
+  },
+  "numeralLepcha": {
+    "message": "ለፕቻ (᱀–᱉)",
+    "description": "Lepcha numeral system name"
+  },
+  "numeralLimbu": {
+    "message": "ሊምቡ (᥆–᥏)",
+    "description": "Limbu numeral system name"
+  },
+  "numeralMalayalam": {
+    "message": "ማላያላም (൦–൯)",
+    "description": "Malayalam numeral system name"
+  },
+  "numeralMeetei": {
+    "message": "መተይ ማየክ (꩐–꩙)",
+    "description": "Meetei Mayek numeral system name"
+  },
+  "numeralMongolian": {
+    "message": "ሞንጎላዊ (᠐–᠙)",
+    "description": "Mongolian numeral system name"
+  },
+  "numeralMyanmar": {
+    "message": "ሚያንማር / በርማ (0–9)",
+    "description": "Myanmar numeral system name"
+  },
+  "numeralOdia": {
+    "message": "ኦድያ (୦–୯)",
+    "description": "Odia numeral system name"
+  },
+  "numeralPersian": {
+    "message": "ፋርሲ/ፋርሲ (۰–۹)",
+    "description": "Persian numeral system name"
+  },
+  "numeralRoman": {
+    "message": "ሮማዊ ቁጽርታት (I, V, X...)",
+    "description": "Roman numeral system name"
+  },
+  "numeralSinhala": {
+    "message": "ሲንሃላ (෦–෯)",
+    "description": "Sinhala numeral system name"
+  },
+  "numeralSundanese": {
+    "message": "ሱንዳናዊ (᮰–᮹)",
+    "description": "Sundanese numeral system name"
+  },
+  "numeralTamil": {
+    "message": "ታሚል (௦–௯)",
+    "description": "Tamil numeral system name"
+  },
+  "numeralTelugu": {
+    "message": "ተለጉ (౦–౯)",
+    "description": "Telugu numeral system name"
+  },
+  "numeralThai": {
+    "message": "ታይላንዳዊ (๐–๙)",
+    "description": "Thai numeral system name"
+  },
+  "numeralTibetan": {
+    "message": "ቲቤትኛ (༠–༩)",
+    "description": "Tibetan numeral system name"
+  },
+  "numeralWestern": {
+    "message": "ምዕራባዊ ዓረብ (0–9)",
+    "description": "Western Arabic numeral system name"
+  },
+  "romanDecimalNote": {
+    "message": "ዓስራይ ቁጽሪ ብናይ ሮማ ቁጽሪ ክርአ ኣይክእልን እዩ።",
+    "description": "Note shown when Roman numeral system is active and result is decimal"
+  },
+  "settingsLanguage": {
+    "message": "ቋንቋ",
+    "description": "Language setting label"
+  },
+  "settingsNumerals": {
+    "message": "ስርዓተ ቁጽሪ",
+    "description": "Numeral system setting label"
+  },
+  "settingsTheme": {
+    "message": "ጭብጢ",
+    "description": "Theme setting label"
+  },
+  "settingsTitle": {
+    "message": "ቅጥዕታት",
+    "description": "Settings panel title"
+  },
+  "themeContrast": {
+    "message": "ኣወዳደረ",
+    "description": "High contrast theme name"
+  },
+  "themeDark": {
+    "message": "ፀልማት",
+    "description": "Dark theme name"
+  },
+  "themeLight": {
+    "message": "ብርሃን",
+    "description": "Light theme name"
+  },
+  "tooltipCopy": {
+    "message": "ውጽኢት ናብ ቅንጥብጣብ ሰሌዳ ቅዳሕ",
+    "description": "Tooltip for copy button"
+  },
+  "tooltipHistory": {
+    "message": "ታሪኽ ስሌት",
+    "description": "Tooltip for history button"
+  },
+  "tooltipMode": {
+    "message": "ሞድ ካልኩሌተር ምቕያር",
+    "description": "Tooltip for mode toggle button"
+  },
+  "tooltipSettings": {
+    "message": "ቅጥዕታት",
+    "description": "Tooltip for settings button"
+  }
+}

@@ -1,0 +1,643 @@
+{
+  "appDescription": {
+    "message": "Հղկված գիտական ​​հաշվիչ թեմաներով, պատմությամբ և բազմալեզու աջակցությամբ:",
+    "description": "Extension description"
+  },
+  "appName": {
+    "message": "Calculator",
+    "description": "Extension name"
+  },
+  "btnAcos": {
+    "message": "cos⁻¹",
+    "description": "Arc cosine button label"
+  },
+  "btnAllClear": {
+    "message": "AC",
+    "description": "All clear button label"
+  },
+  "btnAsin": {
+    "message": "մեղք⁻¹",
+    "description": "Arc sine button label"
+  },
+  "btnAtan": {
+    "message": "tan⁻¹",
+    "description": "Arc tangent button label"
+  },
+  "btnBackspace": {
+    "message": "⌫",
+    "description": "Backspace button label"
+  },
+  "btnCbrt": {
+    "message": "³√x",
+    "description": "Cube root button label"
+  },
+  "btnClear": {
+    "message": "Գ",
+    "description": "Clear button label"
+  },
+  "btnCloseParen": {
+    "message": ")",
+    "description": "Close parenthesis button label"
+  },
+  "btnCopy": {
+    "message": "Պատճենել",
+    "description": "Copy to clipboard button label"
+  },
+  "btnCos": {
+    "message": "cos",
+    "description": "Cosine button label"
+  },
+  "btnCube": {
+    "message": "x³",
+    "description": "Cube button label"
+  },
+  "btnDecimal": {
+    "message": ".",
+    "description": "Decimal point button label"
+  },
+  "btnE": {
+    "message": "ե",
+    "description": "Euler's number button label"
+  },
+  "btnEXP": {
+    "message": "ԺԱՄԱՆԱԿ",
+    "description": "Scientific notation EXP button label"
+  },
+  "btnEquals": {
+    "message": "=",
+    "description": "Equals button label"
+  },
+  "btnExp": {
+    "message": "eˣ",
+    "description": "e to the x button label"
+  },
+  "btnFactorial": {
+    "message": "n!",
+    "description": "Factorial button label"
+  },
+  "btnLn": {
+    "message": "ln",
+    "description": "Natural log button label"
+  },
+  "btnLog": {
+    "message": "գերան",
+    "description": "Log base 10 button label"
+  },
+  "btnLogN": {
+    "message": "logₙ",
+    "description": "Log base n button label"
+  },
+  "btnMod": {
+    "message": "ռեժիմ",
+    "description": "Modulo button label"
+  },
+  "btnOpenParen": {
+    "message": "(",
+    "description": "Open parenthesis button label"
+  },
+  "btnPercent": {
+    "message": "%",
+    "description": "Percent button label"
+  },
+  "btnPi": {
+    "message": "էջ",
+    "description": "Pi constant button label"
+  },
+  "btnPow": {
+    "message": "xʸ",
+    "description": "x to the y button label"
+  },
+  "btnPow10": {
+    "message": "10ˣ",
+    "description": "10 to the x button label"
+  },
+  "btnReciprocal": {
+    "message": "1/x",
+    "description": "Reciprocal button label"
+  },
+  "btnSin": {
+    "message": "մեղք",
+    "description": "Sine button label"
+  },
+  "btnSqrt": {
+    "message": "√x",
+    "description": "Square root button label"
+  },
+  "btnSquare": {
+    "message": "x²",
+    "description": "Square button label"
+  },
+  "btnTan": {
+    "message": "tan",
+    "description": "Tangent button label"
+  },
+  "btnToggleSign": {
+    "message": "+/−",
+    "description": "Toggle sign button label"
+  },
+  "errorDivZero": {
+    "message": "Հնարավոր չէ բաժանել զրոյի",
+    "description": "Division by zero error"
+  },
+  "errorDomain": {
+    "message": "Դոմենի սխալ",
+    "description": "Math domain error (e.g. sqrt of negative)"
+  },
+  "errorInvalid": {
+    "message": "Անվավեր արտահայտություն",
+    "description": "Invalid expression error"
+  },
+  "errorOverflow": {
+    "message": "Հորդել",
+    "description": "Number overflow error"
+  },
+  "historyClear": {
+    "message": "Մաքրել պատմությունը",
+    "description": "Button to clear all history"
+  },
+  "historyEmpty": {
+    "message": "Դեռևս հաշվարկներ չկան։",
+    "description": "Shown when history is empty"
+  },
+  "historyTitle": {
+    "message": "Պատմություն",
+    "description": "History panel title"
+  },
+  "langAfrikaans": {
+    "message": "Աֆրիկանս"
+  },
+  "langAlbanian": {
+    "message": "ալբանացի"
+  },
+  "langAlgerianArabic": {
+    "message": "Ալժիրյան արաբերեն"
+  },
+  "langAmharic": {
+    "message": "ամհարերեն"
+  },
+  "langArabic": {
+    "message": "արաբերեն (MSA)"
+  },
+  "langArmenian": {
+    "message": "հայկ"
+  },
+  "langAzerbaijani": {
+    "message": "ադրբեջաներեն"
+  },
+  "langBalochi": {
+    "message": "Բալոչի"
+  },
+  "langBasque": {
+    "message": "Բասկ"
+  },
+  "langBelarusian": {
+    "message": "բելառուս"
+  },
+  "langBengali": {
+    "message": "Բենգալերեն"
+  },
+  "langBhojpuri": {
+    "message": "Բհոջպուրի"
+  },
+  "langBosnian": {
+    "message": "բոսնիերեն"
+  },
+  "langBreton": {
+    "message": "Բրետոն"
+  },
+  "langBurmese": {
+    "message": "բիրմայերեն"
+  },
+  "langCatalan": {
+    "message": "կատալոներեն"
+  },
+  "langCebuano": {
+    "message": "Սեբուանո"
+  },
+  "langChichewa": {
+    "message": "չինական"
+  },
+  "langChittagonian": {
+    "message": "Չիտագոնյանը"
+  },
+  "langCorsican": {
+    "message": "Կորսիկան"
+  },
+  "langCzech": {
+    "message": "չեխ"
+  },
+  "langDanish": {
+    "message": "դանիերեն"
+  },
+  "langDutch": {
+    "message": "հոլանդական"
+  },
+  "langEgyptianArabic": {
+    "message": "Եգիպտական ​​արաբերեն"
+  },
+  "langEnglish": {
+    "message": "Անգլերեն"
+  },
+  "langFaroese": {
+    "message": "Ֆարերերեն"
+  },
+  "langFinnish": {
+    "message": "Ֆիններեն"
+  },
+  "langFrench": {
+    "message": "ֆրանսերեն"
+  },
+  "langGalician": {
+    "message": "Գալիսիական"
+  },
+  "langGeorgian": {
+    "message": "վրաց"
+  },
+  "langGerman": {
+    "message": "գերմաներեն"
+  },
+  "langGreek": {
+    "message": "հունարեն"
+  },
+  "langGujarati": {
+    "message": "գուջարաթի"
+  },
+  "langHaitianCreole": {
+    "message": "Հայիթի կրեոլ"
+  },
+  "langHausa": {
+    "message": "Հաուսա"
+  },
+  "langHebrew": {
+    "message": "եբրայերեն"
+  },
+  "langHindi": {
+    "message": "հինդի"
+  },
+  "langHungarian": {
+    "message": "հունգարերեն"
+  },
+  "langIcelandic": {
+    "message": "իսլանդերեն"
+  },
+  "langIgbo": {
+    "message": "Իգբո"
+  },
+  "langIlocano": {
+    "message": "Իլոկանո"
+  },
+  "langIndonesian": {
+    "message": "Ինդոնեզերեն"
+  },
+  "langItalian": {
+    "message": "իտալական"
+  },
+  "langJapanese": {
+    "message": "ճապոներեն"
+  },
+  "langJavanese": {
+    "message": "ճավայերեն"
+  },
+  "langKannada": {
+    "message": "Կաննադա"
+  },
+  "langKazakh": {
+    "message": "ղազախ"
+  },
+  "langKhmer": {
+    "message": "քմեր"
+  },
+  "langKinyarwanda": {
+    "message": "Կինյարվանդա"
+  },
+  "langKorean": {
+    "message": "կորեերեն"
+  },
+  "langKurdish": {
+    "message": "քրդերեն (քուրմանջի)"
+  },
+  "langLatvian": {
+    "message": "լատվիերեն"
+  },
+  "langLithuanian": {
+    "message": "լիտվերեն"
+  },
+  "langLuxembourgish": {
+    "message": "լյուքսեմբուրգերեն"
+  },
+  "langMacedonian": {
+    "message": "մակեդոնական"
+  },
+  "langMaithili": {
+    "message": "Մայթիլի"
+  },
+  "langMalagasy": {
+    "message": "մալագասերեն"
+  },
+  "langMaltese": {
+    "message": "մալթերեն"
+  },
+  "langMandarin": {
+    "message": "Մանդարին չինարեն"
+  },
+  "langMarathi": {
+    "message": "Մարաթի"
+  },
+  "langMongolian": {
+    "message": "Մոնղոլական"
+  },
+  "langMoroccanArabic": {
+    "message": "Մարոկկոյի արաբերեն"
+  },
+  "langNepali": {
+    "message": "Նեպալերեն"
+  },
+  "langNigerianFulani": {
+    "message": "Նիգերիական Ֆուլանի"
+  },
+  "langNorwegian": {
+    "message": "նորվեգական"
+  },
+  "langOdia": {
+    "message": "Օդիա (Օրիա)"
+  },
+  "langPashto": {
+    "message": "փուշթու"
+  },
+  "langPortuguese": {
+    "message": "պորտուգալերեն"
+  },
+  "langPunjabi": {
+    "message": "Արևմտյան Փենջաբի"
+  },
+  "langQuechua": {
+    "message": "Կեչուա"
+  },
+  "langRomanian": {
+    "message": "ռումիներեն"
+  },
+  "langRussian": {
+    "message": "ռուսերեն"
+  },
+  "langSaraiki": {
+    "message": "Սարայկի"
+  },
+  "langSerboCroatian": {
+    "message": "սերբորվաթերեն"
+  },
+  "langShona": {
+    "message": "Շոնա"
+  },
+  "langSindhi": {
+    "message": "սինդի"
+  },
+  "langSinhala": {
+    "message": "Սինհալա"
+  },
+  "langSlovak": {
+    "message": "սլովակ"
+  },
+  "langSlovenian": {
+    "message": "սլովեներեն"
+  },
+  "langSomali": {
+    "message": "Սոմալի"
+  },
+  "langSpanish": {
+    "message": "իսպաներեն"
+  },
+  "langSudaneseArabic": {
+    "message": "Սուդանի արաբերեն"
+  },
+  "langSwahili": {
+    "message": "Սուահիլի"
+  },
+  "langSwedish": {
+    "message": "շվեդ"
+  },
+  "langTagalog": {
+    "message": "տագալերեն"
+  },
+  "langTamil": {
+    "message": "թամիլերեն"
+  },
+  "langTatar": {
+    "message": "թաթար"
+  },
+  "langTelugu": {
+    "message": "թելուգու"
+  },
+  "langThai": {
+    "message": "թայերեն"
+  },
+  "langTigrinya": {
+    "message": "Տիգրինյա"
+  },
+  "langTswana": {
+    "message": "Ցվանա"
+  },
+  "langTurkish": {
+    "message": "թուրքական"
+  },
+  "langUkrainian": {
+    "message": "ուկրաինական"
+  },
+  "langUrdu": {
+    "message": "ուրդու"
+  },
+  "langUyghur": {
+    "message": "ույղուր"
+  },
+  "langUzbek": {
+    "message": "Ուզբեկ"
+  },
+  "langVietnamese": {
+    "message": "Վիետնամերեն"
+  },
+  "langWelsh": {
+    "message": "Ուելս"
+  },
+  "langWuChinese": {
+    "message": "Ու չինական"
+  },
+  "langXhosa": {
+    "message": "Քոսա"
+  },
+  "langYoruba": {
+    "message": "Յորուբա"
+  },
+  "langYueChinese": {
+    "message": "Յուե չինական"
+  },
+  "langZulu": {
+    "message": "Զուլուս"
+  },
+  "modeBasic": {
+    "message": "Հիմնական",
+    "description": "Basic calculator mode label"
+  },
+  "modeScientific": {
+    "message": "Գիտական",
+    "description": "Scientific calculator mode label"
+  },
+  "numeralBalinese": {
+    "message": "Բալիներեն (᭐–᭙)",
+    "description": "Balinese numeral system name"
+  },
+  "numeralBengali": {
+    "message": "բենգալերեն (০–৯)",
+    "description": "Bengali numeral system name"
+  },
+  "numeralCJK": {
+    "message": "CJK (〇123456789)",
+    "description": "CJK numeral system name"
+  },
+  "numeralCham": {
+    "message": "Չամ (꩐–꩙)",
+    "description": "Cham numeral system name"
+  },
+  "numeralDevanagari": {
+    "message": "Դևանագարի (6–2)",
+    "description": "Devanagari numeral system name"
+  },
+  "numeralEasternArabic": {
+    "message": "Արևելյան արաբերեն (0–9)",
+    "description": "Eastern Arabic numeral system name"
+  },
+  "numeralGujarati": {
+    "message": "գուջարաթի (૦–૯)",
+    "description": "Gujarati numeral system name"
+  },
+  "numeralGurmukhi": {
+    "message": "Գուրմուխի / Փենջաբի (0–9)",
+    "description": "Gurmukhi numeral system name"
+  },
+  "numeralJavanese": {
+    "message": "ճավայերեն (꧐–꧙)",
+    "description": "Javanese numeral system name"
+  },
+  "numeralKannada": {
+    "message": "կաննադա (೦–೯)",
+    "description": "Kannada numeral system name"
+  },
+  "numeralKhmer": {
+    "message": "քմեր (09)",
+    "description": "Khmer numeral system name"
+  },
+  "numeralLao": {
+    "message": "Լաոս (0–9)",
+    "description": "Lao numeral system name"
+  },
+  "numeralLepcha": {
+    "message": "Լեպչա (᱀–᱉)",
+    "description": "Lepcha numeral system name"
+  },
+  "numeralLimbu": {
+    "message": "Լիմբու (᥆–᥏)",
+    "description": "Limbu numeral system name"
+  },
+  "numeralMalayalam": {
+    "message": "մալայալամ (൦–൯)",
+    "description": "Malayalam numeral system name"
+  },
+  "numeralMeetei": {
+    "message": "Meetei Mayek (꩐–꩙)",
+    "description": "Meetei Mayek numeral system name"
+  },
+  "numeralMongolian": {
+    "message": "մոնղոլական (᠐–᠙)",
+    "description": "Mongolian numeral system name"
+  },
+  "numeralMyanmar": {
+    "message": "Մյանմար / Բիրմա (0–9)",
+    "description": "Myanmar numeral system name"
+  },
+  "numeralOdia": {
+    "message": "Օդիա (୦–୯)",
+    "description": "Odia numeral system name"
+  },
+  "numeralPersian": {
+    "message": "պարսկերեն/ֆարսի (0–9)",
+    "description": "Persian numeral system name"
+  },
+  "numeralRoman": {
+    "message": "Հռոմեական թվեր (I, V, X…)",
+    "description": "Roman numeral system name"
+  },
+  "numeralSinhala": {
+    "message": "Սինհալա (෦–෯)",
+    "description": "Sinhala numeral system name"
+  },
+  "numeralSundanese": {
+    "message": "սունդաներեն (᮰–᮹)",
+    "description": "Sundanese numeral system name"
+  },
+  "numeralTamil": {
+    "message": "թամիլերեն (௦–௯)",
+    "description": "Tamil numeral system name"
+  },
+  "numeralTelugu": {
+    "message": "թելուգու (౦–౯)",
+    "description": "Telugu numeral system name"
+  },
+  "numeralThai": {
+    "message": "թայերեն (๐–๙)",
+    "description": "Thai numeral system name"
+  },
+  "numeralTibetan": {
+    "message": "տիբեթերեն (༠–༩)",
+    "description": "Tibetan numeral system name"
+  },
+  "numeralWestern": {
+    "message": "Արևմտյան արաբերեն (0–9)",
+    "description": "Western Arabic numeral system name"
+  },
+  "romanDecimalNote": {
+    "message": "Տասնորդական թվերը չեն կարող ցուցադրվել հռոմեական թվերով",
+    "description": "Note shown when Roman numeral system is active and result is decimal"
+  },
+  "settingsLanguage": {
+    "message": "Լեզու",
+    "description": "Language setting label"
+  },
+  "settingsNumerals": {
+    "message": "Թվային համակարգ",
+    "description": "Numeral system setting label"
+  },
+  "settingsTheme": {
+    "message": "Թեմա",
+    "description": "Theme setting label"
+  },
+  "settingsTitle": {
+    "message": "Կարգավորումներ",
+    "description": "Settings panel title"
+  },
+  "themeContrast": {
+    "message": "Կոնտրաստ",
+    "description": "High contrast theme name"
+  },
+  "themeDark": {
+    "message": "Մութ",
+    "description": "Dark theme name"
+  },
+  "themeLight": {
+    "message": "Լույս",
+    "description": "Light theme name"
+  },
+  "tooltipCopy": {
+    "message": "Արդյունքը պատճենեք clipboard-ում",
+    "description": "Tooltip for copy button"
+  },
+  "tooltipHistory": {
+    "message": "Հաշվարկների պատմություն",
+    "description": "Tooltip for history button"
+  },
+  "tooltipMode": {
+    "message": "Անջատեք հաշվիչի ռեժիմը",
+    "description": "Tooltip for mode toggle button"
+  },
+  "tooltipSettings": {
+    "message": "Կարգավորումներ",
+    "description": "Tooltip for settings button"
+  }
+}

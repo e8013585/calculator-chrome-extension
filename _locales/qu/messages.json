@@ -1,0 +1,643 @@
+{
+  "appDescription": {
+    "message": "Huk llimp’isqa cientifico calculadora temakunayuq, historiayuq, achka simi yanapakuyniyuq ima.",
+    "description": "Extension description"
+  },
+  "appName": {
+    "message": "Calculator",
+    "description": "Extension name"
+  },
+  "btnAcos": {
+    "message": "cos−1 nisqa",
+    "description": "Arc cosine button label"
+  },
+  "btnAllClear": {
+    "message": "AC",
+    "description": "All clear button label"
+  },
+  "btnAsin": {
+    "message": "hucha−1",
+    "description": "Arc sine button label"
+  },
+  "btnAtan": {
+    "message": "tan−1",
+    "description": "Arc tangent button label"
+  },
+  "btnBackspace": {
+    "message": "⌫",
+    "description": "Backspace button label"
+  },
+  "btnCbrt": {
+    "message": "3√x",
+    "description": "Cube root button label"
+  },
+  "btnClear": {
+    "message": "C",
+    "description": "Clear button label"
+  },
+  "btnCloseParen": {
+    "message": ") .",
+    "description": "Close parenthesis button label"
+  },
+  "btnCopy": {
+    "message": "Copia",
+    "description": "Copy to clipboard button label"
+  },
+  "btnCos": {
+    "message": "cos",
+    "description": "Cosine button label"
+  },
+  "btnCube": {
+    "message": "x3",
+    "description": "Cube button label"
+  },
+  "btnDecimal": {
+    "message": ".",
+    "description": "Decimal point button label"
+  },
+  "btnE": {
+    "message": "e",
+    "description": "Euler's number button label"
+  },
+  "btnEXP": {
+    "message": "EXP",
+    "description": "Scientific notation EXP button label"
+  },
+  "btnEquals": {
+    "message": "=",
+    "description": "Equals button label"
+  },
+  "btnExp": {
+    "message": "eˣ",
+    "description": "e to the x button label"
+  },
+  "btnFactorial": {
+    "message": "n!",
+    "description": "Factorial button label"
+  },
+  "btnLn": {
+    "message": "ln",
+    "description": "Natural log button label"
+  },
+  "btnLog": {
+    "message": "qillqachakuy",
+    "description": "Log base 10 button label"
+  },
+  "btnLogN": {
+    "message": "logₙ",
+    "description": "Log base n button label"
+  },
+  "btnMod": {
+    "message": "mod",
+    "description": "Modulo button label"
+  },
+  "btnOpenParen": {
+    "message": "(",
+    "description": "Open parenthesis button label"
+  },
+  "btnPercent": {
+    "message": "% .",
+    "description": "Percent button label"
+  },
+  "btnPi": {
+    "message": "p",
+    "description": "Pi constant button label"
+  },
+  "btnPow": {
+    "message": "xʸ",
+    "description": "x to the y button label"
+  },
+  "btnPow10": {
+    "message": "10ˣ",
+    "description": "10 to the x button label"
+  },
+  "btnReciprocal": {
+    "message": "1/x",
+    "description": "Reciprocal button label"
+  },
+  "btnSin": {
+    "message": "hucha",
+    "description": "Sine button label"
+  },
+  "btnSqrt": {
+    "message": "√x",
+    "description": "Square root button label"
+  },
+  "btnSquare": {
+    "message": "x2",
+    "description": "Square button label"
+  },
+  "btnTan": {
+    "message": "tan",
+    "description": "Tangent button label"
+  },
+  "btnToggleSign": {
+    "message": "+/−",
+    "description": "Toggle sign button label"
+  },
+  "errorDivZero": {
+    "message": "Mana cerowan rakiyta atinchu",
+    "description": "Division by zero error"
+  },
+  "errorDomain": {
+    "message": "Dominio pantasqa",
+    "description": "Math domain error (e.g. sqrt of negative)"
+  },
+  "errorInvalid": {
+    "message": "Mana allin rimay",
+    "description": "Invalid expression error"
+  },
+  "errorOverflow": {
+    "message": "Desbordamiento",
+    "description": "Number overflow error"
+  },
+  "historyClear": {
+    "message": "Ch’uya Historia",
+    "description": "Button to clear all history"
+  },
+  "historyEmpty": {
+    "message": "Manaraqmi yupaykuna kanchu.",
+    "description": "Shown when history is empty"
+  },
+  "historyTitle": {
+    "message": "Willarina",
+    "description": "History panel title"
+  },
+  "langAfrikaans": {
+    "message": "Afrikaans simipi"
+  },
+  "langAlbanian": {
+    "message": "Albanés simipi"
+  },
+  "langAlgerianArabic": {
+    "message": "Argeliamanta árabe simi"
+  },
+  "langAmharic": {
+    "message": "Amharico simipi"
+  },
+  "langArabic": {
+    "message": "Arabe simi (MSA) ."
+  },
+  "langArmenian": {
+    "message": "Armenio simi"
+  },
+  "langAzerbaijani": {
+    "message": "Azerbaiyán simipi"
+  },
+  "langBalochi": {
+    "message": "Balochi"
+  },
+  "langBasque": {
+    "message": "Vasco"
+  },
+  "langBelarusian": {
+    "message": "Bielorruso simi"
+  },
+  "langBengali": {
+    "message": "Bengali simipi"
+  },
+  "langBhojpuri": {
+    "message": "Bhojpuri Simi"
+  },
+  "langBosnian": {
+    "message": "Bosniamanta"
+  },
+  "langBreton": {
+    "message": "Breton simipi"
+  },
+  "langBurmese": {
+    "message": "Birmania simi"
+  },
+  "langCatalan": {
+    "message": "Catalan simipi"
+  },
+  "langCebuano": {
+    "message": "Cebuano simipi"
+  },
+  "langChichewa": {
+    "message": "Chino"
+  },
+  "langChittagonian": {
+    "message": "Chittagoniano"
+  },
+  "langCorsican": {
+    "message": "Corsico simipi"
+  },
+  "langCzech": {
+    "message": "Checo simipi"
+  },
+  "langDanish": {
+    "message": "Danés simipi"
+  },
+  "langDutch": {
+    "message": "Holandés simi"
+  },
+  "langEgyptianArabic": {
+    "message": "Egipto árabe simi"
+  },
+  "langEnglish": {
+    "message": "Ingles Simi"
+  },
+  "langFaroese": {
+    "message": "Faroés simipi"
+  },
+  "langFinnish": {
+    "message": "Finlandés simipi"
+  },
+  "langFrench": {
+    "message": "Francés simipi"
+  },
+  "langGalician": {
+    "message": "Galicia simipi"
+  },
+  "langGeorgian": {
+    "message": "Georgia simipi"
+  },
+  "langGerman": {
+    "message": "Alemán simipi"
+  },
+  "langGreek": {
+    "message": "Griego simipi"
+  },
+  "langGujarati": {
+    "message": "Gujarati simipi"
+  },
+  "langHaitianCreole": {
+    "message": "Haitiano criollo"
+  },
+  "langHausa": {
+    "message": "Hausa"
+  },
+  "langHebrew": {
+    "message": "Hebreo rimaypi"
+  },
+  "langHindi": {
+    "message": "Hindi simipi"
+  },
+  "langHungarian": {
+    "message": "Hungría simi"
+  },
+  "langIcelandic": {
+    "message": "Islandia simipi"
+  },
+  "langIgbo": {
+    "message": "Igbo simipi"
+  },
+  "langIlocano": {
+    "message": "Ilocano Simi"
+  },
+  "langIndonesian": {
+    "message": "Indonesia simipi"
+  },
+  "langItalian": {
+    "message": "Italiano simi"
+  },
+  "langJapanese": {
+    "message": "Japonés simi"
+  },
+  "langJavanese": {
+    "message": "Javan simipi"
+  },
+  "langKannada": {
+    "message": "Kannada simipi"
+  },
+  "langKazakh": {
+    "message": "Kazakh simipi"
+  },
+  "langKhmer": {
+    "message": "Khmer"
+  },
+  "langKinyarwanda": {
+    "message": "Kinyarwanda simipi"
+  },
+  "langKorean": {
+    "message": "Corea simimanta"
+  },
+  "langKurdish": {
+    "message": "Kurdu simi (Kurmanji) ."
+  },
+  "langLatvian": {
+    "message": "Letoniamanta"
+  },
+  "langLithuanian": {
+    "message": "Lituano simi"
+  },
+  "langLuxembourgish": {
+    "message": "Luxemburgo simimanta"
+  },
+  "langMacedonian": {
+    "message": "Macedoniamanta"
+  },
+  "langMaithili": {
+    "message": "Maithili Simi"
+  },
+  "langMalagasy": {
+    "message": "Malgache simipi"
+  },
+  "langMaltese": {
+    "message": "Malta simipi"
+  },
+  "langMandarin": {
+    "message": "Chino mandarín simipi"
+  },
+  "langMarathi": {
+    "message": "Marathi simipi"
+  },
+  "langMongolian": {
+    "message": "Mongol simi"
+  },
+  "langMoroccanArabic": {
+    "message": "Marruecos árabe simipi"
+  },
+  "langNepali": {
+    "message": "Nepal simipi"
+  },
+  "langNigerianFulani": {
+    "message": "Nigeriamanta Fulani simi"
+  },
+  "langNorwegian": {
+    "message": "Noruega simimanta"
+  },
+  "langOdia": {
+    "message": "Odia (Oriya) simipi."
+  },
+  "langPashto": {
+    "message": "Pashto simipi"
+  },
+  "langPortuguese": {
+    "message": "Portugués simipi"
+  },
+  "langPunjabi": {
+    "message": "Punjabi occidental"
+  },
+  "langQuechua": {
+    "message": "Runasimi"
+  },
+  "langRomanian": {
+    "message": "Rumania simipi"
+  },
+  "langRussian": {
+    "message": "Ruso simi"
+  },
+  "langSaraiki": {
+    "message": "Saraiki"
+  },
+  "langSerboCroatian": {
+    "message": "Serbo-Kroata simi"
+  },
+  "langShona": {
+    "message": "Shona"
+  },
+  "langSindhi": {
+    "message": "Sindhi simipi"
+  },
+  "langSinhala": {
+    "message": "Sinhala simipi"
+  },
+  "langSlovak": {
+    "message": "Eslovaco simipi"
+  },
+  "langSlovenian": {
+    "message": "Esloveno simi"
+  },
+  "langSomali": {
+    "message": "Somalia simipi"
+  },
+  "langSpanish": {
+    "message": "Español"
+  },
+  "langSudaneseArabic": {
+    "message": "Sudan simipi árabe simi"
+  },
+  "langSwahili": {
+    "message": "Suajili simipi"
+  },
+  "langSwedish": {
+    "message": "Sueco simi"
+  },
+  "langTagalog": {
+    "message": "Tagalo simipi"
+  },
+  "langTamil": {
+    "message": "Tamil simipi"
+  },
+  "langTatar": {
+    "message": "Tatar"
+  },
+  "langTelugu": {
+    "message": "Telugu simipi"
+  },
+  "langThai": {
+    "message": "Tailandés simi"
+  },
+  "langTigrinya": {
+    "message": "Tigriña Simi"
+  },
+  "langTswana": {
+    "message": "Tswana"
+  },
+  "langTurkish": {
+    "message": "Turku simi"
+  },
+  "langUkrainian": {
+    "message": "Ukranyamanta"
+  },
+  "langUrdu": {
+    "message": "Urdu simipi"
+  },
+  "langUyghur": {
+    "message": "Uyghur"
+  },
+  "langUzbek": {
+    "message": "Uzbek simipi"
+  },
+  "langVietnamese": {
+    "message": "Vietnam simimanta"
+  },
+  "langWelsh": {
+    "message": "Galés simipi"
+  },
+  "langWuChinese": {
+    "message": "Wu chino"
+  },
+  "langXhosa": {
+    "message": "Xhosa simipi"
+  },
+  "langYoruba": {
+    "message": "Yoruba simi"
+  },
+  "langYueChinese": {
+    "message": "Yue chino"
+  },
+  "langZulu": {
+    "message": "Zulu simipi"
+  },
+  "modeBasic": {
+    "message": "Qallariq",
+    "description": "Basic calculator mode label"
+  },
+  "modeScientific": {
+    "message": "Yachaysapa",
+    "description": "Scientific calculator mode label"
+  },
+  "numeralBalinese": {
+    "message": "Bali simi (᭐–᭙) .",
+    "description": "Balinese numeral system name"
+  },
+  "numeralBengali": {
+    "message": "Bengali simi (--------- simipi) .",
+    "description": "Bengali numeral system name"
+  },
+  "numeralCJK": {
+    "message": "CJK (〇123456789) nisqa.",
+    "description": "CJK numeral system name"
+  },
+  "numeralCham": {
+    "message": "Cham (꩐–꩙) .",
+    "description": "Cham numeral system name"
+  },
+  "numeralDevanagari": {
+    "message": "Devanagari simipi (0–9) .",
+    "description": "Devanagari numeral system name"
+  },
+  "numeralEasternArabic": {
+    "message": "Chinchay Arabu simi (0–٩)",
+    "description": "Eastern Arabic numeral system name"
+  },
+  "numeralGujarati": {
+    "message": "Gujarati simi (૦–૯) .",
+    "description": "Gujarati numeral system name"
+  },
+  "numeralGurmukhi": {
+    "message": "Gurmukhi / Punu simi (0–9) .",
+    "description": "Gurmukhi numeral system name"
+  },
+  "numeralJavanese": {
+    "message": "Javan simi (꧐–꧙) .",
+    "description": "Javanese numeral system name"
+  },
+  "numeralKannada": {
+    "message": "Kanna simi (೦–೯) simipi.",
+    "description": "Kannada numeral system name"
+  },
+  "numeralKhmer": {
+    "message": "Khmer (09) .",
+    "description": "Khmer numeral system name"
+  },
+  "numeralLao": {
+    "message": "Lao (0–9) .",
+    "description": "Lao numeral system name"
+  },
+  "numeralLepcha": {
+    "message": "Lepcha (᱀–᱉) nisqa.",
+    "description": "Lepcha numeral system name"
+  },
+  "numeralLimbu": {
+    "message": "Limbu (᥆–᥏) .",
+    "description": "Limbu numeral system name"
+  },
+  "numeralMalayalam": {
+    "message": "Malayalam simi (൦–൯) .",
+    "description": "Malayalam numeral system name"
+  },
+  "numeralMeetei": {
+    "message": "Meetei Mayek (꩐–꩙) sutiyuq runaqa.",
+    "description": "Meetei Mayek numeral system name"
+  },
+  "numeralMongolian": {
+    "message": "Mongol simi (᠐–᠙) .",
+    "description": "Mongolian numeral system name"
+  },
+  "numeralMyanmar": {
+    "message": "Myanmar / Birmania (0–9) .",
+    "description": "Myanmar numeral system name"
+  },
+  "numeralOdia": {
+    "message": "Odia (୦–୯) sutiyuq runaqa.",
+    "description": "Odia numeral system name"
+  },
+  "numeralPersian": {
+    "message": "Persi simi/Farsi simi (۰–۹) .",
+    "description": "Persian numeral system name"
+  },
+  "numeralRoman": {
+    "message": "Romanu Yupaykuna (I, V, X...) .",
+    "description": "Roman numeral system name"
+  },
+  "numeralSinhala": {
+    "message": "Sinhala simi (෦–෯) simipi.",
+    "description": "Sinhala numeral system name"
+  },
+  "numeralSundanese": {
+    "message": "Sunda simi (᮰–᮹) .",
+    "description": "Sundanese numeral system name"
+  },
+  "numeralTamil": {
+    "message": "Tamil simi (௦–௯) simipi.",
+    "description": "Tamil numeral system name"
+  },
+  "numeralTelugu": {
+    "message": "Telugu simi (౦–౯) simipi.",
+    "description": "Telugu numeral system name"
+  },
+  "numeralThai": {
+    "message": "Tailandia simi (๐–๙) .",
+    "description": "Thai numeral system name"
+  },
+  "numeralTibetan": {
+    "message": "Tibet simi (༠–༩) .",
+    "description": "Tibetan numeral system name"
+  },
+  "numeralWestern": {
+    "message": "Occidental árabe simi (0–9) .",
+    "description": "Western Arabic numeral system name"
+  },
+  "romanDecimalNote": {
+    "message": "Chunka yupaykunataqa manam romano yupaykunawanqa qawachiyta atikunmanchu",
+    "description": "Note shown when Roman numeral system is active and result is decimal"
+  },
+  "settingsLanguage": {
+    "message": "Simi",
+    "description": "Language setting label"
+  },
+  "settingsNumerals": {
+    "message": "Sistema Numeral nisqa",
+    "description": "Numeral system setting label"
+  },
+  "settingsTheme": {
+    "message": "Rimay",
+    "description": "Theme setting label"
+  },
+  "settingsTitle": {
+    "message": "Ajustes nisqa",
+    "description": "Settings panel title"
+  },
+  "themeContrast": {
+    "message": "Kanchariy",
+    "description": "High contrast theme name"
+  },
+  "themeDark": {
+    "message": "Tutayasqa",
+    "description": "Dark theme name"
+  },
+  "themeLight": {
+    "message": "Kanchi",
+    "description": "Light theme name"
+  },
+  "tooltipCopy": {
+    "message": "Resultadota portapapeles nisqaman copiay",
+    "description": "Tooltip for copy button"
+  },
+  "tooltipHistory": {
+    "message": "Yupaypa Willakuynin",
+    "description": "Tooltip for history button"
+  },
+  "tooltipMode": {
+    "message": "Modo calculadora nisqapi tikray",
+    "description": "Tooltip for mode toggle button"
+  },
+  "tooltipSettings": {
+    "message": "Ajustes nisqa",
+    "description": "Tooltip for settings button"
+  }
+}

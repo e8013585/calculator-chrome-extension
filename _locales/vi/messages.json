@@ -1,0 +1,643 @@
+{
+  "appDescription": {
+    "message": "Một máy tính khoa học tinh tế với các chủ đề, lịch sử và hỗ trợ đa ngôn ngữ.",
+    "description": "Extension description"
+  },
+  "appName": {
+    "message": "Calculator",
+    "description": "Extension name"
+  },
+  "btnAcos": {
+    "message": "cos⁻¹",
+    "description": "Arc cosine button label"
+  },
+  "btnAllClear": {
+    "message": "AC",
+    "description": "All clear button label"
+  },
+  "btnAsin": {
+    "message": "tội lỗi⁻¹",
+    "description": "Arc sine button label"
+  },
+  "btnAtan": {
+    "message": "tan⁻¹",
+    "description": "Arc tangent button label"
+  },
+  "btnBackspace": {
+    "message": "⌫",
+    "description": "Backspace button label"
+  },
+  "btnCbrt": {
+    "message": "³√x",
+    "description": "Cube root button label"
+  },
+  "btnClear": {
+    "message": "C",
+    "description": "Clear button label"
+  },
+  "btnCloseParen": {
+    "message": ")",
+    "description": "Close parenthesis button label"
+  },
+  "btnCopy": {
+    "message": "Sao chép",
+    "description": "Copy to clipboard button label"
+  },
+  "btnCos": {
+    "message": "vì",
+    "description": "Cosine button label"
+  },
+  "btnCube": {
+    "message": "x³",
+    "description": "Cube button label"
+  },
+  "btnDecimal": {
+    "message": ".",
+    "description": "Decimal point button label"
+  },
+  "btnE": {
+    "message": "e",
+    "description": "Euler's number button label"
+  },
+  "btnEXP": {
+    "message": "EXP",
+    "description": "Scientific notation EXP button label"
+  },
+  "btnEquals": {
+    "message": "=",
+    "description": "Equals button label"
+  },
+  "btnExp": {
+    "message": "eˣ",
+    "description": "e to the x button label"
+  },
+  "btnFactorial": {
+    "message": "N!",
+    "description": "Factorial button label"
+  },
+  "btnLn": {
+    "message": "ln",
+    "description": "Natural log button label"
+  },
+  "btnLog": {
+    "message": "nhật ký",
+    "description": "Log base 10 button label"
+  },
+  "btnLogN": {
+    "message": "nhật kýₙ",
+    "description": "Log base n button label"
+  },
+  "btnMod": {
+    "message": "mod",
+    "description": "Modulo button label"
+  },
+  "btnOpenParen": {
+    "message": "(",
+    "description": "Open parenthesis button label"
+  },
+  "btnPercent": {
+    "message": "%",
+    "description": "Percent button label"
+  },
+  "btnPi": {
+    "message": "P",
+    "description": "Pi constant button label"
+  },
+  "btnPow": {
+    "message": "xʸ",
+    "description": "x to the y button label"
+  },
+  "btnPow10": {
+    "message": "10ˣ",
+    "description": "10 to the x button label"
+  },
+  "btnReciprocal": {
+    "message": "1/x",
+    "description": "Reciprocal button label"
+  },
+  "btnSin": {
+    "message": "tội lỗi",
+    "description": "Sine button label"
+  },
+  "btnSqrt": {
+    "message": "√x",
+    "description": "Square root button label"
+  },
+  "btnSquare": {
+    "message": "x²",
+    "description": "Square button label"
+  },
+  "btnTan": {
+    "message": "rám nắng",
+    "description": "Tangent button label"
+  },
+  "btnToggleSign": {
+    "message": "+/−",
+    "description": "Toggle sign button label"
+  },
+  "errorDivZero": {
+    "message": "Không thể chia cho số 0",
+    "description": "Division by zero error"
+  },
+  "errorDomain": {
+    "message": "Lỗi tên miền",
+    "description": "Math domain error (e.g. sqrt of negative)"
+  },
+  "errorInvalid": {
+    "message": "biểu thức không hợp lệ",
+    "description": "Invalid expression error"
+  },
+  "errorOverflow": {
+    "message": "tràn",
+    "description": "Number overflow error"
+  },
+  "historyClear": {
+    "message": "Xóa lịch sử",
+    "description": "Button to clear all history"
+  },
+  "historyEmpty": {
+    "message": "Chưa có tính toán nào.",
+    "description": "Shown when history is empty"
+  },
+  "historyTitle": {
+    "message": "Lịch sử",
+    "description": "History panel title"
+  },
+  "langAfrikaans": {
+    "message": "tiếng Afrikaans"
+  },
+  "langAlbanian": {
+    "message": "tiếng Albania"
+  },
+  "langAlgerianArabic": {
+    "message": "Tiếng Ả Rập Algeria"
+  },
+  "langAmharic": {
+    "message": "tiếng Amharic"
+  },
+  "langArabic": {
+    "message": "Tiếng Ả Rập (MSA)"
+  },
+  "langArmenian": {
+    "message": "tiếng Armenia"
+  },
+  "langAzerbaijani": {
+    "message": "Tiếng Azerbaijan"
+  },
+  "langBalochi": {
+    "message": "balochi"
+  },
+  "langBasque": {
+    "message": "Tiếng Basque"
+  },
+  "langBelarusian": {
+    "message": "Tiếng Belarus"
+  },
+  "langBengali": {
+    "message": "tiếng Bengali"
+  },
+  "langBhojpuri": {
+    "message": "Bhojpuri"
+  },
+  "langBosnian": {
+    "message": "tiếng Bosnia"
+  },
+  "langBreton": {
+    "message": "tiếng Breton"
+  },
+  "langBurmese": {
+    "message": "Miến Điện"
+  },
+  "langCatalan": {
+    "message": "tiếng Catalan"
+  },
+  "langCebuano": {
+    "message": "Cebuano"
+  },
+  "langChichewa": {
+    "message": "Tiếng Trung"
+  },
+  "langChittagonian": {
+    "message": "tiếng Chittagong"
+  },
+  "langCorsican": {
+    "message": "tiếng Corse"
+  },
+  "langCzech": {
+    "message": "tiếng Séc"
+  },
+  "langDanish": {
+    "message": "tiếng Đan Mạch"
+  },
+  "langDutch": {
+    "message": "tiếng Hà Lan"
+  },
+  "langEgyptianArabic": {
+    "message": "Tiếng Ả Rập Ai Cập"
+  },
+  "langEnglish": {
+    "message": "Tiếng Anh"
+  },
+  "langFaroese": {
+    "message": "Tiếng Faroe"
+  },
+  "langFinnish": {
+    "message": "tiếng Phần Lan"
+  },
+  "langFrench": {
+    "message": "người Pháp"
+  },
+  "langGalician": {
+    "message": "tiếng Galicia"
+  },
+  "langGeorgian": {
+    "message": "tiếng Gruzia"
+  },
+  "langGerman": {
+    "message": "tiếng Đức"
+  },
+  "langGreek": {
+    "message": "tiếng Hy Lạp"
+  },
+  "langGujarati": {
+    "message": "tiếng Gujarati"
+  },
+  "langHaitianCreole": {
+    "message": "Tiếng Creole Haiti"
+  },
+  "langHausa": {
+    "message": "Tiếng Hausa"
+  },
+  "langHebrew": {
+    "message": "tiếng Do Thái"
+  },
+  "langHindi": {
+    "message": "Tiếng Hindi"
+  },
+  "langHungarian": {
+    "message": "tiếng Hungary"
+  },
+  "langIcelandic": {
+    "message": "tiếng Iceland"
+  },
+  "langIgbo": {
+    "message": "người Igbo"
+  },
+  "langIlocano": {
+    "message": "Ilocano"
+  },
+  "langIndonesian": {
+    "message": "tiếng Indonesia"
+  },
+  "langItalian": {
+    "message": "người Ý"
+  },
+  "langJapanese": {
+    "message": "tiếng Nhật"
+  },
+  "langJavanese": {
+    "message": "tiếng Java"
+  },
+  "langKannada": {
+    "message": "tiếng Kannada"
+  },
+  "langKazakh": {
+    "message": "Kazakhstan"
+  },
+  "langKhmer": {
+    "message": "tiếng Khmer"
+  },
+  "langKinyarwanda": {
+    "message": "Tiếng Kinyarwanda"
+  },
+  "langKorean": {
+    "message": "Tiếng Hàn"
+  },
+  "langKurdish": {
+    "message": "Tiếng Kurd (Kurmanji)"
+  },
+  "langLatvian": {
+    "message": "tiếng Latvia"
+  },
+  "langLithuanian": {
+    "message": "tiếng Litva"
+  },
+  "langLuxembourgish": {
+    "message": "Tiếng Luxembourg"
+  },
+  "langMacedonian": {
+    "message": "Tiếng Macedonia"
+  },
+  "langMaithili": {
+    "message": "Maithili"
+  },
+  "langMalagasy": {
+    "message": "Malagasy"
+  },
+  "langMaltese": {
+    "message": "tiếng Malta"
+  },
+  "langMandarin": {
+    "message": "Tiếng Quan Thoại"
+  },
+  "langMarathi": {
+    "message": "Tiếng Marathi"
+  },
+  "langMongolian": {
+    "message": "tiếng Mông Cổ"
+  },
+  "langMoroccanArabic": {
+    "message": "Tiếng Ả Rập Ma-rốc"
+  },
+  "langNepali": {
+    "message": "tiếng Nepal"
+  },
+  "langNigerianFulani": {
+    "message": "Tiếng Fulani của Nigeria"
+  },
+  "langNorwegian": {
+    "message": "người Na Uy"
+  },
+  "langOdia": {
+    "message": "Odia (Oriya)"
+  },
+  "langPashto": {
+    "message": "Tiếng Pa-tô"
+  },
+  "langPortuguese": {
+    "message": "tiếng Bồ Đào Nha"
+  },
+  "langPunjabi": {
+    "message": "Tiếng Tây Punjab"
+  },
+  "langQuechua": {
+    "message": "Quechua"
+  },
+  "langRomanian": {
+    "message": "người Rumani"
+  },
+  "langRussian": {
+    "message": "tiếng Nga"
+  },
+  "langSaraiki": {
+    "message": "Saraiki"
+  },
+  "langSerboCroatian": {
+    "message": "Tiếng Serbia-Croatia"
+  },
+  "langShona": {
+    "message": "Shona"
+  },
+  "langSindhi": {
+    "message": "tiếng Sindhi"
+  },
+  "langSinhala": {
+    "message": "Sinhala"
+  },
+  "langSlovak": {
+    "message": "Tiếng Slovak"
+  },
+  "langSlovenian": {
+    "message": "tiếng Slovenia"
+  },
+  "langSomali": {
+    "message": "tiếng Somali"
+  },
+  "langSpanish": {
+    "message": "tiếng Tây Ban Nha"
+  },
+  "langSudaneseArabic": {
+    "message": "Tiếng Ả Rập Sudan"
+  },
+  "langSwahili": {
+    "message": "tiếng Swahili"
+  },
+  "langSwedish": {
+    "message": "tiếng Thụy Điển"
+  },
+  "langTagalog": {
+    "message": "tiếng Tagalog"
+  },
+  "langTamil": {
+    "message": "Tiếng Tamil"
+  },
+  "langTatar": {
+    "message": "Tatar"
+  },
+  "langTelugu": {
+    "message": "tiếng Telugu"
+  },
+  "langThai": {
+    "message": "tiếng Thái"
+  },
+  "langTigrinya": {
+    "message": "Tigrinya"
+  },
+  "langTswana": {
+    "message": "Tswana"
+  },
+  "langTurkish": {
+    "message": "tiếng Thổ Nhĩ Kỳ"
+  },
+  "langUkrainian": {
+    "message": "tiếng Ukraina"
+  },
+  "langUrdu": {
+    "message": "tiếng Urdu"
+  },
+  "langUyghur": {
+    "message": "người Duy Ngô Nhĩ"
+  },
+  "langUzbek": {
+    "message": "tiếng Uzbek"
+  },
+  "langVietnamese": {
+    "message": "Tiếng Việt"
+  },
+  "langWelsh": {
+    "message": "tiếng xứ Wales"
+  },
+  "langWuChinese": {
+    "message": "Ngô Trung Quốc"
+  },
+  "langXhosa": {
+    "message": "Xhosa"
+  },
+  "langYoruba": {
+    "message": "Tiếng Yoruba"
+  },
+  "langYueChinese": {
+    "message": "nhạc trung quốc"
+  },
+  "langZulu": {
+    "message": "Tiếng Zulu"
+  },
+  "modeBasic": {
+    "message": "Nền tảng",
+    "description": "Basic calculator mode label"
+  },
+  "modeScientific": {
+    "message": "Có tính khoa học",
+    "description": "Scientific calculator mode label"
+  },
+  "numeralBalinese": {
+    "message": "Tiếng Bali (᭐–᭙)",
+    "description": "Balinese numeral system name"
+  },
+  "numeralBengali": {
+    "message": "Tiếng Bengal (০–৯)",
+    "description": "Bengali numeral system name"
+  },
+  "numeralCJK": {
+    "message": "CJK (〇123456789)",
+    "description": "CJK numeral system name"
+  },
+  "numeralCham": {
+    "message": "Chăm (꩐–꩙)",
+    "description": "Cham numeral system name"
+  },
+  "numeralDevanagari": {
+    "message": "Devanagari (०–९)",
+    "description": "Devanagari numeral system name"
+  },
+  "numeralEasternArabic": {
+    "message": "Tiếng Ả Rập Đông (٠–٩)",
+    "description": "Eastern Arabic numeral system name"
+  },
+  "numeralGujarati": {
+    "message": "Tiếng Gujarati (૦–૯)",
+    "description": "Gujarati numeral system name"
+  },
+  "numeralGurmukhi": {
+    "message": "Gurmukhi / Tiếng Punjab (0–9)",
+    "description": "Gurmukhi numeral system name"
+  },
+  "numeralJavanese": {
+    "message": "Tiếng Java (꧐–꧙)",
+    "description": "Javanese numeral system name"
+  },
+  "numeralKannada": {
+    "message": "Tiếng Kannada (೦–೯)",
+    "description": "Kannada numeral system name"
+  },
+  "numeralKhmer": {
+    "message": "Khơ-me (09)",
+    "description": "Khmer numeral system name"
+  },
+  "numeralLao": {
+    "message": "Lào (0–9)",
+    "description": "Lao numeral system name"
+  },
+  "numeralLepcha": {
+    "message": "Lepcha (᱀–᱉)",
+    "description": "Lepcha numeral system name"
+  },
+  "numeralLimbu": {
+    "message": "Limbu (᥆–᥏)",
+    "description": "Limbu numeral system name"
+  },
+  "numeralMalayalam": {
+    "message": "Tiếng Malayalam (൦–൯)",
+    "description": "Malayalam numeral system name"
+  },
+  "numeralMeetei": {
+    "message": "Meetei Mayek (꩐–꩙)",
+    "description": "Meetei Mayek numeral system name"
+  },
+  "numeralMongolian": {
+    "message": "Tiếng Mông Cổ (᠐–᠙)",
+    "description": "Mongolian numeral system name"
+  },
+  "numeralMyanmar": {
+    "message": "Myanmar / Miến Điện (0–9)",
+    "description": "Myanmar numeral system name"
+  },
+  "numeralOdia": {
+    "message": "Odia (୦–୯)",
+    "description": "Odia numeral system name"
+  },
+  "numeralPersian": {
+    "message": "Tiếng Ba Tư/tiếng Farsi (۰–۹)",
+    "description": "Persian numeral system name"
+  },
+  "numeralRoman": {
+    "message": "Chữ số La Mã (I, V, X…)",
+    "description": "Roman numeral system name"
+  },
+  "numeralSinhala": {
+    "message": "Sinhala (෦–෯)",
+    "description": "Sinhala numeral system name"
+  },
+  "numeralSundanese": {
+    "message": "Tiếng Sundan (᮰–᮹)",
+    "description": "Sundanese numeral system name"
+  },
+  "numeralTamil": {
+    "message": "Tiếng Tamil (௦–௯)",
+    "description": "Tamil numeral system name"
+  },
+  "numeralTelugu": {
+    "message": "Tiếng Telugu (౦–౯)",
+    "description": "Telugu numeral system name"
+  },
+  "numeralThai": {
+    "message": "Tiếng Thái (๐–๙)",
+    "description": "Thai numeral system name"
+  },
+  "numeralTibetan": {
+    "message": "Tiếng Tạng (༠–༩)",
+    "description": "Tibetan numeral system name"
+  },
+  "numeralWestern": {
+    "message": "Tiếng Ả Rập Tây (0–9)",
+    "description": "Western Arabic numeral system name"
+  },
+  "romanDecimalNote": {
+    "message": "Số thập phân không thể được hiển thị bằng chữ số La Mã",
+    "description": "Note shown when Roman numeral system is active and result is decimal"
+  },
+  "settingsLanguage": {
+    "message": "Ngôn ngữ",
+    "description": "Language setting label"
+  },
+  "settingsNumerals": {
+    "message": "Hệ thống số",
+    "description": "Numeral system setting label"
+  },
+  "settingsTheme": {
+    "message": "chủ đề",
+    "description": "Theme setting label"
+  },
+  "settingsTitle": {
+    "message": "Cài đặt",
+    "description": "Settings panel title"
+  },
+  "themeContrast": {
+    "message": "Sự tương phản",
+    "description": "High contrast theme name"
+  },
+  "themeDark": {
+    "message": "Tối tăm",
+    "description": "Dark theme name"
+  },
+  "themeLight": {
+    "message": "Ánh sáng",
+    "description": "Light theme name"
+  },
+  "tooltipCopy": {
+    "message": "Sao chép kết quả vào clipboard",
+    "description": "Tooltip for copy button"
+  },
+  "tooltipHistory": {
+    "message": "Lịch sử tính toán",
+    "description": "Tooltip for history button"
+  },
+  "tooltipMode": {
+    "message": "Chuyển đổi chế độ máy tính",
+    "description": "Tooltip for mode toggle button"
+  },
+  "tooltipSettings": {
+    "message": "Cài đặt",
+    "description": "Tooltip for settings button"
+  }
+}

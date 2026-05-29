@@ -1,0 +1,643 @@
+{
+  "appDescription": {
+    "message": "Вытанчаны навуковы калькулятар з тэмамі, гісторыяй і падтрымкай некалькіх моў.",
+    "description": "Extension description"
+  },
+  "appName": {
+    "message": "Calculator",
+    "description": "Extension name"
+  },
+  "btnAcos": {
+    "message": "cos⁻¹",
+    "description": "Arc cosine button label"
+  },
+  "btnAllClear": {
+    "message": "пераменны ток",
+    "description": "All clear button label"
+  },
+  "btnAsin": {
+    "message": "грэх⁻¹",
+    "description": "Arc sine button label"
+  },
+  "btnAtan": {
+    "message": "загар⁻¹",
+    "description": "Arc tangent button label"
+  },
+  "btnBackspace": {
+    "message": "⌫",
+    "description": "Backspace button label"
+  },
+  "btnCbrt": {
+    "message": "³√x",
+    "description": "Cube root button label"
+  },
+  "btnClear": {
+    "message": "С",
+    "description": "Clear button label"
+  },
+  "btnCloseParen": {
+    "message": ")",
+    "description": "Close parenthesis button label"
+  },
+  "btnCopy": {
+    "message": "Копія",
+    "description": "Copy to clipboard button label"
+  },
+  "btnCos": {
+    "message": "cos",
+    "description": "Cosine button label"
+  },
+  "btnCube": {
+    "message": "х³",
+    "description": "Cube button label"
+  },
+  "btnDecimal": {
+    "message": ".",
+    "description": "Decimal point button label"
+  },
+  "btnE": {
+    "message": "д",
+    "description": "Euler's number button label"
+  },
+  "btnEXP": {
+    "message": "EXP",
+    "description": "Scientific notation EXP button label"
+  },
+  "btnEquals": {
+    "message": "=",
+    "description": "Equals button label"
+  },
+  "btnExp": {
+    "message": "еˣ",
+    "description": "e to the x button label"
+  },
+  "btnFactorial": {
+    "message": "п!",
+    "description": "Factorial button label"
+  },
+  "btnLn": {
+    "message": "зав",
+    "description": "Natural log button label"
+  },
+  "btnLog": {
+    "message": "часопіс",
+    "description": "Log base 10 button label"
+  },
+  "btnLogN": {
+    "message": "бервяноₙ",
+    "description": "Log base n button label"
+  },
+  "btnMod": {
+    "message": "мод",
+    "description": "Modulo button label"
+  },
+  "btnOpenParen": {
+    "message": "(",
+    "description": "Open parenthesis button label"
+  },
+  "btnPercent": {
+    "message": "%",
+    "description": "Percent button label"
+  },
+  "btnPi": {
+    "message": "стар",
+    "description": "Pi constant button label"
+  },
+  "btnPow": {
+    "message": "хʸ",
+    "description": "x to the y button label"
+  },
+  "btnPow10": {
+    "message": "10ˣ",
+    "description": "10 to the x button label"
+  },
+  "btnReciprocal": {
+    "message": "1/х",
+    "description": "Reciprocal button label"
+  },
+  "btnSin": {
+    "message": "грэх",
+    "description": "Sine button label"
+  },
+  "btnSqrt": {
+    "message": "√x",
+    "description": "Square root button label"
+  },
+  "btnSquare": {
+    "message": "х²",
+    "description": "Square button label"
+  },
+  "btnTan": {
+    "message": "загар",
+    "description": "Tangent button label"
+  },
+  "btnToggleSign": {
+    "message": "+/−",
+    "description": "Toggle sign button label"
+  },
+  "errorDivZero": {
+    "message": "Нельга дзяліць на нуль",
+    "description": "Division by zero error"
+  },
+  "errorDomain": {
+    "message": "Памылка дамена",
+    "description": "Math domain error (e.g. sqrt of negative)"
+  },
+  "errorInvalid": {
+    "message": "Няправільны выраз",
+    "description": "Invalid expression error"
+  },
+  "errorOverflow": {
+    "message": "Пераліў",
+    "description": "Number overflow error"
+  },
+  "historyClear": {
+    "message": "Ачысціць гісторыю",
+    "description": "Button to clear all history"
+  },
+  "historyEmpty": {
+    "message": "Разлікаў пакуль няма.",
+    "description": "Shown when history is empty"
+  },
+  "historyTitle": {
+    "message": "Гісторыя",
+    "description": "History panel title"
+  },
+  "langAfrikaans": {
+    "message": "афрыкаанс"
+  },
+  "langAlbanian": {
+    "message": "албанец"
+  },
+  "langAlgerianArabic": {
+    "message": "Алжырская арабская"
+  },
+  "langAmharic": {
+    "message": "Амхарская"
+  },
+  "langArabic": {
+    "message": "арабская (MSA)"
+  },
+  "langArmenian": {
+    "message": "армянская"
+  },
+  "langAzerbaijani": {
+    "message": "Азербайджанская"
+  },
+  "langBalochi": {
+    "message": "Белуджы"
+  },
+  "langBasque": {
+    "message": "Баскская"
+  },
+  "langBelarusian": {
+    "message": "беларускі"
+  },
+  "langBengali": {
+    "message": "бенгальская"
+  },
+  "langBhojpuri": {
+    "message": "Бходжпурі"
+  },
+  "langBosnian": {
+    "message": "басьнійскі"
+  },
+  "langBreton": {
+    "message": "Брэтонская"
+  },
+  "langBurmese": {
+    "message": "бірманскі"
+  },
+  "langCatalan": {
+    "message": "каталонская"
+  },
+  "langCebuano": {
+    "message": "себуанскі"
+  },
+  "langChichewa": {
+    "message": "кітайскі"
+  },
+  "langChittagonian": {
+    "message": "чытагонскі"
+  },
+  "langCorsican": {
+    "message": "карсіканскі"
+  },
+  "langCzech": {
+    "message": "чэшская"
+  },
+  "langDanish": {
+    "message": "дацкая"
+  },
+  "langDutch": {
+    "message": "галандскі"
+  },
+  "langEgyptianArabic": {
+    "message": "егіпецкая арабская"
+  },
+  "langEnglish": {
+    "message": "англійская"
+  },
+  "langFaroese": {
+    "message": "Фарэрская"
+  },
+  "langFinnish": {
+    "message": "фінская"
+  },
+  "langFrench": {
+    "message": "французскі"
+  },
+  "langGalician": {
+    "message": "галісійскі"
+  },
+  "langGeorgian": {
+    "message": "грузінскі"
+  },
+  "langGerman": {
+    "message": "нямецкі"
+  },
+  "langGreek": {
+    "message": "грэцкі"
+  },
+  "langGujarati": {
+    "message": "Гуджараці"
+  },
+  "langHaitianCreole": {
+    "message": "Гаіцянская крэольская"
+  },
+  "langHausa": {
+    "message": "Хаўса"
+  },
+  "langHebrew": {
+    "message": "іўрыт"
+  },
+  "langHindi": {
+    "message": "Хіндзі"
+  },
+  "langHungarian": {
+    "message": "венгерскі"
+  },
+  "langIcelandic": {
+    "message": "ісландская"
+  },
+  "langIgbo": {
+    "message": "ігба"
+  },
+  "langIlocano": {
+    "message": "Ілакана"
+  },
+  "langIndonesian": {
+    "message": "інданезійскі"
+  },
+  "langItalian": {
+    "message": "італьянскі"
+  },
+  "langJapanese": {
+    "message": "Японскі"
+  },
+  "langJavanese": {
+    "message": "яванскі"
+  },
+  "langKannada": {
+    "message": "каннада"
+  },
+  "langKazakh": {
+    "message": "казахская"
+  },
+  "langKhmer": {
+    "message": "кхмерская"
+  },
+  "langKinyarwanda": {
+    "message": "Кіньяруанда"
+  },
+  "langKorean": {
+    "message": "карэйская"
+  },
+  "langKurdish": {
+    "message": "курдская (курманджы)"
+  },
+  "langLatvian": {
+    "message": "Латышскі"
+  },
+  "langLithuanian": {
+    "message": "літоўскі"
+  },
+  "langLuxembourgish": {
+    "message": "Люксембургскі"
+  },
+  "langMacedonian": {
+    "message": "Македонская"
+  },
+  "langMaithili": {
+    "message": "Майтхілі"
+  },
+  "langMalagasy": {
+    "message": "малагасійскі"
+  },
+  "langMaltese": {
+    "message": "мальтыйская"
+  },
+  "langMandarin": {
+    "message": "Мандарын кітайскі"
+  },
+  "langMarathi": {
+    "message": "Маратхі"
+  },
+  "langMongolian": {
+    "message": "Мангольская"
+  },
+  "langMoroccanArabic": {
+    "message": "Мараканская арабская"
+  },
+  "langNepali": {
+    "message": "непальская"
+  },
+  "langNigerianFulani": {
+    "message": "Нігерыйскі фулані"
+  },
+  "langNorwegian": {
+    "message": "нарвежская"
+  },
+  "langOdia": {
+    "message": "Одыя (Орыя)"
+  },
+  "langPashto": {
+    "message": "пушту"
+  },
+  "langPortuguese": {
+    "message": "партугальская"
+  },
+  "langPunjabi": {
+    "message": "заходні панджабі"
+  },
+  "langQuechua": {
+    "message": "Кечуа"
+  },
+  "langRomanian": {
+    "message": "румынская"
+  },
+  "langRussian": {
+    "message": "рускі"
+  },
+  "langSaraiki": {
+    "message": "Сарайкі"
+  },
+  "langSerboCroatian": {
+    "message": "сербскахарвацкая"
+  },
+  "langShona": {
+    "message": "шона"
+  },
+  "langSindhi": {
+    "message": "сіндхі"
+  },
+  "langSinhala": {
+    "message": "сінгальская"
+  },
+  "langSlovak": {
+    "message": "славацкая"
+  },
+  "langSlovenian": {
+    "message": "Славенская"
+  },
+  "langSomali": {
+    "message": "самалійская"
+  },
+  "langSpanish": {
+    "message": "Іспанскі"
+  },
+  "langSudaneseArabic": {
+    "message": "Суданская арабская"
+  },
+  "langSwahili": {
+    "message": "Суахілі"
+  },
+  "langSwedish": {
+    "message": "шведскі"
+  },
+  "langTagalog": {
+    "message": "тагальская"
+  },
+  "langTamil": {
+    "message": "тамільская"
+  },
+  "langTatar": {
+    "message": "татарскі"
+  },
+  "langTelugu": {
+    "message": "Тэлугу"
+  },
+  "langThai": {
+    "message": "Тайская"
+  },
+  "langTigrinya": {
+    "message": "Тыгрынья"
+  },
+  "langTswana": {
+    "message": "тсвана"
+  },
+  "langTurkish": {
+    "message": "турэцкая"
+  },
+  "langUkrainian": {
+    "message": "украінскі"
+  },
+  "langUrdu": {
+    "message": "Урду"
+  },
+  "langUyghur": {
+    "message": "уйгурскі"
+  },
+  "langUzbek": {
+    "message": "узбекская"
+  },
+  "langVietnamese": {
+    "message": "в'етнамская"
+  },
+  "langWelsh": {
+    "message": "валійская"
+  },
+  "langWuChinese": {
+    "message": "У кітайскі"
+  },
+  "langXhosa": {
+    "message": "коса"
+  },
+  "langYoruba": {
+    "message": "ёруба"
+  },
+  "langYueChinese": {
+    "message": "Юэ кітайскі"
+  },
+  "langZulu": {
+    "message": "Зулу"
+  },
+  "modeBasic": {
+    "message": "Базавы",
+    "description": "Basic calculator mode label"
+  },
+  "modeScientific": {
+    "message": "Навуковы",
+    "description": "Scientific calculator mode label"
+  },
+  "numeralBalinese": {
+    "message": "Балійская (᭐–᭙)",
+    "description": "Balinese numeral system name"
+  },
+  "numeralBengali": {
+    "message": "бенгальская (০–৯)",
+    "description": "Bengali numeral system name"
+  },
+  "numeralCJK": {
+    "message": "CJK (〇123456789)",
+    "description": "CJK numeral system name"
+  },
+  "numeralCham": {
+    "message": "Чам (꩐–꩙)",
+    "description": "Cham numeral system name"
+  },
+  "numeralDevanagari": {
+    "message": "Дэванагары (०–९)",
+    "description": "Devanagari numeral system name"
+  },
+  "numeralEasternArabic": {
+    "message": "Усходнеарабская (٠–٩)",
+    "description": "Eastern Arabic numeral system name"
+  },
+  "numeralGujarati": {
+    "message": "Гуджараці (૦–૯)",
+    "description": "Gujarati numeral system name"
+  },
+  "numeralGurmukhi": {
+    "message": "гурмукхі / панджабі (0–9)",
+    "description": "Gurmukhi numeral system name"
+  },
+  "numeralJavanese": {
+    "message": "Яванская (꧐–꧙)",
+    "description": "Javanese numeral system name"
+  },
+  "numeralKannada": {
+    "message": "каннада (೦–೯)",
+    "description": "Kannada numeral system name"
+  },
+  "numeralKhmer": {
+    "message": "кхмерская (09)",
+    "description": "Khmer numeral system name"
+  },
+  "numeralLao": {
+    "message": "лаоская (0–9)",
+    "description": "Lao numeral system name"
+  },
+  "numeralLepcha": {
+    "message": "Лепча (᱀–᱉)",
+    "description": "Lepcha numeral system name"
+  },
+  "numeralLimbu": {
+    "message": "Лімбу (᥆–᥏)",
+    "description": "Limbu numeral system name"
+  },
+  "numeralMalayalam": {
+    "message": "Малаялам (൦–൯)",
+    "description": "Malayalam numeral system name"
+  },
+  "numeralMeetei": {
+    "message": "Мітэі Маек (꩐–꩙)",
+    "description": "Meetei Mayek numeral system name"
+  },
+  "numeralMongolian": {
+    "message": "Мангольская (᠐–᠙)",
+    "description": "Mongolian numeral system name"
+  },
+  "numeralMyanmar": {
+    "message": "М'янма / бірманскі (0–9)",
+    "description": "Myanmar numeral system name"
+  },
+  "numeralOdia": {
+    "message": "Одыя (୦–୯)",
+    "description": "Odia numeral system name"
+  },
+  "numeralPersian": {
+    "message": "Персідская/фарсі (۰–۹)",
+    "description": "Persian numeral system name"
+  },
+  "numeralRoman": {
+    "message": "Рымскія лічбы (I, V, X…)",
+    "description": "Roman numeral system name"
+  },
+  "numeralSinhala": {
+    "message": "сінгальская (෦–෯)",
+    "description": "Sinhala numeral system name"
+  },
+  "numeralSundanese": {
+    "message": "сунданская (᮰–᮹)",
+    "description": "Sundanese numeral system name"
+  },
+  "numeralTamil": {
+    "message": "Тамільская (௦–௯)",
+    "description": "Tamil numeral system name"
+  },
+  "numeralTelugu": {
+    "message": "Тэлугу (౦–౯)",
+    "description": "Telugu numeral system name"
+  },
+  "numeralThai": {
+    "message": "тайская (๐–๙)",
+    "description": "Thai numeral system name"
+  },
+  "numeralTibetan": {
+    "message": "тыбецкая (༠–༩)",
+    "description": "Tibetan numeral system name"
+  },
+  "numeralWestern": {
+    "message": "заходнеарабская (0–9)",
+    "description": "Western Arabic numeral system name"
+  },
+  "romanDecimalNote": {
+    "message": "Дзесятковы знак нельга паказваць рымскімі лічбамі",
+    "description": "Note shown when Roman numeral system is active and result is decimal"
+  },
+  "settingsLanguage": {
+    "message": "мова",
+    "description": "Language setting label"
+  },
+  "settingsNumerals": {
+    "message": "Сістэма злічэння",
+    "description": "Numeral system setting label"
+  },
+  "settingsTheme": {
+    "message": "Тэма",
+    "description": "Theme setting label"
+  },
+  "settingsTitle": {
+    "message": "Налады",
+    "description": "Settings panel title"
+  },
+  "themeContrast": {
+    "message": "Кантраст",
+    "description": "High contrast theme name"
+  },
+  "themeDark": {
+    "message": "Цёмны",
+    "description": "Dark theme name"
+  },
+  "themeLight": {
+    "message": "Святло",
+    "description": "Light theme name"
+  },
+  "tooltipCopy": {
+    "message": "Скапіраваць вынік у буфер абмену",
+    "description": "Tooltip for copy button"
+  },
+  "tooltipHistory": {
+    "message": "Гісторыя разлікаў",
+    "description": "Tooltip for history button"
+  },
+  "tooltipMode": {
+    "message": "Пераключыць рэжым калькулятара",
+    "description": "Tooltip for mode toggle button"
+  },
+  "tooltipSettings": {
+    "message": "Налады",
+    "description": "Tooltip for settings button"
+  }
+}

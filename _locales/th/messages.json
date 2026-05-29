@@ -1,0 +1,643 @@
+{
+  "appDescription": {
+    "message": "เครื่องคิดเลขวิทยาศาสตร์ที่สวยงามพร้อมธีม ประวัติ และการสนับสนุนหลายภาษา",
+    "description": "Extension description"
+  },
+  "appName": {
+    "message": "Calculator",
+    "description": "Extension name"
+  },
+  "btnAcos": {
+    "message": "คอส⁻¹",
+    "description": "Arc cosine button label"
+  },
+  "btnAllClear": {
+    "message": "เครื่องปรับอากาศ",
+    "description": "All clear button label"
+  },
+  "btnAsin": {
+    "message": "บาป⁻¹",
+    "description": "Arc sine button label"
+  },
+  "btnAtan": {
+    "message": "สีแทน⁻¹",
+    "description": "Arc tangent button label"
+  },
+  "btnBackspace": {
+    "message": "⌫",
+    "description": "Backspace button label"
+  },
+  "btnCbrt": {
+    "message": "³√x",
+    "description": "Cube root button label"
+  },
+  "btnClear": {
+    "message": "ค",
+    "description": "Clear button label"
+  },
+  "btnCloseParen": {
+    "message": ")",
+    "description": "Close parenthesis button label"
+  },
+  "btnCopy": {
+    "message": "สำเนา",
+    "description": "Copy to clipboard button label"
+  },
+  "btnCos": {
+    "message": "เพราะ",
+    "description": "Cosine button label"
+  },
+  "btnCube": {
+    "message": "x³",
+    "description": "Cube button label"
+  },
+  "btnDecimal": {
+    "message": ".",
+    "description": "Decimal point button label"
+  },
+  "btnE": {
+    "message": "จ",
+    "description": "Euler's number button label"
+  },
+  "btnEXP": {
+    "message": "ประสบการณ์",
+    "description": "Scientific notation EXP button label"
+  },
+  "btnEquals": {
+    "message": "=",
+    "description": "Equals button label"
+  },
+  "btnExp": {
+    "message": "อี~",
+    "description": "e to the x button label"
+  },
+  "btnFactorial": {
+    "message": "มะ!",
+    "description": "Factorial button label"
+  },
+  "btnLn": {
+    "message": "ln",
+    "description": "Natural log button label"
+  },
+  "btnLog": {
+    "message": "บันทึก",
+    "description": "Log base 10 button label"
+  },
+  "btnLogN": {
+    "message": "เข้าสู่ระบบₙ",
+    "description": "Log base n button label"
+  },
+  "btnMod": {
+    "message": "ม็อด",
+    "description": "Modulo button label"
+  },
+  "btnOpenParen": {
+    "message": "(",
+    "description": "Open parenthesis button label"
+  },
+  "btnPercent": {
+    "message": "%",
+    "description": "Percent button label"
+  },
+  "btnPi": {
+    "message": "พี",
+    "description": "Pi constant button label"
+  },
+  "btnPow": {
+    "message": "เอ็กซ์ʸ",
+    "description": "x to the y button label"
+  },
+  "btnPow10": {
+    "message": "10ˣ",
+    "description": "10 to the x button label"
+  },
+  "btnReciprocal": {
+    "message": "1/x",
+    "description": "Reciprocal button label"
+  },
+  "btnSin": {
+    "message": "บาป",
+    "description": "Sine button label"
+  },
+  "btnSqrt": {
+    "message": "√x",
+    "description": "Square root button label"
+  },
+  "btnSquare": {
+    "message": "x²",
+    "description": "Square button label"
+  },
+  "btnTan": {
+    "message": "สีแทน",
+    "description": "Tangent button label"
+  },
+  "btnToggleSign": {
+    "message": "+/−",
+    "description": "Toggle sign button label"
+  },
+  "errorDivZero": {
+    "message": "ไม่สามารถหารด้วยศูนย์ได้",
+    "description": "Division by zero error"
+  },
+  "errorDomain": {
+    "message": "ข้อผิดพลาดของโดเมน",
+    "description": "Math domain error (e.g. sqrt of negative)"
+  },
+  "errorInvalid": {
+    "message": "นิพจน์ไม่ถูกต้อง",
+    "description": "Invalid expression error"
+  },
+  "errorOverflow": {
+    "message": "ล้น",
+    "description": "Number overflow error"
+  },
+  "historyClear": {
+    "message": "ล้างประวัติ",
+    "description": "Button to clear all history"
+  },
+  "historyEmpty": {
+    "message": "ยังไม่มีการคำนวณ",
+    "description": "Shown when history is empty"
+  },
+  "historyTitle": {
+    "message": "ประวัติศาสตร์",
+    "description": "History panel title"
+  },
+  "langAfrikaans": {
+    "message": "ชาวแอฟริกัน"
+  },
+  "langAlbanian": {
+    "message": "แอลเบเนีย"
+  },
+  "langAlgerianArabic": {
+    "message": "ภาษาอาหรับแอลจีเรีย"
+  },
+  "langAmharic": {
+    "message": "อัมฮาริก"
+  },
+  "langArabic": {
+    "message": "ภาษาอาหรับ (MSA)"
+  },
+  "langArmenian": {
+    "message": "อาร์เมเนีย"
+  },
+  "langAzerbaijani": {
+    "message": "อาเซอร์ไบจัน"
+  },
+  "langBalochi": {
+    "message": "บาโลจิ"
+  },
+  "langBasque": {
+    "message": "บาสก์"
+  },
+  "langBelarusian": {
+    "message": "เบลารุส"
+  },
+  "langBengali": {
+    "message": "เบงกาลี"
+  },
+  "langBhojpuri": {
+    "message": "โภชปุรี"
+  },
+  "langBosnian": {
+    "message": "บอสเนีย"
+  },
+  "langBreton": {
+    "message": "เบรอตง"
+  },
+  "langBurmese": {
+    "message": "พม่า"
+  },
+  "langCatalan": {
+    "message": "คาตาลัน"
+  },
+  "langCebuano": {
+    "message": "เซบู"
+  },
+  "langChichewa": {
+    "message": "ชาวจีน"
+  },
+  "langChittagonian": {
+    "message": "จิตตะโกเนียน"
+  },
+  "langCorsican": {
+    "message": "คอร์ซิกา"
+  },
+  "langCzech": {
+    "message": "เช็ก"
+  },
+  "langDanish": {
+    "message": "ภาษาเดนมาร์ก"
+  },
+  "langDutch": {
+    "message": "ภาษาดัตช์"
+  },
+  "langEgyptianArabic": {
+    "message": "ภาษาอาหรับอียิปต์"
+  },
+  "langEnglish": {
+    "message": "ภาษาอังกฤษ"
+  },
+  "langFaroese": {
+    "message": "แฟโร"
+  },
+  "langFinnish": {
+    "message": "ภาษาฟินแลนด์"
+  },
+  "langFrench": {
+    "message": "ภาษาฝรั่งเศส"
+  },
+  "langGalician": {
+    "message": "กาลิเซีย"
+  },
+  "langGeorgian": {
+    "message": "จอร์เจีย"
+  },
+  "langGerman": {
+    "message": "เยอรมัน"
+  },
+  "langGreek": {
+    "message": "กรีก"
+  },
+  "langGujarati": {
+    "message": "คุชราต"
+  },
+  "langHaitianCreole": {
+    "message": "ชาวเฮติครีโอล"
+  },
+  "langHausa": {
+    "message": "เฮาซา"
+  },
+  "langHebrew": {
+    "message": "ภาษาฮีบรู"
+  },
+  "langHindi": {
+    "message": "ฮินดี"
+  },
+  "langHungarian": {
+    "message": "ภาษาฮังการี"
+  },
+  "langIcelandic": {
+    "message": "ไอซ์แลนด์"
+  },
+  "langIgbo": {
+    "message": "อิกโบ"
+  },
+  "langIlocano": {
+    "message": "อิโลคาโน"
+  },
+  "langIndonesian": {
+    "message": "ชาวอินโดนีเซีย"
+  },
+  "langItalian": {
+    "message": "ภาษาอิตาลี"
+  },
+  "langJapanese": {
+    "message": "ญี่ปุ่น"
+  },
+  "langJavanese": {
+    "message": "ชวา"
+  },
+  "langKannada": {
+    "message": "กันนาดา"
+  },
+  "langKazakh": {
+    "message": "คาซัค"
+  },
+  "langKhmer": {
+    "message": "เขมร"
+  },
+  "langKinyarwanda": {
+    "message": "กินยาวันดา"
+  },
+  "langKorean": {
+    "message": "เกาหลี"
+  },
+  "langKurdish": {
+    "message": "เคิร์ด (Kurmanji)"
+  },
+  "langLatvian": {
+    "message": "ลัตเวีย"
+  },
+  "langLithuanian": {
+    "message": "ลิทัวเนีย"
+  },
+  "langLuxembourgish": {
+    "message": "ภาษาลักเซมเบิร์ก"
+  },
+  "langMacedonian": {
+    "message": "มาซิโดเนีย"
+  },
+  "langMaithili": {
+    "message": "ไมถิลี"
+  },
+  "langMalagasy": {
+    "message": "มาลากาซี"
+  },
+  "langMaltese": {
+    "message": "ภาษามอลตา"
+  },
+  "langMandarin": {
+    "message": "ภาษาจีนกลาง"
+  },
+  "langMarathi": {
+    "message": "ภาษามราฐี"
+  },
+  "langMongolian": {
+    "message": "มองโกเลีย"
+  },
+  "langMoroccanArabic": {
+    "message": "ภาษาอาหรับโมร็อกโก"
+  },
+  "langNepali": {
+    "message": "เนปาล"
+  },
+  "langNigerianFulani": {
+    "message": "ไนจีเรีย ฟูลานี"
+  },
+  "langNorwegian": {
+    "message": "ภาษานอร์เวย์"
+  },
+  "langOdia": {
+    "message": "โอเดีย (โอริยา)"
+  },
+  "langPashto": {
+    "message": "ปาสโต้"
+  },
+  "langPortuguese": {
+    "message": "โปรตุเกส"
+  },
+  "langPunjabi": {
+    "message": "ปัญจาบตะวันตก"
+  },
+  "langQuechua": {
+    "message": "เคชัว"
+  },
+  "langRomanian": {
+    "message": "โรมาเนีย"
+  },
+  "langRussian": {
+    "message": "ภาษารัสเซีย"
+  },
+  "langSaraiki": {
+    "message": "ซาราอิกิ"
+  },
+  "langSerboCroatian": {
+    "message": "เซอร์โบ-โครเอเชีย"
+  },
+  "langShona": {
+    "message": "โชนา"
+  },
+  "langSindhi": {
+    "message": "สินธี"
+  },
+  "langSinhala": {
+    "message": "สิงหล"
+  },
+  "langSlovak": {
+    "message": "สโลวัก"
+  },
+  "langSlovenian": {
+    "message": "ภาษาสโลเวเนีย"
+  },
+  "langSomali": {
+    "message": "โซมาเลีย"
+  },
+  "langSpanish": {
+    "message": "สเปน"
+  },
+  "langSudaneseArabic": {
+    "message": "ภาษาอาหรับซูดาน"
+  },
+  "langSwahili": {
+    "message": "สวาฮีลี"
+  },
+  "langSwedish": {
+    "message": "ภาษาสวีเดน"
+  },
+  "langTagalog": {
+    "message": "ตากาล็อก"
+  },
+  "langTamil": {
+    "message": "ทมิฬ"
+  },
+  "langTatar": {
+    "message": "ตาตาร์"
+  },
+  "langTelugu": {
+    "message": "เตลูกู"
+  },
+  "langThai": {
+    "message": "แบบไทย"
+  },
+  "langTigrinya": {
+    "message": "ทิกริญญา"
+  },
+  "langTswana": {
+    "message": "ทสวานา"
+  },
+  "langTurkish": {
+    "message": "ภาษาตุรกี"
+  },
+  "langUkrainian": {
+    "message": "ภาษายูเครน"
+  },
+  "langUrdu": {
+    "message": "ภาษาอูรดู"
+  },
+  "langUyghur": {
+    "message": "ชาวอุยกูร์"
+  },
+  "langUzbek": {
+    "message": "อุซเบก"
+  },
+  "langVietnamese": {
+    "message": "ภาษาเวียดนาม"
+  },
+  "langWelsh": {
+    "message": "เวลส์"
+  },
+  "langWuChinese": {
+    "message": "อู๋จีน"
+  },
+  "langXhosa": {
+    "message": "โคซา"
+  },
+  "langYoruba": {
+    "message": "โยรูบา"
+  },
+  "langYueChinese": {
+    "message": "ยูจีน"
+  },
+  "langZulu": {
+    "message": "ซูลู"
+  },
+  "modeBasic": {
+    "message": "ขั้นพื้นฐาน",
+    "description": "Basic calculator mode label"
+  },
+  "modeScientific": {
+    "message": "ทางวิทยาศาสตร์",
+    "description": "Scientific calculator mode label"
+  },
+  "numeralBalinese": {
+    "message": "ภาษาบาหลี (᭐–᭙)",
+    "description": "Balinese numeral system name"
+  },
+  "numeralBengali": {
+    "message": "เบงกาลี (০–৯)",
+    "description": "Bengali numeral system name"
+  },
+  "numeralCJK": {
+    "message": "ซีเจเค (〇123456789)",
+    "description": "CJK numeral system name"
+  },
+  "numeralCham": {
+    "message": "จาม (꩐–꩙)",
+    "description": "Cham numeral system name"
+  },
+  "numeralDevanagari": {
+    "message": "เทวนาครี (०–९)",
+    "description": "Devanagari numeral system name"
+  },
+  "numeralEasternArabic": {
+    "message": "ภาษาอาหรับตะวันออก (٠–٩)",
+    "description": "Eastern Arabic numeral system name"
+  },
+  "numeralGujarati": {
+    "message": "คุชราต (૦–૯)",
+    "description": "Gujarati numeral system name"
+  },
+  "numeralGurmukhi": {
+    "message": "กูร์มูคี / ปัญจาบ (0–9)",
+    "description": "Gurmukhi numeral system name"
+  },
+  "numeralJavanese": {
+    "message": "ชวา (꧐–꧙)",
+    "description": "Javanese numeral system name"
+  },
+  "numeralKannada": {
+    "message": "กันนาดา (೦–೯)",
+    "description": "Kannada numeral system name"
+  },
+  "numeralKhmer": {
+    "message": "เขมร (09)",
+    "description": "Khmer numeral system name"
+  },
+  "numeralLao": {
+    "message": "ลาว (0–9)",
+    "description": "Lao numeral system name"
+  },
+  "numeralLepcha": {
+    "message": "เลปชา (᱀–᱉)",
+    "description": "Lepcha numeral system name"
+  },
+  "numeralLimbu": {
+    "message": "ลิมบู (᥆–᥏)",
+    "description": "Limbu numeral system name"
+  },
+  "numeralMalayalam": {
+    "message": "มาลายาลัม (൦–൯)",
+    "description": "Malayalam numeral system name"
+  },
+  "numeralMeetei": {
+    "message": "มีเท มาเยก (꩐–꩙)",
+    "description": "Meetei Mayek numeral system name"
+  },
+  "numeralMongolian": {
+    "message": "มองโกเลีย (᠐–᠙)",
+    "description": "Mongolian numeral system name"
+  },
+  "numeralMyanmar": {
+    "message": "เมียนมาร์ / พม่า (0–9)",
+    "description": "Myanmar numeral system name"
+  },
+  "numeralOdia": {
+    "message": "โอเดีย (୦–୯)",
+    "description": "Odia numeral system name"
+  },
+  "numeralPersian": {
+    "message": "เปอร์เซีย/ฟาร์ซี (۰–۹)",
+    "description": "Persian numeral system name"
+  },
+  "numeralRoman": {
+    "message": "เลขโรมัน (I, V, X…)",
+    "description": "Roman numeral system name"
+  },
+  "numeralSinhala": {
+    "message": "สิงหล (෦–෯)",
+    "description": "Sinhala numeral system name"
+  },
+  "numeralSundanese": {
+    "message": "ซุนดา (᮰–᮹)",
+    "description": "Sundanese numeral system name"
+  },
+  "numeralTamil": {
+    "message": "ทมิฬ (௦–௯)",
+    "description": "Tamil numeral system name"
+  },
+  "numeralTelugu": {
+    "message": "เตลูกู (౦–౯)",
+    "description": "Telugu numeral system name"
+  },
+  "numeralThai": {
+    "message": "ไทย (๐–๙)",
+    "description": "Thai numeral system name"
+  },
+  "numeralTibetan": {
+    "message": "ทิเบต (༠–༩)",
+    "description": "Tibetan numeral system name"
+  },
+  "numeralWestern": {
+    "message": "อาหรับตะวันตก (0–9)",
+    "description": "Western Arabic numeral system name"
+  },
+  "romanDecimalNote": {
+    "message": "ทศนิยมไม่สามารถแสดงเป็นเลขโรมันได้",
+    "description": "Note shown when Roman numeral system is active and result is decimal"
+  },
+  "settingsLanguage": {
+    "message": "ภาษา",
+    "description": "Language setting label"
+  },
+  "settingsNumerals": {
+    "message": "ระบบตัวเลข",
+    "description": "Numeral system setting label"
+  },
+  "settingsTheme": {
+    "message": "ธีม",
+    "description": "Theme setting label"
+  },
+  "settingsTitle": {
+    "message": "การตั้งค่า",
+    "description": "Settings panel title"
+  },
+  "themeContrast": {
+    "message": "ตัดกัน",
+    "description": "High contrast theme name"
+  },
+  "themeDark": {
+    "message": "มืด",
+    "description": "Dark theme name"
+  },
+  "themeLight": {
+    "message": "แสงสว่าง",
+    "description": "Light theme name"
+  },
+  "tooltipCopy": {
+    "message": "คัดลอกผลลัพธ์ไปยังคลิปบอร์ด",
+    "description": "Tooltip for copy button"
+  },
+  "tooltipHistory": {
+    "message": "ประวัติการคำนวณ",
+    "description": "Tooltip for history button"
+  },
+  "tooltipMode": {
+    "message": "สลับโหมดเครื่องคิดเลข",
+    "description": "Tooltip for mode toggle button"
+  },
+  "tooltipSettings": {
+    "message": "การตั้งค่า",
+    "description": "Tooltip for settings button"
+  }
+}

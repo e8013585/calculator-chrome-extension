@@ -1,0 +1,643 @@
+{
+  "appDescription": {
+    "message": "テーマ、歴史、多言語サポートを備えた洗練された関数電卓。",
+    "description": "Extension description"
+  },
+  "appName": {
+    "message": "Calculator",
+    "description": "Extension name"
+  },
+  "btnAcos": {
+    "message": "cos⁻¹",
+    "description": "Arc cosine button label"
+  },
+  "btnAllClear": {
+    "message": "交流",
+    "description": "All clear button label"
+  },
+  "btnAsin": {
+    "message": "罪⁻¹",
+    "description": "Arc sine button label"
+  },
+  "btnAtan": {
+    "message": "タン⁻¹",
+    "description": "Arc tangent button label"
+  },
+  "btnBackspace": {
+    "message": "⌫",
+    "description": "Backspace button label"
+  },
+  "btnCbrt": {
+    "message": "3√x",
+    "description": "Cube root button label"
+  },
+  "btnClear": {
+    "message": "C",
+    "description": "Clear button label"
+  },
+  "btnCloseParen": {
+    "message": "）",
+    "description": "Close parenthesis button label"
+  },
+  "btnCopy": {
+    "message": "コピー",
+    "description": "Copy to clipboard button label"
+  },
+  "btnCos": {
+    "message": "コス",
+    "description": "Cosine button label"
+  },
+  "btnCube": {
+    "message": "x3",
+    "description": "Cube button label"
+  },
+  "btnDecimal": {
+    "message": "。",
+    "description": "Decimal point button label"
+  },
+  "btnE": {
+    "message": "e",
+    "description": "Euler's number button label"
+  },
+  "btnEXP": {
+    "message": "経験値",
+    "description": "Scientific notation EXP button label"
+  },
+  "btnEquals": {
+    "message": "=",
+    "description": "Equals button label"
+  },
+  "btnExp": {
+    "message": "えー",
+    "description": "e to the x button label"
+  },
+  "btnFactorial": {
+    "message": "ん！",
+    "description": "Factorial button label"
+  },
+  "btnLn": {
+    "message": "ln",
+    "description": "Natural log button label"
+  },
+  "btnLog": {
+    "message": "ログ",
+    "description": "Log base 10 button label"
+  },
+  "btnLogN": {
+    "message": "ログₙ",
+    "description": "Log base n button label"
+  },
+  "btnMod": {
+    "message": "モッド",
+    "description": "Modulo button label"
+  },
+  "btnOpenParen": {
+    "message": "(",
+    "description": "Open parenthesis button label"
+  },
+  "btnPercent": {
+    "message": "%",
+    "description": "Percent button label"
+  },
+  "btnPi": {
+    "message": "p",
+    "description": "Pi constant button label"
+  },
+  "btnPow": {
+    "message": "xʸ",
+    "description": "x to the y button label"
+  },
+  "btnPow10": {
+    "message": "10ˣ",
+    "description": "10 to the x button label"
+  },
+  "btnReciprocal": {
+    "message": "1/x",
+    "description": "Reciprocal button label"
+  },
+  "btnSin": {
+    "message": "罪",
+    "description": "Sine button label"
+  },
+  "btnSqrt": {
+    "message": "√x",
+    "description": "Square root button label"
+  },
+  "btnSquare": {
+    "message": "x²",
+    "description": "Square button label"
+  },
+  "btnTan": {
+    "message": "黄褐色",
+    "description": "Tangent button label"
+  },
+  "btnToggleSign": {
+    "message": "+/-",
+    "description": "Toggle sign button label"
+  },
+  "errorDivZero": {
+    "message": "ゼロで割ることはできません",
+    "description": "Division by zero error"
+  },
+  "errorDomain": {
+    "message": "ドメインエラー",
+    "description": "Math domain error (e.g. sqrt of negative)"
+  },
+  "errorInvalid": {
+    "message": "無効な式です",
+    "description": "Invalid expression error"
+  },
+  "errorOverflow": {
+    "message": "オーバーフロー",
+    "description": "Number overflow error"
+  },
+  "historyClear": {
+    "message": "履歴をクリアする",
+    "description": "Button to clear all history"
+  },
+  "historyEmpty": {
+    "message": "まだ計算はありません。",
+    "description": "Shown when history is empty"
+  },
+  "historyTitle": {
+    "message": "歴史",
+    "description": "History panel title"
+  },
+  "langAfrikaans": {
+    "message": "アフリカーンス語"
+  },
+  "langAlbanian": {
+    "message": "アルバニア人"
+  },
+  "langAlgerianArabic": {
+    "message": "アルジェリア系アラビア語"
+  },
+  "langAmharic": {
+    "message": "アムハラ語"
+  },
+  "langArabic": {
+    "message": "アラビア語 (MSA)"
+  },
+  "langArmenian": {
+    "message": "アルメニア語"
+  },
+  "langAzerbaijani": {
+    "message": "アゼルバイジャン語"
+  },
+  "langBalochi": {
+    "message": "バロチ"
+  },
+  "langBasque": {
+    "message": "バスク語"
+  },
+  "langBelarusian": {
+    "message": "ベラルーシ語"
+  },
+  "langBengali": {
+    "message": "ベンガル語"
+  },
+  "langBhojpuri": {
+    "message": "ボージプリ"
+  },
+  "langBosnian": {
+    "message": "ボスニア語"
+  },
+  "langBreton": {
+    "message": "ブルトン語"
+  },
+  "langBurmese": {
+    "message": "ビルマ語"
+  },
+  "langCatalan": {
+    "message": "カタルーニャ語"
+  },
+  "langCebuano": {
+    "message": "セブアノ語"
+  },
+  "langChichewa": {
+    "message": "中国語"
+  },
+  "langChittagonian": {
+    "message": "チッタゴニアン"
+  },
+  "langCorsican": {
+    "message": "コルシカ島"
+  },
+  "langCzech": {
+    "message": "チェコ語"
+  },
+  "langDanish": {
+    "message": "デンマーク語"
+  },
+  "langDutch": {
+    "message": "オランダ語"
+  },
+  "langEgyptianArabic": {
+    "message": "エジプトアラビア語"
+  },
+  "langEnglish": {
+    "message": "英語"
+  },
+  "langFaroese": {
+    "message": "フェロー語"
+  },
+  "langFinnish": {
+    "message": "フィンランド語"
+  },
+  "langFrench": {
+    "message": "フランス語"
+  },
+  "langGalician": {
+    "message": "ガリシア語"
+  },
+  "langGeorgian": {
+    "message": "グルジア語"
+  },
+  "langGerman": {
+    "message": "ドイツ語"
+  },
+  "langGreek": {
+    "message": "ギリシャ語"
+  },
+  "langGujarati": {
+    "message": "グジャラート語"
+  },
+  "langHaitianCreole": {
+    "message": "ハイチ クレオール"
+  },
+  "langHausa": {
+    "message": "ハウサ語"
+  },
+  "langHebrew": {
+    "message": "ヘブライ語"
+  },
+  "langHindi": {
+    "message": "ヒンディー語"
+  },
+  "langHungarian": {
+    "message": "ハンガリー語"
+  },
+  "langIcelandic": {
+    "message": "アイスランド語"
+  },
+  "langIgbo": {
+    "message": "イボ語"
+  },
+  "langIlocano": {
+    "message": "イロカノ"
+  },
+  "langIndonesian": {
+    "message": "インドネシア語"
+  },
+  "langItalian": {
+    "message": "イタリア語"
+  },
+  "langJapanese": {
+    "message": "日本語"
+  },
+  "langJavanese": {
+    "message": "ジャワ語"
+  },
+  "langKannada": {
+    "message": "カンナダ語"
+  },
+  "langKazakh": {
+    "message": "カザフ語"
+  },
+  "langKhmer": {
+    "message": "クメール語"
+  },
+  "langKinyarwanda": {
+    "message": "ルワンダ"
+  },
+  "langKorean": {
+    "message": "韓国人"
+  },
+  "langKurdish": {
+    "message": "クルド語 (クルマンジ)"
+  },
+  "langLatvian": {
+    "message": "ラトビア語"
+  },
+  "langLithuanian": {
+    "message": "リトアニア語"
+  },
+  "langLuxembourgish": {
+    "message": "ルクセンブルク語"
+  },
+  "langMacedonian": {
+    "message": "マケドニア語"
+  },
+  "langMaithili": {
+    "message": "マイティリ語"
+  },
+  "langMalagasy": {
+    "message": "マダガスカル"
+  },
+  "langMaltese": {
+    "message": "マルタ語"
+  },
+  "langMandarin": {
+    "message": "北京語"
+  },
+  "langMarathi": {
+    "message": "マラーティー語"
+  },
+  "langMongolian": {
+    "message": "モンゴル語"
+  },
+  "langMoroccanArabic": {
+    "message": "モロッコアラビア語"
+  },
+  "langNepali": {
+    "message": "ネパール語"
+  },
+  "langNigerianFulani": {
+    "message": "ナイジェリアのフラニ語"
+  },
+  "langNorwegian": {
+    "message": "ノルウェー語"
+  },
+  "langOdia": {
+    "message": "オディア（織谷）"
+  },
+  "langPashto": {
+    "message": "パシュトゥー語"
+  },
+  "langPortuguese": {
+    "message": "ポルトガル語"
+  },
+  "langPunjabi": {
+    "message": "西パンジャブ語"
+  },
+  "langQuechua": {
+    "message": "ケチュア語"
+  },
+  "langRomanian": {
+    "message": "ルーマニア語"
+  },
+  "langRussian": {
+    "message": "ロシア"
+  },
+  "langSaraiki": {
+    "message": "さらいき"
+  },
+  "langSerboCroatian": {
+    "message": "セルボ・クロアチア語"
+  },
+  "langShona": {
+    "message": "ショナ"
+  },
+  "langSindhi": {
+    "message": "シンド語"
+  },
+  "langSinhala": {
+    "message": "シンハラ語"
+  },
+  "langSlovak": {
+    "message": "スロバキア語"
+  },
+  "langSlovenian": {
+    "message": "スロベニア語"
+  },
+  "langSomali": {
+    "message": "ソマリ語"
+  },
+  "langSpanish": {
+    "message": "スペイン語"
+  },
+  "langSudaneseArabic": {
+    "message": "スーダン語アラビア語"
+  },
+  "langSwahili": {
+    "message": "スワヒリ語"
+  },
+  "langSwedish": {
+    "message": "スウェーデン語"
+  },
+  "langTagalog": {
+    "message": "タガログ語"
+  },
+  "langTamil": {
+    "message": "タミル語"
+  },
+  "langTatar": {
+    "message": "タタール語"
+  },
+  "langTelugu": {
+    "message": "テルグ語"
+  },
+  "langThai": {
+    "message": "タイ語"
+  },
+  "langTigrinya": {
+    "message": "ティグリニャ"
+  },
+  "langTswana": {
+    "message": "ツワナ"
+  },
+  "langTurkish": {
+    "message": "トルコ語"
+  },
+  "langUkrainian": {
+    "message": "ウクライナ語"
+  },
+  "langUrdu": {
+    "message": "ウルドゥー語"
+  },
+  "langUyghur": {
+    "message": "ウイグル語"
+  },
+  "langUzbek": {
+    "message": "ウズベク語"
+  },
+  "langVietnamese": {
+    "message": "ベトナム語"
+  },
+  "langWelsh": {
+    "message": "ウェールズ語"
+  },
+  "langWuChinese": {
+    "message": "呉中国語"
+  },
+  "langXhosa": {
+    "message": "コサ語"
+  },
+  "langYoruba": {
+    "message": "ヨルバ語"
+  },
+  "langYueChinese": {
+    "message": "越中国語"
+  },
+  "langZulu": {
+    "message": "ズールー語"
+  },
+  "modeBasic": {
+    "message": "基本",
+    "description": "Basic calculator mode label"
+  },
+  "modeScientific": {
+    "message": "科学的",
+    "description": "Scientific calculator mode label"
+  },
+  "numeralBalinese": {
+    "message": "バリ語 (᭐–᭙)",
+    "description": "Balinese numeral system name"
+  },
+  "numeralBengali": {
+    "message": "ベンガル語 (০–৯)",
+    "description": "Bengali numeral system name"
+  },
+  "numeralCJK": {
+    "message": "日中韓 (〇123456789)",
+    "description": "CJK numeral system name"
+  },
+  "numeralCham": {
+    "message": "チャム (꩐–꩙)",
+    "description": "Cham numeral system name"
+  },
+  "numeralDevanagari": {
+    "message": "デヴァナーガリー (०–९)",
+    "description": "Devanagari numeral system name"
+  },
+  "numeralEasternArabic": {
+    "message": "東アラビア語 (٠–٩)",
+    "description": "Eastern Arabic numeral system name"
+  },
+  "numeralGujarati": {
+    "message": "グジャラート語 (૦–૯)",
+    "description": "Gujarati numeral system name"
+  },
+  "numeralGurmukhi": {
+    "message": "グルムキ / パンジャブ語 (0–9)",
+    "description": "Gurmukhi numeral system name"
+  },
+  "numeralJavanese": {
+    "message": "ジャワ語 (꧐–꧙)",
+    "description": "Javanese numeral system name"
+  },
+  "numeralKannada": {
+    "message": "カンナダ語 (೦–೯)",
+    "description": "Kannada numeral system name"
+  },
+  "numeralKhmer": {
+    "message": "クメール語 (09)",
+    "description": "Khmer numeral system name"
+  },
+  "numeralLao": {
+    "message": "ラオ語 (0–9)",
+    "description": "Lao numeral system name"
+  },
+  "numeralLepcha": {
+    "message": "レプチャ (᱀–᱉)",
+    "description": "Lepcha numeral system name"
+  },
+  "numeralLimbu": {
+    "message": "リンブー (᥆–᥏)",
+    "description": "Limbu numeral system name"
+  },
+  "numeralMalayalam": {
+    "message": "マラヤーラム語 (൦–൯)",
+    "description": "Malayalam numeral system name"
+  },
+  "numeralMeetei": {
+    "message": "ミーテイ・マエク (꩐–꩙)",
+    "description": "Meetei Mayek numeral system name"
+  },
+  "numeralMongolian": {
+    "message": "モンゴル語 (᠐–᠙)",
+    "description": "Mongolian numeral system name"
+  },
+  "numeralMyanmar": {
+    "message": "ミャンマー / ビルマ語 (0–9)",
+    "description": "Myanmar numeral system name"
+  },
+  "numeralOdia": {
+    "message": "オディア (୦–୯)",
+    "description": "Odia numeral system name"
+  },
+  "numeralPersian": {
+    "message": "ペルシア語/ペルシア語 (۰–۹)",
+    "description": "Persian numeral system name"
+  },
+  "numeralRoman": {
+    "message": "ローマ数字 (I、V、X…)",
+    "description": "Roman numeral system name"
+  },
+  "numeralSinhala": {
+    "message": "シンハラ語 (෦–෯)",
+    "description": "Sinhala numeral system name"
+  },
+  "numeralSundanese": {
+    "message": "スンダ語 (᮰–᮹)",
+    "description": "Sundanese numeral system name"
+  },
+  "numeralTamil": {
+    "message": "タミル語 (௦–௯)",
+    "description": "Tamil numeral system name"
+  },
+  "numeralTelugu": {
+    "message": "テルグ語 (౦–౯)",
+    "description": "Telugu numeral system name"
+  },
+  "numeralThai": {
+    "message": "タイ語 (๐–๙)",
+    "description": "Thai numeral system name"
+  },
+  "numeralTibetan": {
+    "message": "チベット語 (༠–༩)",
+    "description": "Tibetan numeral system name"
+  },
+  "numeralWestern": {
+    "message": "西アラビア語 (0–9)",
+    "description": "Western Arabic numeral system name"
+  },
+  "romanDecimalNote": {
+    "message": "小数はローマ数字で表示できません",
+    "description": "Note shown when Roman numeral system is active and result is decimal"
+  },
+  "settingsLanguage": {
+    "message": "言語",
+    "description": "Language setting label"
+  },
+  "settingsNumerals": {
+    "message": "数字の体系",
+    "description": "Numeral system setting label"
+  },
+  "settingsTheme": {
+    "message": "テーマ",
+    "description": "Theme setting label"
+  },
+  "settingsTitle": {
+    "message": "設定",
+    "description": "Settings panel title"
+  },
+  "themeContrast": {
+    "message": "対比",
+    "description": "High contrast theme name"
+  },
+  "themeDark": {
+    "message": "暗い",
+    "description": "Dark theme name"
+  },
+  "themeLight": {
+    "message": "ライト",
+    "description": "Light theme name"
+  },
+  "tooltipCopy": {
+    "message": "結果をクリップボードにコピー",
+    "description": "Tooltip for copy button"
+  },
+  "tooltipHistory": {
+    "message": "計算履歴",
+    "description": "Tooltip for history button"
+  },
+  "tooltipMode": {
+    "message": "電卓モードの切り替え",
+    "description": "Tooltip for mode toggle button"
+  },
+  "tooltipSettings": {
+    "message": "設定",
+    "description": "Tooltip for settings button"
+  }
+}

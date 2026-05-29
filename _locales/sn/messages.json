@@ -1,0 +1,643 @@
+{
+  "appDescription": {
+    "message": "Yakakwenenzverwa sainzi Calculator ine madingindira, nhoroondo, uye mitauro yakawanda inotsigirwa.",
+    "description": "Extension description"
+  },
+  "appName": {
+    "message": "Calculator",
+    "description": "Extension name"
+  },
+  "btnAcos": {
+    "message": "cos⁻¹",
+    "description": "Arc cosine button label"
+  },
+  "btnAllClear": {
+    "message": "AC",
+    "description": "All clear button label"
+  },
+  "btnAsin": {
+    "message": "chivi⁻¹",
+    "description": "Arc sine button label"
+  },
+  "btnAtan": {
+    "message": "tan⁻¹",
+    "description": "Arc tangent button label"
+  },
+  "btnBackspace": {
+    "message": "⌫",
+    "description": "Backspace button label"
+  },
+  "btnCbrt": {
+    "message": "³√x",
+    "description": "Cube root button label"
+  },
+  "btnClear": {
+    "message": "C",
+    "description": "Clear button label"
+  },
+  "btnCloseParen": {
+    "message": ")",
+    "description": "Close parenthesis button label"
+  },
+  "btnCopy": {
+    "message": "Copy",
+    "description": "Copy to clipboard button label"
+  },
+  "btnCos": {
+    "message": "cos",
+    "description": "Cosine button label"
+  },
+  "btnCube": {
+    "message": "x³",
+    "description": "Cube button label"
+  },
+  "btnDecimal": {
+    "message": ".",
+    "description": "Decimal point button label"
+  },
+  "btnE": {
+    "message": "e",
+    "description": "Euler's number button label"
+  },
+  "btnEXP": {
+    "message": "EXP",
+    "description": "Scientific notation EXP button label"
+  },
+  "btnEquals": {
+    "message": "=",
+    "description": "Equals button label"
+  },
+  "btnExp": {
+    "message": "eˣ",
+    "description": "e to the x button label"
+  },
+  "btnFactorial": {
+    "message": "n!",
+    "description": "Factorial button label"
+  },
+  "btnLn": {
+    "message": "ln",
+    "description": "Natural log button label"
+  },
+  "btnLog": {
+    "message": "log",
+    "description": "Log base 10 button label"
+  },
+  "btnLogN": {
+    "message": "logₙ",
+    "description": "Log base n button label"
+  },
+  "btnMod": {
+    "message": "mod",
+    "description": "Modulo button label"
+  },
+  "btnOpenParen": {
+    "message": "(",
+    "description": "Open parenthesis button label"
+  },
+  "btnPercent": {
+    "message": "%",
+    "description": "Percent button label"
+  },
+  "btnPi": {
+    "message": "p",
+    "description": "Pi constant button label"
+  },
+  "btnPow": {
+    "message": "xʸ",
+    "description": "x to the y button label"
+  },
+  "btnPow10": {
+    "message": "10ˣ",
+    "description": "10 to the x button label"
+  },
+  "btnReciprocal": {
+    "message": "1/x",
+    "description": "Reciprocal button label"
+  },
+  "btnSin": {
+    "message": "chivi",
+    "description": "Sine button label"
+  },
+  "btnSqrt": {
+    "message": "√x",
+    "description": "Square root button label"
+  },
+  "btnSquare": {
+    "message": "x²",
+    "description": "Square button label"
+  },
+  "btnTan": {
+    "message": "tan",
+    "description": "Tangent button label"
+  },
+  "btnToggleSign": {
+    "message": "+/−",
+    "description": "Toggle sign button label"
+  },
+  "errorDivZero": {
+    "message": "Haikwanise kupatsanura ne zero",
+    "description": "Division by zero error"
+  },
+  "errorDomain": {
+    "message": "Domain error",
+    "description": "Math domain error (e.g. sqrt of negative)"
+  },
+  "errorInvalid": {
+    "message": "Matauriro asiriwo",
+    "description": "Invalid expression error"
+  },
+  "errorOverflow": {
+    "message": "Kufashukira",
+    "description": "Number overflow error"
+  },
+  "historyClear": {
+    "message": "Clear History",
+    "description": "Button to clear all history"
+  },
+  "historyEmpty": {
+    "message": "Hapana ma calculation parizvino.",
+    "description": "Shown when history is empty"
+  },
+  "historyTitle": {
+    "message": "Nhoroondo",
+    "description": "History panel title"
+  },
+  "langAfrikaans": {
+    "message": "ChiAfrikaans"
+  },
+  "langAlbanian": {
+    "message": "ChiAlbanian"
+  },
+  "langAlgerianArabic": {
+    "message": "Algerian Arabic"
+  },
+  "langAmharic": {
+    "message": "ChiAmharic"
+  },
+  "langArabic": {
+    "message": "ChiArabhu (MSA)"
+  },
+  "langArmenian": {
+    "message": "ChiArmenian"
+  },
+  "langAzerbaijani": {
+    "message": "Azerbaijani"
+  },
+  "langBalochi": {
+    "message": "Balochi"
+  },
+  "langBasque": {
+    "message": "ChiBasque"
+  },
+  "langBelarusian": {
+    "message": "Chiberaruzi"
+  },
+  "langBengali": {
+    "message": "ChiBengali"
+  },
+  "langBhojpuri": {
+    "message": "Bhojpuri"
+  },
+  "langBosnian": {
+    "message": "ChiBosnian"
+  },
+  "langBreton": {
+    "message": "Breton"
+  },
+  "langBurmese": {
+    "message": "ChiBurmese"
+  },
+  "langCatalan": {
+    "message": "Katarani"
+  },
+  "langCebuano": {
+    "message": "Cebuano"
+  },
+  "langChichewa": {
+    "message": "ChiChinese"
+  },
+  "langChittagonian": {
+    "message": "Chittagonian"
+  },
+  "langCorsican": {
+    "message": "Kosikeni"
+  },
+  "langCzech": {
+    "message": "ChiCzech"
+  },
+  "langDanish": {
+    "message": "ChiDanish"
+  },
+  "langDutch": {
+    "message": "ChiDutch"
+  },
+  "langEgyptianArabic": {
+    "message": "Egypt Arabic"
+  },
+  "langEnglish": {
+    "message": "Chirungu"
+  },
+  "langFaroese": {
+    "message": "Faroese"
+  },
+  "langFinnish": {
+    "message": "ChiFinish"
+  },
+  "langFrench": {
+    "message": "ChiFrench"
+  },
+  "langGalician": {
+    "message": "ChiGalician"
+  },
+  "langGeorgian": {
+    "message": "ChiGeorgian"
+  },
+  "langGerman": {
+    "message": "ChiJerimani"
+  },
+  "langGreek": {
+    "message": "ChiGiriki"
+  },
+  "langGujarati": {
+    "message": "ChiGujarati"
+  },
+  "langHaitianCreole": {
+    "message": "Kiriyoro yeHaiti"
+  },
+  "langHausa": {
+    "message": "ChiHausa"
+  },
+  "langHebrew": {
+    "message": "ChiHebhuru"
+  },
+  "langHindi": {
+    "message": "ChiHindi"
+  },
+  "langHungarian": {
+    "message": "ChiHungarian"
+  },
+  "langIcelandic": {
+    "message": "ChiIcelandic"
+  },
+  "langIgbo": {
+    "message": "Igbo"
+  },
+  "langIlocano": {
+    "message": "Ilocano"
+  },
+  "langIndonesian": {
+    "message": "ChiIndonesian"
+  },
+  "langItalian": {
+    "message": "ChiItalian"
+  },
+  "langJapanese": {
+    "message": "ChiJapanese"
+  },
+  "langJavanese": {
+    "message": "ChiJavanese"
+  },
+  "langKannada": {
+    "message": "ChiKannada"
+  },
+  "langKazakh": {
+    "message": "Kazaki"
+  },
+  "langKhmer": {
+    "message": "Khmer"
+  },
+  "langKinyarwanda": {
+    "message": "Kinyarwanda"
+  },
+  "langKorean": {
+    "message": "ChiKorean"
+  },
+  "langKurdish": {
+    "message": "Kurdish (Kurmanji)"
+  },
+  "langLatvian": {
+    "message": "ChiLatvian"
+  },
+  "langLithuanian": {
+    "message": "Ritunia"
+  },
+  "langLuxembourgish": {
+    "message": "Rukusembogi"
+  },
+  "langMacedonian": {
+    "message": "ChiMacedonian"
+  },
+  "langMaithili": {
+    "message": "Maithili"
+  },
+  "langMalagasy": {
+    "message": "Malagasy"
+  },
+  "langMaltese": {
+    "message": "ChiMaltese"
+  },
+  "langMandarin": {
+    "message": "Mandarin Chinese"
+  },
+  "langMarathi": {
+    "message": "ChiMarati"
+  },
+  "langMongolian": {
+    "message": "ChiMongoria"
+  },
+  "langMoroccanArabic": {
+    "message": "Moroccan Arabic"
+  },
+  "langNepali": {
+    "message": "ChiNepali"
+  },
+  "langNigerianFulani": {
+    "message": "Nigerian Fulani"
+  },
+  "langNorwegian": {
+    "message": "ChiNorwegian"
+  },
+  "langOdia": {
+    "message": "Odia (Oriya)"
+  },
+  "langPashto": {
+    "message": "Pashito"
+  },
+  "langPortuguese": {
+    "message": "ChiPutukezi"
+  },
+  "langPunjabi": {
+    "message": "Vadivelu Comedy Western Punjabi"
+  },
+  "langQuechua": {
+    "message": "Quechua"
+  },
+  "langRomanian": {
+    "message": "ChiRomanian"
+  },
+  "langRussian": {
+    "message": "ChiRussian"
+  },
+  "langSaraiki": {
+    "message": "Saraiki"
+  },
+  "langSerboCroatian": {
+    "message": "ChiSerbo-Crotian"
+  },
+  "langShona": {
+    "message": "Shona"
+  },
+  "langSindhi": {
+    "message": "ChiSindhi"
+  },
+  "langSinhala": {
+    "message": "Sinhala"
+  },
+  "langSlovak": {
+    "message": "ChiSlovak"
+  },
+  "langSlovenian": {
+    "message": "ChiSlovanian"
+  },
+  "langSomali": {
+    "message": "Somari"
+  },
+  "langSpanish": {
+    "message": "ChiSpanish"
+  },
+  "langSudaneseArabic": {
+    "message": "Sudanese Arabic"
+  },
+  "langSwahili": {
+    "message": "ChiSwahili"
+  },
+  "langSwedish": {
+    "message": "ChiSwedish"
+  },
+  "langTagalog": {
+    "message": "ChiTagalog"
+  },
+  "langTamil": {
+    "message": "ChiTamil"
+  },
+  "langTatar": {
+    "message": "Tatar"
+  },
+  "langTelugu": {
+    "message": "ChiTelugu"
+  },
+  "langThai": {
+    "message": "ChiThai"
+  },
+  "langTigrinya": {
+    "message": "Tigrinya"
+  },
+  "langTswana": {
+    "message": "Tswana"
+  },
+  "langTurkish": {
+    "message": "Turkish"
+  },
+  "langUkrainian": {
+    "message": "Ukrainian"
+  },
+  "langUrdu": {
+    "message": "Urdu"
+  },
+  "langUyghur": {
+    "message": "Ugwa"
+  },
+  "langUzbek": {
+    "message": "Uzbek"
+  },
+  "langVietnamese": {
+    "message": "Vietnamese"
+  },
+  "langWelsh": {
+    "message": "Welsh"
+  },
+  "langWuChinese": {
+    "message": "Wu Chinese"
+  },
+  "langXhosa": {
+    "message": "Xhosa"
+  },
+  "langYoruba": {
+    "message": "Yoruba"
+  },
+  "langYueChinese": {
+    "message": "Yue Chinese"
+  },
+  "langZulu": {
+    "message": "Zulu"
+  },
+  "modeBasic": {
+    "message": "Basic",
+    "description": "Basic calculator mode label"
+  },
+  "modeScientific": {
+    "message": "Scientific",
+    "description": "Scientific calculator mode label"
+  },
+  "numeralBalinese": {
+    "message": "Balinese (᭐–᭙)",
+    "description": "Balinese numeral system name"
+  },
+  "numeralBengali": {
+    "message": "ChiBengali (০–৯)",
+    "description": "Bengali numeral system name"
+  },
+  "numeralCJK": {
+    "message": "CJK (〇123456789)",
+    "description": "CJK numeral system name"
+  },
+  "numeralCham": {
+    "message": "Cham (꩐–꩙)",
+    "description": "Cham numeral system name"
+  },
+  "numeralDevanagari": {
+    "message": "Devanagari (०–९)",
+    "description": "Devanagari numeral system name"
+  },
+  "numeralEasternArabic": {
+    "message": "ChiArabic chekuMabvazuva (٠–٩)",
+    "description": "Eastern Arabic numeral system name"
+  },
+  "numeralGujarati": {
+    "message": "Gujarati (૦–૯)",
+    "description": "Gujarati numeral system name"
+  },
+  "numeralGurmukhi": {
+    "message": "Gurmukhi / Punjabi (0–9)",
+    "description": "Gurmukhi numeral system name"
+  },
+  "numeralJavanese": {
+    "message": "ChiJavanese (꧐–꧙)",
+    "description": "Javanese numeral system name"
+  },
+  "numeralKannada": {
+    "message": "Kannada (೦–೯)",
+    "description": "Kannada numeral system name"
+  },
+  "numeralKhmer": {
+    "message": "Khmer (09)",
+    "description": "Khmer numeral system name"
+  },
+  "numeralLao": {
+    "message": "Lao (0–9)",
+    "description": "Lao numeral system name"
+  },
+  "numeralLepcha": {
+    "message": "Lepcha (᱀–᱉)",
+    "description": "Lepcha numeral system name"
+  },
+  "numeralLimbu": {
+    "message": "Limbu (᥆–᥏)",
+    "description": "Limbu numeral system name"
+  },
+  "numeralMalayalam": {
+    "message": "ChiMalayalam (൦–൯)",
+    "description": "Malayalam numeral system name"
+  },
+  "numeralMeetei": {
+    "message": "Meetei Mayek (꩐–꩙)",
+    "description": "Meetei Mayek numeral system name"
+  },
+  "numeralMongolian": {
+    "message": "ChiMongolia (᠐–᠙)",
+    "description": "Mongolian numeral system name"
+  },
+  "numeralMyanmar": {
+    "message": "ChiMyanmar / chiBurmese (0–9)",
+    "description": "Myanmar numeral system name"
+  },
+  "numeralOdia": {
+    "message": "Odia (୦–୯)",
+    "description": "Odia numeral system name"
+  },
+  "numeralPersian": {
+    "message": "Persian/Farsi (۰–۹)",
+    "description": "Persian numeral system name"
+  },
+  "numeralRoman": {
+    "message": "Manumera echiRoman (I, V, X...)",
+    "description": "Roman numeral system name"
+  },
+  "numeralSinhala": {
+    "message": "Sinhala (෦–෯)",
+    "description": "Sinhala numeral system name"
+  },
+  "numeralSundanese": {
+    "message": "ChiSundanese (᮰–᮹)",
+    "description": "Sundanese numeral system name"
+  },
+  "numeralTamil": {
+    "message": "ChiTamil (௦–௯)",
+    "description": "Tamil numeral system name"
+  },
+  "numeralTelugu": {
+    "message": "Telugu (౦–౯)",
+    "description": "Telugu numeral system name"
+  },
+  "numeralThai": {
+    "message": "ChiThai (๐–๙)",
+    "description": "Thai numeral system name"
+  },
+  "numeralTibetan": {
+    "message": "Tibetan (༠–༩)",
+    "description": "Tibetan numeral system name"
+  },
+  "numeralWestern": {
+    "message": "ChiArabic chekuMadokero (0–9)",
+    "description": "Western Arabic numeral system name"
+  },
+  "romanDecimalNote": {
+    "message": "Decimal haigone kuratidzwa munhamba dzechiRoman",
+    "description": "Note shown when Roman numeral system is active and result is decimal"
+  },
+  "settingsLanguage": {
+    "message": "Mutauro",
+    "description": "Language setting label"
+  },
+  "settingsNumerals": {
+    "message": "Nhamba System",
+    "description": "Numeral system setting label"
+  },
+  "settingsTheme": {
+    "message": "Theme",
+    "description": "Theme setting label"
+  },
+  "settingsTitle": {
+    "message": "Settings",
+    "description": "Settings panel title"
+  },
+  "themeContrast": {
+    "message": "Kusiyanisa",
+    "description": "High contrast theme name"
+  },
+  "themeDark": {
+    "message": "Rima",
+    "description": "Dark theme name"
+  },
+  "themeLight": {
+    "message": "Chiedza",
+    "description": "Light theme name"
+  },
+  "tooltipCopy": {
+    "message": "Kopira mhinduro kuclipboard",
+    "description": "Tooltip for copy button"
+  },
+  "tooltipHistory": {
+    "message": "Calculation History",
+    "description": "Tooltip for history button"
+  },
+  "tooltipMode": {
+    "message": "Chinja Calculator mode",
+    "description": "Tooltip for mode toggle button"
+  },
+  "tooltipSettings": {
+    "message": "Settings",
+    "description": "Tooltip for settings button"
+  }
+}
