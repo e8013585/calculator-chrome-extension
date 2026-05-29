@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="css/popup.css">
+</head>
+<body class="theme-light mode-basic" id="app-body">
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       MAIN APP WRAPPER
+  ══════════════════════════════════════════════════════════════════════ -->
+  <div class="app-wrapper" id="app-wrapper">
+
+    <!-- ── TOP BAR ──────────────────────────────────────────────────── -->
+    <div class="top-bar" id="top-bar">
+      <div class="top-bar-left">
+        <button class="icon-btn" id="btn-history" aria-label="History" title="History">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+        </button>
+      </div>
+      <div class="top-bar-center">
+        <button class="mode-toggle-btn" id="btn-mode-toggle" title="Switch mode">
+          <span id="mode-label">Scientific</span>
+        </button>
+      </div>
+      <div class="top-bar-right">
+        <div class="theme-switcher" id="theme-switcher">
+          <button class="theme-btn active" data-theme="light" title="Light theme" aria-label="Light theme">☀️</button>
+          <button class="theme-btn" data-theme="dark" title="Dark theme" aria-label="Dark theme">🌙</button>
+          <button class="theme-btn" data-theme="contrast" title="High contrast theme" aria-label="High contrast theme">◑</button>
+        </div>
+        <button class="icon-btn" id="btn-settings" aria-label="Settings" title="Settings">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- ── DISPLAY AREA ──────────────────────────────────────────────── -->
+    <div class="display-area" id="display-area">
+      <div class="display-expression" id="display-expression" aria-live="polite" aria-label="Expression"></div>
+      <div class="display-result-row">
+        <button class="backspace-btn" id="btn-backspace" title="Backspace" aria-label="Backspace">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 4H8l-7 8 7 8h13a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"/>
+            <line x1="18" y1="9" x2="12" y2="15"/>
+            <line x1="12" y1="9" x2="18" y2="15"/>
+          </svg>
+        </button>
+        <div class="display-result" id="display-result" aria-live="polite" aria-label="Result">0</div>
+        <button class="copy-btn" id="btn-copy" title="Copy result" aria-label="Copy result">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+          </svg>
+        </button>
+      </div>
+      <div class="roman-note" id="roman-note" style="display:none;" aria-live="polite"></div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════════════════
+         CALCULATOR BUTTONS
+    ══════════════════════════════════════════════════════════════════ -->
+    <div class="calc-buttons" id="calc-buttons">
+
+      <!-- ── SCIENTIFIC ROW (hidden in basic mode) ─────────────────── -->
+      <div class="sci-section" id="sci-section">
+        <!-- Row S1 -->
+        <div class="btn-row">
+          <button class="calc-btn btn-fn" data-action="fn" data-fn="sin">sin</button>
+          <button class="calc-btn btn-fn" data-action="fn" data-fn="cos">cos</button>
+          <button class="calc-btn btn-fn" data-action="fn" data-fn="tan">tan</button>
+          <button class="calc-btn btn-fn" data-action="fn" data-fn="asin">sin⁻¹</button>
+          <button class="calc-btn btn-fn" data-action="fn" data-fn="acos">cos⁻¹</button>
+          <button class="calc-btn btn-fn" data-action="fn" data-fn="atan">tan⁻¹</button>
+        </div>
+        <!-- Row S2 -->
+        <div class="btn-row">
+          <button class="calc-btn btn-fn" data-action="fn" data-fn="log">log</button>
+          <button class="calc-btn btn-fn" data-action="fn" data-fn="ln">ln</button>
+          <button class="calc-btn btn-fn" data-action="logn">logₙ</button>
+          <button class="calc-btn btn-fn" data-action="fn" data-fn="pow10">10ˣ</button>
+          <button class="calc-btn btn-fn" data-action="fn" data-fn="exp">eˣ</button>
+          <button class="calc-btn btn-fn" data-action="power">xʸ</button>
+        </div>
+        <!-- Row S3 -->
+        <div class="btn-row">
+          <button class="calc-btn btn-fn" data-action="square">x²</button>
+          <button class="calc-btn btn-fn" data-action="cube">x³</button>
+          <button class="calc-btn btn-fn" data-action="sqrt">√x</button>
+          <button class="calc-btn btn-fn" data-action="cbrt">³√x</button>
+          <button class="calc-btn btn-fn" data-action="factorial">n!</button>
+          <button class="calc-btn btn-fn" data-action="mod">mod</button>
+        </div>
+        <!-- Row S4 -->
+        <div class="btn-row">
+          <button class="calc-btn btn-fn" data-action="const" data-const="pi">π</button>
+          <button class="calc-btn btn-fn" data-action="const" data-const="e">e</button>
+          <button class="calc-btn btn-fn" data-action="exp-notation">EXP</button>
+          <button class="calc-btn btn-fn btn-paren" data-action="openparen">(</button>
+          <button class="calc-btn btn-fn btn-paren" data-action="closeparen">)</button>
+          <button class="calc-btn btn-fn" data-action="reciprocal">1/x</button>
+        </div>
+      </div>
+
+      <!-- ── BASIC SECTION ──────────────────────────────────────────── -->
+      <div class="basic-section" id="basic-section">
+        <!-- Row B1: Clear / Parens / Backspace / Divide -->
+        <div class="btn-row">
+          <button class="calc-btn btn-clear" data-action="clear" id="btn-clear">C</button>
+          <button class="calc-btn btn-fn basic-only" data-action="openparen">(</button>
+          <button class="calc-btn btn-fn basic-only" data-action="closeparen">)</button>
+          <button class="calc-btn btn-op" data-action="operator" data-op="/">÷</button>
+        </div>
+        <!-- Row B2: 7 8 9 × -->
+        <div class="btn-row">
+          <button class="calc-btn btn-num" data-action="digit" data-digit="7">7</button>
+          <button class="calc-btn btn-num" data-action="digit" data-digit="8">8</button>
+          <button class="calc-btn btn-num" data-action="digit" data-digit="9">9</button>
+          <button class="calc-btn btn-op" data-action="operator" data-op="*">×</button>
+        </div>
+        <!-- Row B3: 4 5 6 − -->
+        <div class="btn-row">
+          <button class="calc-btn btn-num" data-action="digit" data-digit="4">4</button>
+          <button class="calc-btn btn-num" data-action="digit" data-digit="5">5</button>
+          <button class="calc-btn btn-num" data-action="digit" data-digit="6">6</button>
+          <button class="calc-btn btn-op" data-action="operator" data-op="-">−</button>
+        </div>
+        <!-- Row B4: 1 2 3 + -->
+        <div class="btn-row">
+          <button class="calc-btn btn-num" data-action="digit" data-digit="1">1</button>
+          <button class="calc-btn btn-num" data-action="digit" data-digit="2">2</button>
+          <button class="calc-btn btn-num" data-action="digit" data-digit="3">3</button>
+          <button class="calc-btn btn-op" data-action="operator" data-op="+">+</button>
+        </div>
+        <!-- Row B5: +/- 0 . = -->
+        <div class="btn-row">
+          <button class="calc-btn btn-fn" data-action="toggle-sign">+/−</button>
+          <button class="calc-btn btn-num" data-action="digit" data-digit="0">0</button>
+          <button class="calc-btn btn-num" data-action="decimal">.</button>
+          <button class="calc-btn btn-equals" data-action="equals">=</button>
+        </div>
+      </div>
+
+    </div><!-- /.calc-buttons -->
+
+    <!-- ════════════════════════════════════════════════════════════════
+         HISTORY PANEL (slide-in drawer)
+    ═══════════════════════════════════════════════════════════════════ -->
+    <div class="panel history-panel" id="history-panel" aria-hidden="true">
+      <div class="panel-header">
+        <span class="panel-title" id="history-title-label">History</span>
+        <button class="panel-close-btn" id="btn-history-close" aria-label="Close history">✕</button>
+      </div>
+      <div class="history-list" id="history-list"></div>
+      <div class="panel-footer">
+        <button class="panel-action-btn" id="btn-history-clear">Clear History</button>
+      </div>
+    </div>
+
+    <!-- ════════════════════════════════════════════════════════════════
+         SETTINGS PANEL (slide-in drawer)
+    ═══════════════════════════════════════════════════════════════════ -->
+    <div class="panel settings-panel" id="settings-panel" aria-hidden="true">
+      <div class="panel-header">
+        <span class="panel-title" id="settings-title-label">Settings</span>
+        <button class="panel-close-btn" id="btn-settings-close" aria-label="Close settings">✕</button>
+      </div>
+      <div class="settings-body">
+
+        <!-- Theme setting (also available in top bar, mirrored here) -->
+        <div class="settings-row">
+          <label class="settings-label" id="label-theme">Theme</label>
+          <div class="settings-theme-row">
+            <button class="settings-theme-btn active" data-theme="light" id="settings-theme-light">☀️ Light</button>
+            <button class="settings-theme-btn" data-theme="dark" id="settings-theme-dark">🌙 Dark</button>
+            <button class="settings-theme-btn" data-theme="contrast" id="settings-theme-contrast">◑ Contrast</button>
+          </div>
+        </div>
+
+        <!-- Language -->
+        <div class="settings-row">
+          <label class="settings-label" id="label-language">Language</label>
+          <select class="settings-select" id="select-language" aria-label="Select language"></select>
+        </div>
+
+        <!-- Numeral System -->
+        <div class="settings-row">
+          <label class="settings-label" id="label-numerals">Numeral System</label>
+          <select class="settings-select" id="select-numerals" aria-label="Select numeral system"></select>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Panel overlay -->
+    <div class="panel-overlay" id="panel-overlay" aria-hidden="true"></div>
+
+  </div><!-- /.app-wrapper -->
+
+  <!-- Scripts (order matters: dependencies first) -->
+  <script src="js/parser.js"></script>
+  <script src="js/numerals.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/calculator.js"></script>
+  <script src="js/popup.js"></script>
+</body>
+</html>

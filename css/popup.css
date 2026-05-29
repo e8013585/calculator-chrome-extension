@@ -1,0 +1,1120 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   popup.css — Calc Scientific Calculator
+   Three themes: light (Windows Calculator inspired), dark, high-contrast (iOS)
+   Responsive reflow: basic ~320px, scientific ~480px
+═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Reset & Base ─────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont,
+               'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  min-width: 320px;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+select {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   CSS CUSTOM PROPERTIES — THEME TOKENS
+═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Theme: Light (default) ─────────────────────────────────────────── */
+body.theme-light {
+  --bg-app:             #f3f3f3;
+  --bg-display:         #ffffff;
+  --bg-topbar:          #f3f3f3;
+  --bg-btn-num:         #ffffff;
+  --bg-btn-fn:          #e9e9e9;
+  --bg-btn-op:          #f0f0f0;
+  --bg-btn-clear:       #f0f0f0;
+  --bg-btn-equals:      #0078d4;
+  --bg-btn-equals-hover:#106ebe;
+  --bg-btn-hover:       #e0e0e0;
+  --bg-btn-fn-hover:    #d8d8d8;
+  --bg-btn-op-hover:    #dcdcdc;
+  --bg-btn-active:      #c8c8c8;
+  --bg-panel:           #ffffff;
+  --bg-panel-header:    #f3f3f3;
+  --bg-panel-footer:    #f3f3f3;
+  --bg-history-item:    #ffffff;
+  --bg-history-hover:   #f0f6ff;
+  --bg-overlay:         rgba(0,0,0,0.15);
+  --bg-settings-btn:    #e9e9e9;
+  --bg-settings-active: #0078d4;
+  --bg-theme-btn:       #e9e9e9;
+  --bg-theme-active:    #0078d4;
+
+  --text-primary:       #1b1b1b;
+  --text-secondary:     #444444;
+  --text-display:       #1b1b1b;
+  --text-expression:    #666666;
+  --text-btn-num:       #1b1b1b;
+  --text-btn-fn:        #1b1b1b;
+  --text-btn-op:        #1b1b1b;
+  --text-btn-clear:     #1b1b1b;
+  --text-btn-equals:    #ffffff;
+  --text-panel:         #1b1b1b;
+  --text-panel-sub:     #555555;
+  --text-settings-btn:  #1b1b1b;
+  --text-settings-active:#ffffff;
+  --text-theme-btn:     #1b1b1b;
+  --text-theme-active:  #ffffff;
+  --text-history-expr:  #555555;
+  --text-history-result:#1b1b1b;
+
+  --border-color:       #e0e0e0;
+  --border-panel:       #d0d0d0;
+  --divider:            #e8e8e8;
+  --focus-ring:         #0078d4;
+
+  --shadow-btn:         none;
+  --shadow-panel:       0 4px 24px rgba(0,0,0,0.13);
+  --radius-btn:         4px;
+  --radius-btn-equals:  4px;
+  --radius-panel:       8px;
+
+  --display-font-size:  2.4rem;
+  --expression-font-size: 0.85rem;
+}
+
+/* ── Theme: Dark ────────────────────────────────────────────────────── */
+body.theme-dark {
+  --bg-app:             #1c1c1c;
+  --bg-display:         #1c1c1c;
+  --bg-topbar:          #1c1c1c;
+  --bg-btn-num:         #2d2d2d;
+  --bg-btn-fn:          #252525;
+  --bg-btn-op:          #292929;
+  --bg-btn-clear:       #292929;
+  --bg-btn-equals:      #0078d4;
+  --bg-btn-equals-hover:#1a8ad4;
+  --bg-btn-hover:       #3a3a3a;
+  --bg-btn-fn-hover:    #333333;
+  --bg-btn-op-hover:    #363636;
+  --bg-btn-active:      #444444;
+  --bg-panel:           #242424;
+  --bg-panel-header:    #1c1c1c;
+  --bg-panel-footer:    #1c1c1c;
+  --bg-history-item:    #242424;
+  --bg-history-hover:   #1a2a3a;
+  --bg-overlay:         rgba(0,0,0,0.4);
+  --bg-settings-btn:    #2d2d2d;
+  --bg-settings-active: #0078d4;
+  --bg-theme-btn:       #2d2d2d;
+  --bg-theme-active:    #0078d4;
+
+  --text-primary:       #f0f0f0;
+  --text-secondary:     #aaaaaa;
+  --text-display:       #f0f0f0;
+  --text-expression:    #888888;
+  --text-btn-num:       #f0f0f0;
+  --text-btn-fn:        #d0d0d0;
+  --text-btn-op:        #e0e0e0;
+  --text-btn-clear:     #e0e0e0;
+  --text-btn-equals:    #ffffff;
+  --text-panel:         #f0f0f0;
+  --text-panel-sub:     #aaaaaa;
+  --text-settings-btn:  #e0e0e0;
+  --text-settings-active:#ffffff;
+  --text-theme-btn:     #e0e0e0;
+  --text-theme-active:  #ffffff;
+  --text-history-expr:  #888888;
+  --text-history-result:#f0f0f0;
+
+  --border-color:       #333333;
+  --border-panel:       #383838;
+  --divider:            #2e2e2e;
+  --focus-ring:         #4da3e0;
+
+  --shadow-btn:         none;
+  --shadow-panel:       0 4px 24px rgba(0,0,0,0.5);
+  --radius-btn:         4px;
+  --radius-btn-equals:  4px;
+  --radius-panel:       8px;
+
+  --display-font-size:  2.4rem;
+  --expression-font-size: 0.85rem;
+}
+
+/* ── Theme: High Contrast / iOS ─────────────────────────────────────── */
+body.theme-contrast {
+  --bg-app:             #000000;
+  --bg-display:         #000000;
+  --bg-topbar:          #000000;
+  --bg-btn-num:         #333333;
+  --bg-btn-fn:          #a5a5a5;
+  --bg-btn-op:          #ff9f0a;
+  --bg-btn-clear:       #a5a5a5;
+  --bg-btn-equals:      #ff9f0a;
+  --bg-btn-equals-hover:#e8900a;
+  --bg-btn-hover:       #4a4a4a;
+  --bg-btn-fn-hover:    #b8b8b8;
+  --bg-btn-op-hover:    #e8900a;
+  --bg-btn-active:      #666666;
+  --bg-panel:           #1a1a1a;
+  --bg-panel-header:    #111111;
+  --bg-panel-footer:    #111111;
+  --bg-history-item:    #1a1a1a;
+  --bg-history-hover:   #2a2a2a;
+  --bg-overlay:         rgba(0,0,0,0.6);
+  --bg-settings-btn:    #333333;
+  --bg-settings-active: #ff9f0a;
+  --bg-theme-btn:       #333333;
+  --bg-theme-active:    #ff9f0a;
+
+  --text-primary:       #ffffff;
+  --text-secondary:     #cccccc;
+  --text-display:       #ffffff;
+  --text-expression:    #999999;
+  --text-btn-num:       #ffffff;
+  --text-btn-fn:        #000000;
+  --text-btn-op:        #ffffff;
+  --text-btn-clear:     #000000;
+  --text-btn-equals:    #ffffff;
+  --text-panel:         #ffffff;
+  --text-panel-sub:     #aaaaaa;
+  --text-settings-btn:  #ffffff;
+  --text-settings-active:#000000;
+  --text-theme-btn:     #ffffff;
+  --text-theme-active:  #000000;
+  --text-history-expr:  #999999;
+  --text-history-result:#ffffff;
+
+  --border-color:       #333333;
+  --border-panel:       #333333;
+  --divider:            #222222;
+  --focus-ring:         #ff9f0a;
+
+  --shadow-btn:         none;
+  --shadow-panel:       0 4px 24px rgba(0,0,0,0.8);
+  --radius-btn:         50px;
+  --radius-btn-equals:  50px;
+  --radius-panel:       12px;
+
+  --display-font-size:  2.6rem;
+  --expression-font-size: 0.85rem;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   APP WRAPPER
+═══════════════════════════════════════════════════════════════════════════ */
+.app-wrapper {
+  position: relative;
+  width: 320px;
+  background: var(--bg-app);
+  overflow: hidden;
+  transition: width 0.25s ease;
+}
+
+body.mode-scientific .app-wrapper {
+  width: 480px;
+}
+
+body.mode-scientific .display-area {
+  min-height: 82px;
+  padding: 8px 12px 10px;
+}
+
+body.mode-scientific .btn-row {
+  gap: 3px;
+  margin-bottom: 3px;
+}
+
+body.mode-scientific .calc-btn {
+  height: 44px;
+  font-size: 0.95rem;
+}
+
+body.theme-contrast.mode-scientific .calc-btn {
+  height: 50px;
+}
+
+body.mode-scientific .btn-fn {
+  font-size: 0.82rem;
+}
+
+body.mode-scientific .btn-op {
+  font-size: 1.05rem;
+}
+
+body.mode-scientific .mode-toggle-btn {
+  padding: 4px 12px;
+}
+
+body.mode-scientific .icon-btn {
+  width: 30px;
+  height: 30px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   TOP BAR
+═══════════════════════════════════════════════════════════════════════════ */
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 44px;
+  padding: 0 8px;
+  background: var(--bg-topbar);
+  border-bottom: 1px solid var(--divider);
+}
+
+.top-bar-left,
+.top-bar-right {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.top-bar-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* Icon buttons (history, settings) */
+.icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  color: var(--text-primary);
+  background: transparent;
+  transition: background 0.15s ease;
+}
+
+.icon-btn:hover {
+  background: var(--bg-btn-hover);
+}
+
+.icon-btn:active {
+  background: var(--bg-btn-active);
+}
+
+/* Mode toggle button */
+.mode-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  background: var(--bg-btn-fn);
+  color: var(--text-btn-fn);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+body.theme-contrast .mode-toggle-btn {
+  color: var(--text-btn-fn);
+}
+
+.mode-toggle-btn:hover {
+  background: var(--bg-btn-fn-hover);
+}
+
+.mode-toggle-btn:active {
+  background: var(--bg-btn-active);
+}
+
+/* Theme switcher */
+.theme-switcher {
+  display: flex;
+  align-items: center;
+  background: var(--bg-btn-fn);
+  border-radius: 20px;
+  padding: 2px;
+  gap: 0;
+}
+
+.theme-btn {
+  font-size: 0.75rem;
+  width: 28px;
+  height: 24px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-theme-btn);
+  background: transparent;
+  transition: background 0.15s ease;
+  line-height: 1;
+}
+
+.theme-btn.active {
+  background: var(--bg-theme-active);
+  color: var(--text-theme-active);
+}
+
+.theme-btn:hover:not(.active) {
+  background: var(--bg-btn-hover);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   DISPLAY AREA
+═══════════════════════════════════════════════════════════════════════════ */
+.display-area {
+  background: var(--bg-display);
+  padding: 10px 16px 12px;
+  border-bottom: 1px solid var(--divider);
+  min-height: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 2px;
+}
+
+.display-expression {
+  font-size: var(--expression-font-size);
+  color: var(--text-expression);
+  min-height: 18px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: right;
+  width: 100%;
+  direction: ltr;
+  unicode-bidi: plaintext;
+}
+
+.display-result-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 8px;
+}
+
+.display-result {
+  font-size: var(--display-font-size);
+  font-weight: 300;
+  color: var(--text-display);
+  text-align: right;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  direction: ltr;
+  unicode-bidi: plaintext;
+  transition: font-size 0.1s ease;
+}
+
+/* Auto-shrink result text for very long numbers */
+.display-result.shrink-1 { font-size: calc(var(--display-font-size) * 0.75); }
+.display-result.shrink-2 { font-size: calc(var(--display-font-size) * 0.58); }
+.display-result.shrink-3 { font-size: calc(var(--display-font-size) * 0.46); }
+
+.display-result.error-state {
+  color: #c42b1c;
+  font-size: 1.1rem;
+}
+
+body.theme-dark .display-result.error-state {
+  color: #ff6b6b;
+}
+
+body.theme-contrast .display-result.error-state {
+  color: #ff6b6b;
+}
+
+.backspace-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  color: var(--text-expression);
+  background: transparent;
+  opacity: 0.6;
+  transition: opacity 0.15s ease, background 0.15s ease;
+  flex-shrink: 0;
+}
+
+.backspace-btn:hover {
+  opacity: 1;
+  background: var(--bg-btn-hover);
+}
+
+.copy-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  color: var(--text-expression);
+  background: transparent;
+  opacity: 0.6;
+  transition: opacity 0.15s ease, background 0.15s ease;
+  flex-shrink: 0;
+}
+
+.copy-btn:hover {
+  opacity: 1;
+  background: var(--bg-btn-hover);
+}
+
+.copy-btn.copied {
+  opacity: 1;
+  color: #0b6e0b;
+}
+
+body.theme-dark .copy-btn.copied,
+body.theme-contrast .copy-btn.copied {
+  color: #4caf50;
+}
+
+.roman-note {
+  font-size: 0.7rem;
+  color: #e67e00;
+  text-align: right;
+  width: 100%;
+  font-style: italic;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   BUTTON GRID
+═══════════════════════════════════════════════════════════════════════════ */
+.calc-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 4px;
+}
+
+.btn-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+/* Scientific section uses 6-column grid */
+.sci-section .btn-row {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+/* Scientific section hidden in basic mode */
+.sci-section {
+  display: none;
+  margin-bottom: 2px;
+}
+
+body.mode-scientific .sci-section {
+  display: block;
+}
+
+/* In scientific mode, basic-only paren buttons in basic section are hidden
+   (since parens are in the sci section) */
+body.mode-scientific .basic-only {
+  display: none;
+}
+
+/* Adjust basic section row in scientific mode: 2 fn + operator = 3 cols */
+body.mode-scientific .basic-section .btn-row:first-child {
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Actually let's keep the 4-col grid always; just hide the .basic-only cells */
+/* The clear and operator are still visible, parens are hidden */
+
+/* ── Base Button ──────────────────────────────────────────────────── */
+.calc-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: var(--radius-btn);
+  transition: background 0.1s ease, transform 0.07s ease, opacity 0.1s ease;
+  position: relative;
+  overflow: hidden;
+  letter-spacing: 0;
+  user-select: none;
+}
+
+body.theme-contrast .calc-btn {
+  height: 58px;
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+.calc-btn:active {
+  transform: scale(0.96);
+}
+
+/* Ripple effect */
+.calc-btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0);
+  border-radius: inherit;
+  transition: background 0.15s ease;
+}
+
+.calc-btn:active::after {
+  background: rgba(255,255,255,0.12);
+}
+
+/* ── Number Buttons ───────────────────────────────────────────────── */
+.btn-num {
+  background: var(--bg-btn-num);
+  color: var(--text-btn-num);
+}
+
+.btn-num:hover {
+  background: var(--bg-btn-hover);
+}
+
+.btn-num:active {
+  background: var(--bg-btn-active);
+}
+
+/* ── Function Buttons ─────────────────────────────────────────────── */
+.btn-fn {
+  background: var(--bg-btn-fn);
+  color: var(--text-btn-fn);
+  font-size: 0.88rem;
+}
+
+.btn-fn:hover {
+  background: var(--bg-btn-fn-hover);
+}
+
+.btn-fn:active {
+  background: var(--bg-btn-active);
+}
+
+/* Parenthesis buttons in basic section */
+.btn-fn.btn-paren {
+  font-size: 1.05rem;
+}
+
+/* ── Operator Buttons ─────────────────────────────────────────────── */
+.btn-op {
+  background: var(--bg-btn-op);
+  color: var(--text-btn-op);
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+
+.btn-op:hover {
+  background: var(--bg-btn-op-hover);
+}
+
+.btn-op:active {
+  background: var(--bg-btn-active);
+}
+
+/* ── Clear Button ─────────────────────────────────────────────────── */
+.btn-clear {
+  background: var(--bg-btn-clear);
+  color: var(--text-btn-clear);
+  font-weight: 500;
+}
+
+.btn-clear:hover {
+  background: var(--bg-btn-fn-hover);
+}
+
+.btn-clear:active {
+  background: var(--bg-btn-active);
+}
+
+/* ── Equals Button ────────────────────────────────────────────────── */
+.btn-equals {
+  background: var(--bg-btn-equals);
+  color: var(--text-btn-equals);
+  font-size: 1.3rem;
+  font-weight: 400;
+  border-radius: var(--radius-btn-equals);
+}
+
+.btn-equals:hover {
+  background: var(--bg-btn-equals-hover);
+}
+
+.btn-equals:active {
+  background: var(--bg-btn-equals-hover);
+  transform: scale(0.96);
+}
+
+/* Highlighted state (keyboard press visual) */
+.calc-btn.btn-flash {
+  background: var(--bg-btn-active) !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   PANELS (History & Settings) — Slide-in drawers
+═══════════════════════════════════════════════════════════════════════════ */
+.panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-panel);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-100%);
+  transition: transform 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 0;
+}
+
+.panel.open {
+  transform: translateX(0);
+}
+
+.panel-overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--bg-overlay);
+  z-index: 90;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.22s ease;
+}
+
+.panel-overlay.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Panel Header */
+.panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 48px;
+  background: var(--bg-panel-header);
+  border-bottom: 1px solid var(--divider);
+  flex-shrink: 0;
+}
+
+.panel-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-panel);
+}
+
+.panel-close-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  color: var(--text-panel);
+  background: transparent;
+  transition: background 0.15s;
+}
+
+.panel-close-btn:hover {
+  background: var(--bg-btn-hover);
+}
+
+/* Panel Footer */
+.panel-footer {
+  padding: 12px 16px;
+  background: var(--bg-panel-footer);
+  border-top: 1px solid var(--divider);
+  flex-shrink: 0;
+}
+
+.panel-action-btn {
+  width: 100%;
+  padding: 9px 0;
+  border-radius: 6px;
+  background: var(--bg-btn-fn);
+  color: var(--text-btn-fn);
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+
+.panel-action-btn:hover {
+  background: var(--bg-btn-fn-hover);
+}
+
+.panel-action-btn:active {
+  background: var(--bg-btn-active);
+}
+
+/* ── History Panel ────────────────────────────────────────────────── */
+.history-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px 0;
+}
+
+.history-list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.history-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.history-list::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 2px;
+}
+
+.history-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  color: var(--text-panel-sub);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+.history-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--divider);
+  background: var(--bg-history-item);
+  transition: background 0.12s ease;
+  gap: 2px;
+}
+
+.history-item:last-child {
+  border-bottom: none;
+}
+
+.history-item:hover {
+  background: var(--bg-history-hover);
+}
+
+.history-item:active {
+  background: var(--bg-btn-active);
+}
+
+.history-expr {
+  font-size: 0.78rem;
+  color: var(--text-history-expr);
+  text-align: right;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+.history-result {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-history-result);
+  text-align: right;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+.history-time {
+  font-size: 0.68rem;
+  color: var(--text-panel-sub);
+}
+
+/* ── Settings Panel ───────────────────────────────────────────────── */
+.settings-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.settings-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.settings-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-panel-sub);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.settings-theme-row {
+  display: flex;
+  gap: 6px;
+}
+
+.settings-theme-btn {
+  flex: 1;
+  padding: 8px 4px;
+  border-radius: 6px;
+  background: var(--bg-settings-btn);
+  color: var(--text-settings-btn);
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: background 0.15s, color 0.15s;
+  text-align: center;
+}
+
+.settings-theme-btn.active {
+  background: var(--bg-settings-active);
+  color: var(--text-settings-active);
+}
+
+.settings-theme-btn:hover:not(.active) {
+  background: var(--bg-btn-fn-hover);
+}
+
+.settings-select {
+  width: 100%;
+  padding: 9px 12px;
+  border-radius: 6px;
+  background: var(--bg-btn-num);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  font-size: 0.85rem;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23888' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  padding-right: 30px;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+
+.settings-select:focus {
+  border-color: var(--focus-ring);
+  outline: none;
+}
+
+.settings-select:hover {
+  border-color: var(--focus-ring);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   ANIMATIONS & TRANSITIONS
+═══════════════════════════════════════════════════════════════════════════ */
+
+/* App width transition */
+.app-wrapper {
+  transition: width 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Scientific section slide down */
+.sci-section {
+  animation: none;
+}
+
+body.mode-scientific .sci-section {
+  animation: slideDown 0.2s ease forwards;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Equals button pulse on =  */
+@keyframes equalsPulse {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(0.94); }
+  100% { transform: scale(1); }
+}
+
+.btn-equals.pulse {
+  animation: equalsPulse 0.18s ease;
+}
+
+/* Copy success flash */
+@keyframes copyFlash {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.copy-btn.copied {
+  animation: copyFlash 0.3s ease;
+}
+
+/* Error shake */
+@keyframes errorShake {
+  0%, 100% { transform: translateX(0); }
+  20%       { transform: translateX(-6px); }
+  40%       { transform: translateX(6px); }
+  60%       { transform: translateX(-4px); }
+  80%       { transform: translateX(4px); }
+}
+
+.display-result.shake {
+  animation: errorShake 0.35s ease;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   SCIENTIFIC MODE LAYOUT ADJUSTMENTS
+═══════════════════════════════════════════════════════════════════════════ */
+
+/* In scientific mode, the overall width is 480px.
+   The basic section still uses 4-column layout.
+   The sci section uses 6-column layout. */
+
+body.mode-scientific .basic-section .btn-row {
+  /* Re-evaluate grid: in scientific mode, basic rows are 4 equal columns */
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Hide the basic-only paren buttons when in scientific mode
+   (parens live in sci section) */
+body.mode-scientific .basic-only {
+  display: none !important;
+}
+
+/* Fill gap left by hidden basic-only buttons — 
+   make clear and operator span more */
+body.mode-scientific .basic-section .btn-row:first-child {
+  grid-template-columns: 1fr 1fr;
+}
+
+body.mode-scientific .basic-section .btn-row:first-child .btn-clear {
+  /* Clear takes left half */
+}
+
+body.mode-scientific .basic-section .btn-row:first-child .btn-op {
+  /* Divide takes right half */
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   CONTRAST THEME SPECIFICS (iOS Calculator style)
+═══════════════════════════════════════════════════════════════════════════ */
+
+body.theme-contrast .btn-num {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+body.theme-contrast .btn-fn {
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+body.theme-contrast .btn-op {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+body.theme-contrast .btn-equals {
+  font-size: 1.5rem;
+}
+
+body.theme-contrast .btn-clear {
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+body.theme-contrast .top-bar {
+  border-bottom-color: #222;
+}
+
+body.theme-contrast .display-area {
+  padding: 12px 18px 14px;
+}
+
+body.theme-contrast .calc-buttons {
+  padding: 6px;
+  gap: 0;
+}
+
+body.theme-contrast .btn-row {
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+body.theme-contrast .sci-section .btn-row {
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   SCROLLBAR GLOBAL
+═══════════════════════════════════════════════════════════════════════════ */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 2px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   UTILITY
+═══════════════════════════════════════════════════════════════════════════ */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Prevent text selection on buttons */
+.calc-btn, .icon-btn, .mode-toggle-btn, .theme-btn {
+  user-select: none;
+  -webkit-user-select: none;
+}
